@@ -1,0 +1,33 @@
+<resources>
+    <string name="background_description">Tło</string>
+
+    <!-- about app !-->
+    <string name="app_info_title">O aplikacji</string>
+    <string name="policy_privacy">Polityka prywatności</string>
+    <string name="ok">OK</string>
+
+    <!-- settings !-->
+    <string name="settings_title">Settings</string>
+
+    <string name="close">Zamknij</string>
+
+    <!-- onboarding !-->
+    <string name="onboarding_button_skip">Pomiń</string>
+    <string name="onboarding_button_next">Dalej</string>
+    <string name="onboarding_button_start">Start</string>
+
+    <!-- uprawnienia lokalizacji !-->
+    <string name="alert_dialog_permission_message">Uprawnienia lokalizacji wymagane</string>
+    <string name="alert_dialog_permission_desc">Aby korzystać z tej aplikacji, musisz przyznać dostęp do lokalizacji.</string>
+    <string name="alert_dialog_location_permission_allow">Przyznaj dostęp</string>
+    <string name="alert_dialog_location_permission_deny">Zamknij aplikację</string>
+
+    <!-- ocen app !-->
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    <string name="remind_later">Przypomniej poźniej</string>
+    <string name="rate_app_dialog_title">Oceń aplikacje</string>
+    <string name="rate_app_dialog_description">Jeśli podoba Ci się korzystanie z tej aplikacji, poświęć chwilę, aby ją ocenić. Dzięki!</string>
+
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_padding">25.dp</dimen>
+    <dimen name="row_padding_normal">20.dp</dimen>
+
+    <dimen name="padding_small">10.dp</dimen>
+    <dimen name="padding_half_medium">20.dp</dimen>
+    <dimen name="padding_medium">40.dp</dimen>
+    <dimen name="padding_large">80.dp</dimen>
+
+    <dimen name="padding_location">60.dp</dimen>
+</resources>

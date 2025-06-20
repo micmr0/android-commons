@@ -1,0 +1,31 @@
+<resources>
+    <string name="background_description">background</string>
+
+    <!-- about app !-->
+    <string name="app_info_title">About app</string>
+    <string name="policy_privacy">Privacy Policy</string>
+    <string name="ok">OK</string>
+
+    <!-- settings !-->
+    <string name="settings_title">Settings</string>
+
+    <string name="close">Close</string>
+
+    <!-- onboarding !-->
+    <string name="onboarding_button_start">Start</string>
+    <string name="onboarding_button_next">Next</string>
+    <string name="onboarding_button_skip">Skip</string>
+
+    <!-- location permission !-->
+    <string name="alert_dialog_permission_message">Location permissions required</string>
+    <string name="alert_dialog_permission_desc">To use this app, you must grant location access.</string>
+    <string name="alert_dialog_location_permission_allow">Grant access</string>
+    <string name="alert_dialog_location_permission_deny">Close app</string>
+
+    <!-- rate app !-->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="remind_later">Remind later</string>
+    <string name="rate_app_dialog_title">Rate app</string>
+    <string name="rate_app_dialog_description">If you enjoying using this app, please take a moment to rate it. Thanks!</string>
+</resources>

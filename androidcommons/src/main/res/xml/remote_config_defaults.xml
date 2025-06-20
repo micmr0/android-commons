@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<defaults>
+  <entry>
+    <key>show_ad_1</key>
+    <value>false</value>
+  </entry>
+  <entry>
+    <key>show_ad_2</key>
+    <value>false</value>
+  </entry>
+  <entry>
+    <key>welcome_message</key>
+    <value>Witaj w Remote config !</value>
+  </entry>
+</defaults>
