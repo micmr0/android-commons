@@ -10,7 +10,7 @@ import com.google.common.reflect.TypeToken
 import com.google.gson.Gson
 import java.io.BufferedReader
 
-private fun goToGooglePlay(context: Context) {
+fun goToGooglePlay(context: Context) {
     val packageName = context.packageName
 
     val intent = Intent(Intent.ACTION_VIEW, "market://details?id=$packageName".toUri())
