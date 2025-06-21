@@ -50,7 +50,7 @@ fun OnboardingScreen(onboardingPages: List<OnBoardingPage>, onFinishOnboarding: 
                 ) {
                     Image(
                         painter = painterResource(id = onboardingPages[page].imageRes),
-                        contentDescription = "Obrazek dla strony ${onboardingPages[page].titleRes}",
+                        contentDescription = "Image for page ${onboardingPages[page].titleRes}",
                         contentScale = ContentScale.Inside,
                         modifier = Modifier
                             .wrapContentSize(),

@@ -1,4 +1,4 @@
-package com.micmr0.androidcommons
+package com.micmr0.androidcommons.ui
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
@@ -20,6 +20,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import com.micmr0.androidcommons.R
 import java.util.Calendar
 import java.util.Locale
 

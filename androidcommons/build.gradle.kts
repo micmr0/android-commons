@@ -55,6 +55,8 @@ dependencies {
     //json
     implementation(libs.kotlinx.serialization.json)
 
+    implementation(libs.gson)
+
     testImplementation(libs.junit)
 
     debugImplementation(libs.androidx.compose.ui.tooling)
