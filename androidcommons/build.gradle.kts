@@ -32,19 +32,19 @@ android {
 
 dependencies {
 
-    implementation(libs.androidx.core.ktx)
-    implementation(libs.material)
+    api(libs.androidx.core.ktx)
+    api(libs.material)
 
     //androidx.compose
     implementation(platform(libs.androidx.compose.bom))
-    implementation(libs.androidx.compose.ui)
-    implementation(libs.androidx.compose.ui.graphics)
-    implementation(libs.androidx.compose.ui.tooling.preview)
-    implementation(libs.androidx.compose.material3)
+    api(libs.androidx.compose.ui)
+    api(libs.androidx.compose.ui.graphics)
+    api(libs.androidx.compose.ui.tooling.preview)
+    api(libs.androidx.compose.material3)
 
     //datastore
-    implementation(libs.androidx.datastore.core.android)
-    implementation(libs.androidx.datastore.preferences)
+    api(libs.androidx.datastore.core.android)
+    api(libs.androidx.datastore.preferences)
 
     //firebase
     implementation(platform(libs.firebase.bom))
@@ -53,9 +53,9 @@ dependencies {
     implementation(libs.firebase.config)
 
     //json
-    implementation(libs.kotlinx.serialization.json)
+    api(libs.kotlinx.serialization.json)
 
-    implementation(libs.gson)
+    api(libs.gson)
 
     testImplementation(libs.junit)
 
