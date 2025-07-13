@@ -54,6 +54,8 @@ key.properties
 /build/
 /*/build/
 
+!gradle/wrapper/gradle-wrapper.jar
+
 ehthumbs.db
 
 # OS-specific files
