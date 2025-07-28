@@ -6,8 +6,8 @@ import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import androidx.annotation.RequiresPermission
 import androidx.core.net.toUri
-import com.google.common.reflect.TypeToken
 import com.google.gson.Gson
+import com.google.gson.reflect.TypeToken
 import java.io.BufferedReader
 
 fun goToGooglePlay(context: Context) {
