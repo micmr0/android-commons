@@ -3,6 +3,10 @@ package com.micmr0.androidcommons
 import android.os.Bundle
 import android.util.Log
 import androidx.activity.ComponentActivity
+import com.google.android.gms.ads.MobileAds
+import com.google.android.ump.ConsentDebugSettings
+import com.google.android.ump.ConsentRequestParameters
+import com.google.android.ump.UserMessagingPlatform
 import com.google.firebase.Firebase
 import com.google.firebase.remoteconfig.ConfigUpdate
 import com.google.firebase.remoteconfig.ConfigUpdateListener
@@ -12,6 +16,7 @@ import com.google.firebase.remoteconfig.get
 import com.google.firebase.remoteconfig.remoteConfig
 
 abstract class RemoteConfigActivity : ComponentActivity() {
+    private var isAdMobInitialized = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -65,6 +70,8 @@ abstract class RemoteConfigActivity : ComponentActivity() {
                 )
             }
         })
+
+        requestConsent()
     }
 
     fun fetchRemoteData(): Map<String, Any> {
@@ -82,6 +89,47 @@ abstract class RemoteConfigActivity : ComponentActivity() {
             SHOW_AD_2_KEY to showAd2
         )
 
+    }
+    abstract fun onAdMobInitialized()
+
+    private fun initializeAdMob() {
+        MobileAds.initialize(this) { initializationStatus ->
+            Log.d("AdMob", "AdMob initialized")
+            isAdMobInitialized = true
+            onAdMobInitialized()
+        }
+    }
+
+    private fun requestConsent() {
+        val consentDebugSettings = ConsentDebugSettings.Builder(this)
+            .setDebugGeography(ConsentDebugSettings.DebugGeography.DEBUG_GEOGRAPHY_EEA)
+            .addTestDeviceHashedId("b18fa094-d90f-9709-7e5f-92c4890abefb") // App Set ID
+            .build()
+
+        val params = ConsentRequestParameters.Builder()
+            .setConsentDebugSettings(consentDebugSettings)
+            .build()
+
+        val consentInformation = UserMessagingPlatform.getConsentInformation(this)
+        consentInformation.requestConsentInfoUpdate(this, params, {
+            if (consentInformation.isConsentFormAvailable) {
+                UserMessagingPlatform.loadConsentForm(this, { consentForm ->
+                    consentForm.show(this) { _ ->
+                        // consent granted, initialize AdMob
+                        initializeAdMob()
+                    }
+                }, { error ->
+                    Log.e("UMP", "Consent form load failed: $error")
+                    initializeAdMob()
+                })
+            } else {
+                Log.d("UMP", "Consent form not available, proceeding with consent status: ${consentInformation.consentStatus}")
+                initializeAdMob()
+            }
+        }, { error ->
+            Log.e("UMP", "Consent info update failed: $error")
+            initializeAdMob()
+        })
     }
 
     abstract fun onRemoteDataFetched(data: Map<String, Any>)

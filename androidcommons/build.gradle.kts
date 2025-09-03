@@ -69,6 +69,11 @@ dependencies {
 
     api(libs.gson)
 
+    //adMob
+    api(libs.play.services.ads)
+    api(libs.play.services.ads.api)
+    api(libs.user.messaging.platform)
+
     testImplementation(libs.junit)
 
     debugImplementation(libs.androidx.compose.ui.tooling)
