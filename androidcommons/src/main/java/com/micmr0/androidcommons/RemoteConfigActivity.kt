@@ -112,6 +112,7 @@ abstract class RemoteConfigActivity : ComponentActivity() {
             val consentDebugSettings = ConsentDebugSettings.Builder(this)
                 .setDebugGeography(ConsentDebugSettings.DebugGeography.DEBUG_GEOGRAPHY_EEA)
                 .addTestDeviceHashedId("6C126EED7B1DFC9AAC1B8BD7E0EFDDD1")
+                .addTestDeviceHashedId("52D435078A7657CF75A4F2695C01EBDE")
                 .build()
             ConsentRequestParameters.Builder()
                 .setConsentDebugSettings(consentDebugSettings)
