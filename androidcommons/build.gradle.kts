@@ -43,7 +43,6 @@ tasks.withType<KotlinJvmCompile>().configureEach {
 }
 
 dependencies {
-
     api(libs.androidx.core.ktx)
     api(libs.material)
 
