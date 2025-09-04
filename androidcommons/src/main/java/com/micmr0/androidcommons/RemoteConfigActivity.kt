@@ -29,16 +29,16 @@ abstract class RemoteConfigActivity : ComponentActivity() {
                 val updated = task.result
                 Log.d(
                     RemoteConfigActivity::class.java.simpleName,
-                    "remoteConfig -> fetchAndActivate-> task.isSuccessful: ${task.isSuccessful}"
+                    "remoteConfig -> fetchAndActivate -> task.isSuccessful: ${task.isSuccessful}"
                 )
                 Log.d(
                     RemoteConfigActivity::class.java.simpleName,
-                    "remoteConfig -> fetchAndActivate-> Config params updated: $updated"
+                    "remoteConfig -> fetchAndActivate -> Config params updated: $updated"
                 )
             } else {
                 Log.d(
                     RemoteConfigActivity::class.java.simpleName,
-                    "remoteConfig -> fetchAndActivate-> Fetch failed"
+                    "remoteConfig -> fetchAndActivate -> Fetch failed"
                 )
             }
             val remoteData = fetchRemoteData()
