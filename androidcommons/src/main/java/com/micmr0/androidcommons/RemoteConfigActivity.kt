@@ -108,14 +108,18 @@ abstract class RemoteConfigActivity : ComponentActivity() {
     }
 
     private fun requestConsent() {
-        val consentDebugSettings = ConsentDebugSettings.Builder(this)
-            .setDebugGeography(ConsentDebugSettings.DebugGeography.DEBUG_GEOGRAPHY_EEA)
-            .addTestDeviceHashedId("6C126EED7B1DFC9AAC1B8BD7E0EFDDD1")
-            .build()
-
-        val params = ConsentRequestParameters.Builder()
-            .setConsentDebugSettings(consentDebugSettings)
-            .build()
+        val params = if (BuildConfig.DEBUG) {
+            val consentDebugSettings = ConsentDebugSettings.Builder(this)
+                .setDebugGeography(ConsentDebugSettings.DebugGeography.DEBUG_GEOGRAPHY_EEA)
+                .addTestDeviceHashedId("6C126EED7B1DFC9AAC1B8BD7E0EFDDD1")
+                .build()
+            ConsentRequestParameters.Builder()
+                .setConsentDebugSettings(consentDebugSettings)
+                .build()
+        } else {
+            ConsentRequestParameters.Builder()
+                .build()
+        }
 
         val consentInformation = UserMessagingPlatform.getConsentInformation(this)
         consentInformation.requestConsentInfoUpdate(this, params, {
