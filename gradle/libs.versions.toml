@@ -1,7 +1,5 @@
 [versions]
-admobAdapter = "23.3.0.0"
 agp = "8.13.0"
-applovinSdk = "13.4.0"
 composeBom = "2025.08.01"
 datastore = "1.1.7"
 firebaseBom = "34.2.0"
