@@ -91,10 +91,15 @@ abstract class RemoteConfigActivity : ComponentActivity() {
 
     }
     abstract fun onAdMobInitialized()
-    
+
     abstract fun onRemoteDataFetched(data: Map<String, Any>)
 
     private fun initializeAdMob() {
+        if (isAdMobInitialized) {
+            Log.d("AdMob", "AdMob already initialized, skipping")
+            return
+        }
+
         MobileAds.initialize(this) { initializationStatus ->
             Log.d("AdMob", "AdMob initialized")
             isAdMobInitialized = true
@@ -105,7 +110,7 @@ abstract class RemoteConfigActivity : ComponentActivity() {
     private fun requestConsent() {
         val consentDebugSettings = ConsentDebugSettings.Builder(this)
             .setDebugGeography(ConsentDebugSettings.DebugGeography.DEBUG_GEOGRAPHY_EEA)
-            .addTestDeviceHashedId("b18fa094-d90f-9709-7e5f-92c4890abefb") // App Set ID
+            .addTestDeviceHashedId("6C126EED7B1DFC9AAC1B8BD7E0EFDDD1")
             .build()
 
         val params = ConsentRequestParameters.Builder()
