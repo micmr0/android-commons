@@ -91,6 +91,8 @@ abstract class RemoteConfigActivity : ComponentActivity() {
 
     }
     abstract fun onAdMobInitialized()
+    
+    abstract fun onRemoteDataFetched(data: Map<String, Any>)
 
     private fun initializeAdMob() {
         MobileAds.initialize(this) { initializationStatus ->
@@ -131,8 +133,6 @@ abstract class RemoteConfigActivity : ComponentActivity() {
             initializeAdMob()
         })
     }
-
-    abstract fun onRemoteDataFetched(data: Map<String, Any>)
 
     companion object {
         //REMOTE CONFIG
