@@ -72,7 +72,7 @@ abstract class RemoteConfigActivity : ComponentActivity() {
             }
         })
 
-        //requestConsent()
+        requestConsent()
     }
 
     fun fetchRemoteData(): Map<String, Any> {
