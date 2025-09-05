@@ -5,6 +5,7 @@ import android.util.Log
 import androidx.activity.ComponentActivity
 import com.google.android.gms.ads.MobileAds
 import com.google.android.ump.ConsentDebugSettings
+import com.google.android.ump.ConsentInformation
 import com.google.android.ump.ConsentRequestParameters
 import com.google.android.ump.UserMessagingPlatform
 import com.google.firebase.Firebase
@@ -118,30 +119,39 @@ abstract class RemoteConfigActivity : ComponentActivity() {
                 .setConsentDebugSettings(consentDebugSettings)
                 .build()
         } else {
-            ConsentRequestParameters.Builder()
-                .build()
+            ConsentRequestParameters.Builder().build()
         }
 
         val consentInformation = UserMessagingPlatform.getConsentInformation(this)
-        consentInformation.requestConsentInfoUpdate(this, params, {
-            if (consentInformation.isConsentFormAvailable) {
-                UserMessagingPlatform.loadConsentForm(this, { consentForm ->
-                    consentForm.show(this) { _ ->
-                        // consent granted, initialize AdMob
+
+        // Check, if consent confirmed
+        if (consentInformation.consentStatus == ConsentInformation.ConsentStatus.REQUIRED ||
+            consentInformation.consentStatus == ConsentInformation.ConsentStatus.UNKNOWN) {
+
+            consentInformation.requestConsentInfoUpdate(this, params, {
+                if (consentInformation.isConsentFormAvailable) {
+                    UserMessagingPlatform.loadConsentForm(this, { consentForm ->
+                        consentForm.show(this) { _ ->
+                            initializeAdMob()
+                        }
+                    }, { error ->
+                        Log.e("UMP", "Consent form load failed: $error")
                         initializeAdMob()
-                    }
-                }, { error ->
-                    Log.e("UMP", "Consent form load failed: $error")
+                    })
+                } else {
+                    Log.d("UMP", "Consent form not available, proceeding with consent status: ${consentInformation.consentStatus}")
                     initializeAdMob()
-                })
-            } else {
-                Log.d("UMP", "Consent form not available, proceeding with consent status: ${consentInformation.consentStatus}")
+                }
+            }, { error ->
+                Log.e("UMP", "Consent info update failed: $error")
                 initializeAdMob()
-            }
-        }, { error ->
-            Log.e("UMP", "Consent info update failed: $error")
+            })
+
+        } else {
+            // ✅ Zgoda już udzielona — nie pokazuj formularza
+            Log.d("UMP", "Consent already handled, status: ${consentInformation.consentStatus}")
             initializeAdMob()
-        })
+        }
     }
 
     companion object {
