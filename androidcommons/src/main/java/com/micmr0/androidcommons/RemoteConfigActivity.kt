@@ -3,6 +3,7 @@ package com.micmr0.androidcommons
 import android.os.Bundle
 import android.util.Log
 import androidx.activity.ComponentActivity
+import androidx.lifecycle.lifecycleScope
 import com.google.android.gms.ads.MobileAds
 import com.google.android.ump.ConsentDebugSettings
 import com.google.android.ump.ConsentInformation
@@ -15,6 +16,7 @@ import com.google.firebase.remoteconfig.FirebaseRemoteConfig
 import com.google.firebase.remoteconfig.FirebaseRemoteConfigException
 import com.google.firebase.remoteconfig.get
 import com.google.firebase.remoteconfig.remoteConfig
+import kotlinx.coroutines.launch
 
 abstract class RemoteConfigActivity : ComponentActivity() {
     private var isAdMobInitialized = false
@@ -72,7 +74,13 @@ abstract class RemoteConfigActivity : ComponentActivity() {
             }
         })
 
-        requestConsent()
+        lifecycleScope.launch {
+            if (shouldRequestConsent()) {
+                requestConsent()
+            } else {
+                initializeAdMob()
+            }
+        }
     }
 
     fun fetchRemoteData(): Map<String, Any> {
@@ -153,6 +161,8 @@ abstract class RemoteConfigActivity : ComponentActivity() {
             initializeAdMob()
         }
     }
+
+    abstract fun shouldRequestConsent(): Boolean
 
     companion object {
         //REMOTE CONFIG

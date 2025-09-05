@@ -104,6 +104,22 @@ abstract class BaseSettingsRepository(
         }
     }
 
+    fun isConsentGiven(): Flow<Boolean> {
+        return dataStore.data.map { preferences ->
+            preferences[PreferencesKeys.CONSENT_GIVEN_KEY] ?: false
+        }
+    }
+
+    suspend fun setConsentGiven(given: Boolean) {
+        withContext(Dispatchers.IO) {
+            dataStore.updateData { preferences ->
+                preferences.toMutablePreferences().apply {
+                    this[PreferencesKeys.CONSENT_GIVEN_KEY] = given
+                }
+            }
+        }
+    }
+
     private fun isShowRateDialogEnabled(): Flow<Boolean> {
         return dataStore.data.map { preferences ->
             preferences[PreferencesKeys.SHOW_RATE_APP_KEY] ?: true
@@ -147,5 +163,6 @@ abstract class BaseSettingsRepository(
         val SHOW_RATE_APP_KEY = booleanPreferencesKey("show_rate_app")
         val APP_LAUNCHED_COUNT_KEY = intPreferencesKey("app_launch_count")
         val LAST_APP_SHOWN_KEY = longPreferencesKey("last_app_shown")
+        val CONSENT_GIVEN_KEY = booleanPreferencesKey("consent_given")
     }
 }
