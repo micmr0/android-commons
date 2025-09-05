@@ -140,6 +140,9 @@ abstract class RemoteConfigActivity : ComponentActivity() {
                 if (consentInformation.isConsentFormAvailable) {
                     UserMessagingPlatform.loadConsentForm(this, { consentForm ->
                         consentForm.show(this) { _ ->
+                            lifecycleScope.launch {
+                                setConsentGiven()
+                            }
                             initializeAdMob()
                         }
                     }, { error ->
@@ -163,6 +166,8 @@ abstract class RemoteConfigActivity : ComponentActivity() {
     }
 
     abstract fun shouldRequestConsent(): Boolean
+
+    abstract fun setConsentGiven()
 
     companion object {
         //REMOTE CONFIG
