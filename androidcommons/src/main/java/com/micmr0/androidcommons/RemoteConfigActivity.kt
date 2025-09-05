@@ -73,14 +73,6 @@ abstract class RemoteConfigActivity : ComponentActivity() {
                 )
             }
         })
-
-        lifecycleScope.launch {
-            if (shouldRequestConsent()) {
-                requestConsent()
-            } else {
-                initializeAdMob()
-            }
-        }
     }
 
     fun fetchRemoteData(): Map<String, Any> {
@@ -103,7 +95,7 @@ abstract class RemoteConfigActivity : ComponentActivity() {
 
     abstract fun onRemoteDataFetched(data: Map<String, Any>)
 
-    private fun initializeAdMob() {
+    protected fun initializeAdMob() {
         if (isAdMobInitialized) {
             Log.d("AdMob", "AdMob already initialized, skipping")
             return
@@ -116,7 +108,7 @@ abstract class RemoteConfigActivity : ComponentActivity() {
         }
     }
 
-    private fun requestConsent() {
+    protected fun requestConsent() {
         val params = if (BuildConfig.DEBUG) {
             val consentDebugSettings = ConsentDebugSettings.Builder(this)
                 .setDebugGeography(ConsentDebugSettings.DebugGeography.DEBUG_GEOGRAPHY_EEA)
