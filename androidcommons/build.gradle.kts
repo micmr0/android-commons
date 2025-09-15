@@ -70,7 +70,6 @@ dependencies {
 
     //adMob
     api(libs.play.services.ads)
-    api(libs.play.services.ads.api)
     api(libs.user.messaging.platform)
 
     testImplementation(libs.junit)
