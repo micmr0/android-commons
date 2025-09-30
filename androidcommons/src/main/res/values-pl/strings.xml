@@ -8,6 +8,11 @@
 
     <!-- settings !-->
     <string name="settings_title">Settings</string>
+    <string name="settings_section_general">Ogólne</string>
+    <string name="settings_section_app">Inne</string>
+    <string name="settings_privacy_policy">Polityka prywatności</string>
+    <string name="settings_share_app">Udostępnij aplikacje</string>
+    <string name="settings_more_apps">Więcej aplikacji</string>
 
     <string name="close">Zamknij</string>
 
@@ -29,5 +34,5 @@
     <string name="rate_app_dialog_title">Oceń aplikacje</string>
     <string name="rate_app_dialog_description">Jeśli podoba Ci się korzystanie z tej aplikacji, poświęć chwilę, aby ją ocenić. Dzięki!</string>
 
-
+    <string name="select_an_app_to_share">Wybierz aplikację</string>
 </resources>

@@ -27,6 +27,36 @@ fun goToGooglePlay(context: Context) {
     }
 }
 
+private fun showPrivacyPolicy(context: Context, privacyPolicyUrl : String) {
+    val intent = Intent(Intent.ACTION_VIEW).apply {
+        data = privacyPolicyUrl.toUri()
+    }
+    context.startActivity(intent)
+}
+
+fun shareApp(context: Context) {
+    val packageName = context.packageName
+    val link = "https://play.google.com/store/apps/details?id=$packageName"
+
+    val intent = Intent(Intent.ACTION_SEND)
+    intent.type = "text/plain"
+    intent.putExtra(Intent.EXTRA_TEXT, link)
+    context.startActivity(
+        Intent.createChooser(
+            intent,
+            context.getString(R.string.select_an_app_to_share)
+        )
+    )
+}
+
+fun showMoreApps(context: Context, developerName : String) {
+    val uri = "https://play.google.com/store/apps/developer?id=$developerName".toUri()
+    val intent = Intent(Intent.ACTION_VIEW, uri)
+    intent.setPackage("com.android.vending")
+    context.startActivity(intent)
+
+}
+
 inline fun <reified T> loadAndParseJson(context: Context, fileName: String): List<T> {
     val jsonString = context.assets.open(fileName).bufferedReader().use(BufferedReader::readText)
     val type = object : TypeToken<List<T>>() {}.type

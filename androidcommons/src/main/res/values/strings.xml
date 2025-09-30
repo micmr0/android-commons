@@ -8,6 +8,11 @@
 
     <!-- settings !-->
     <string name="settings_title">Settings</string>
+    <string name="settings_section_general">General</string>
+    <string name="settings_section_app">App</string>
+    <string name="settings_privacy_policy">Privacy Policy</string>
+    <string name="settings_share_app">Share app</string>
+    <string name="settings_more_apps">More apps</string>
 
     <string name="close">Close</string>
 
@@ -28,4 +33,6 @@
     <string name="remind_later">Remind later</string>
     <string name="rate_app_dialog_title">Rate app</string>
     <string name="rate_app_dialog_description">If you enjoying using this app, please take a moment to rate it. Thanks!</string>
+
+    <string name="select_an_app_to_share">Select app to share</string>
 </resources>
