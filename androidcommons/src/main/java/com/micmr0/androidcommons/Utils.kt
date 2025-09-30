@@ -27,7 +27,7 @@ fun goToGooglePlay(context: Context) {
     }
 }
 
-private fun showPrivacyPolicy(context: Context, privacyPolicyUrl : String) {
+fun showPrivacyPolicy(context: Context, privacyPolicyUrl : String) {
     val intent = Intent(Intent.ACTION_VIEW).apply {
         data = privacyPolicyUrl.toUri()
     }
