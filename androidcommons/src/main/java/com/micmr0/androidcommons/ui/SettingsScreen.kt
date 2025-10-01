@@ -29,7 +29,8 @@ fun SettingsScreen(
     generalSection: @Composable () -> Unit,
     onPrivacyPolicyClick: () -> Unit,
     onShareAppClick: () -> Unit,
-    onMoreAppsClick: () -> Unit
+    onMoreAppsClick: () -> Unit,
+    additionalSection: @Composable () -> Unit,
 ) {
     LazyColumn(
         modifier = Modifier
@@ -61,6 +62,10 @@ fun SettingsScreen(
             SettingsItem(stringResource(R.string.settings_privacy_policy)) { onPrivacyPolicyClick() }
             SettingsItem(stringResource(R.string.settings_share_app)) { onShareAppClick() }
             SettingsItem(stringResource(R.string.settings_more_apps)) { onMoreAppsClick() }
+        }
+
+        item{
+            additionalSection()
         }
     }
 }
