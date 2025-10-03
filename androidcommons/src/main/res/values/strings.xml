@@ -34,5 +34,19 @@
     <string name="rate_app_dialog_title">Rate app</string>
     <string name="rate_app_dialog_description">If you enjoying using this app, please take a moment to rate it. Thanks!</string>
 
+    <string name="open_google_play_no_app">No app to open Google Play</string>
+    <string name="open_google_play_problem">Unable to open Google Play</string>
+
+    <string name="share_app_no_app">No app to share the link</string>
+    <string name="share_app_problem">Unable to share the app</string>
+
+    <string name="privacy_policy_no_app">No app to open the privacy policy</string>
+    <string name="privacy_policy_problem">Unable to open the privacy policy</string>
+
+    <string name="more_apps_no_app">No app to view developer\'s apps</string>
+    <string name="more_apps_problem">Unable to open developer\'s app list</string>
+
     <string name="select_an_app_to_share">Select app to share</string>
+
+    <string name="advertisement">Advertisement</string>
 </resources>

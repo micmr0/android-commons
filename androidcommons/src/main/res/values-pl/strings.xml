@@ -7,7 +7,7 @@
     <string name="ok">OK</string>
 
     <!-- settings !-->
-    <string name="settings_title">Settings</string>
+    <string name="settings_title">Ustawienia</string>
     <string name="settings_section_general">Ogólne</string>
     <string name="settings_section_app">Inne</string>
     <string name="settings_privacy_policy">Polityka prywatności</string>
@@ -34,5 +34,19 @@
     <string name="rate_app_dialog_title">Oceń aplikacje</string>
     <string name="rate_app_dialog_description">Jeśli podoba Ci się korzystanie z tej aplikacji, poświęć chwilę, aby ją ocenić. Dzięki!</string>
 
+    <string name="open_google_play_no_app">Brak aplikacji do otwierania Google Play</string>
+    <string name="open_google_play_problem">Cannot open Google Play</string>
+
     <string name="select_an_app_to_share">Wybierz aplikację</string>
+
+    <string name="share_app_no_app">Brak aplikacji do udostępnienia linku</string>
+    <string name="share_app_problem">Nie można udostępnić aplikacji</string>
+
+    <string name="privacy_policy_no_app">Brak aplikacji do otwarcia polityki prywatności</string>
+    <string name="privacy_policy_problem">Nie można otworzyć polityki prywatności</string>
+
+    <string name="more_apps_no_app">Brak aplikacji do wyświetlenia aplikacji dewelopera</string>
+    <string name="more_apps_problem">Nie można otworzyć listy aplikacji dewelopera</string>
+
+    <string name="advertisement">Reklama</string>
 </resources>
