@@ -145,22 +145,14 @@ fun showMoreApps(context: Context, developerName: String) {
 }
 
 fun sendFeedback(context: Context, mail: String) {
-    val intent = Intent(Intent.ACTION_SENDTO).apply {
-        data = "mailto:".toUri()
+    val intent = Intent(Intent.ACTION_SEND).apply {
+        type = "message/rfc822
         putExtra(Intent.EXTRA_EMAIL, arrayOf(mail))
         putExtra(Intent.EXTRA_SUBJECT, context.getString(R.string.feedback))
     }
 
     try {
-        if (intent.resolveActivity(context.packageManager) != null) {
-            context.startActivity(intent)
-        } else {
-            Toast.makeText(
-                context,
-                context.getString(R.string.no_mail_app_info),
-                Toast.LENGTH_LONG
-            ).show()
-        }
+        context.startActivity(Intent.createChooser(intent, context.getString(R.string.choose_mail_app)))
     } catch (e: ActivityNotFoundException) {
         Toast.makeText(
             context,
