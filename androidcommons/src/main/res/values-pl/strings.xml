@@ -13,6 +13,9 @@
     <string name="settings_privacy_policy">Polityka prywatności</string>
     <string name="settings_share_app">Udostępnij aplikacje</string>
     <string name="settings_more_apps">Więcej aplikacji</string>
+    <string name="settings_send_feedback">Wyślij opinię</string>
+    <string name="feedback">Opinia</string>
+    <string name="no_mail_app_info">Brak aplikacji do obsługi e-mail. Proszę zainstalować klienta poczty.</string>
 
     <string name="close">Zamknij</string>
 

@@ -30,6 +30,7 @@ fun SettingsScreen(
     onPrivacyPolicyClick: () -> Unit,
     onShareAppClick: () -> Unit,
     onMoreAppsClick: () -> Unit,
+    onSendFeedbackClick: () -> Unit,
     additionalSection: @Composable () -> Unit,
 ) {
     LazyColumn(
@@ -62,6 +63,7 @@ fun SettingsScreen(
             SettingsItem(stringResource(R.string.settings_privacy_policy)) { onPrivacyPolicyClick() }
             SettingsItem(stringResource(R.string.settings_share_app)) { onShareAppClick() }
             SettingsItem(stringResource(R.string.settings_more_apps)) { onMoreAppsClick() }
+            SettingsItem(stringResource(R.string.settings_send_feedback)) { onSendFeedbackClick() }
         }
 
         item{

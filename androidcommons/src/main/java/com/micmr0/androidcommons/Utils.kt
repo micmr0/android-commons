@@ -15,9 +15,10 @@ import java.io.BufferedReader
 fun goToGooglePlay(context: Context) {
     val packageName = context.packageName
 
-    val marketIntent = Intent(Intent.ACTION_VIEW, "market://details?id=$packageName".toUri()).apply {
-        addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-    }
+    val marketIntent =
+        Intent(Intent.ACTION_VIEW, "market://details?id=$packageName".toUri()).apply {
+            addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+        }
 
     try {
         if (marketIntent.resolveActivity(context.packageManager) != null) {
@@ -33,13 +34,17 @@ fun goToGooglePlay(context: Context) {
             if (webIntent.resolveActivity(context.packageManager) != null) {
                 context.startActivity(webIntent)
             } else {
-                Toast.makeText(context,
-                    context.getString(R.string.open_google_play_no_app), Toast.LENGTH_LONG).show()
+                Toast.makeText(
+                    context,
+                    context.getString(R.string.open_google_play_no_app), Toast.LENGTH_LONG
+                ).show()
             }
         }
     } catch (e: ActivityNotFoundException) {
-        Toast.makeText(context,
-            context.getString(R.string.open_google_play_problem), Toast.LENGTH_LONG).show()
+        Toast.makeText(
+            context,
+            context.getString(R.string.open_google_play_problem), Toast.LENGTH_LONG
+        ).show()
     }
 }
 
@@ -139,6 +144,32 @@ fun showMoreApps(context: Context, developerName: String) {
     }
 }
 
+fun sendFeedback(context: Context, mail: String) {
+    val intent = Intent(Intent.ACTION_SENDTO).apply {
+        data = "mailto:".toUri()
+        putExtra(Intent.EXTRA_EMAIL, arrayOf(mail))
+        putExtra(Intent.EXTRA_SUBJECT, context.getString(R.string.feedback))
+    }
+
+    try {
+        if (intent.resolveActivity(context.packageManager) != null) {
+            context.startActivity(intent)
+        } else {
+            Toast.makeText(
+                context,
+                context.getString(R.string.no_mail_app_info),
+                Toast.LENGTH_LONG
+            ).show()
+        }
+    } catch (e: ActivityNotFoundException) {
+        Toast.makeText(
+            context,
+            context.getString(R.string.no_mail_app_info),
+            Toast.LENGTH_LONG
+        ).show()
+    }
+}
+
 inline fun <reified T> loadAndParseJson(context: Context, fileName: String): List<T> {
     val jsonString = context.assets.open(fileName).bufferedReader().use(BufferedReader::readText)
     val type = object : TypeToken<List<T>>() {}.type
@@ -147,7 +178,8 @@ inline fun <reified T> loadAndParseJson(context: Context, fileName: String): Lis
 
 @RequiresPermission(android.Manifest.permission.ACCESS_NETWORK_STATE)
 fun isInternetAvailable(context: Context): Boolean {
-    val connectivityManager = context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
+    val connectivityManager =
+        context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
     val network = connectivityManager.activeNetwork ?: return false
     val capabilities = connectivityManager.getNetworkCapabilities(network) ?: return false
     return capabilities.hasCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET) &&
