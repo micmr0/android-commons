@@ -5,6 +5,7 @@ import android.content.Context
 import android.content.Intent
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
+import android.net.Uri
 import android.widget.Toast
 import androidx.annotation.RequiresPermission
 import androidx.core.net.toUri
@@ -145,14 +146,23 @@ fun showMoreApps(context: Context, developerName: String) {
 }
 
 fun sendFeedback(context: Context, mail: String) {
-    val intent = Intent(Intent.ACTION_SEND).apply {
+    val sendToIntent = Intent(Intent.ACTION_SENDTO).apply {
+        data = "mailto:$mail".toUri()
+        putExtra(Intent.EXTRA_SUBJECT, context.getString(R.string.feedback))
+    }
+
+    val sendIntent = Intent(Intent.ACTION_SEND).apply {
         type = "message/rfc822"
         putExtra(Intent.EXTRA_EMAIL, arrayOf(mail))
         putExtra(Intent.EXTRA_SUBJECT, context.getString(R.string.feedback))
     }
 
     try {
-        context.startActivity(Intent.createChooser(intent, context.getString(R.string.choose_mail_app)))
+        if (sendToIntent.resolveActivity(context.packageManager) != null) {
+            context.startActivity(sendToIntent)
+        } else {
+            context.startActivity(Intent.createChooser(sendIntent, context.getString(R.string.choose_mail_app)))
+        }
     } catch (e: ActivityNotFoundException) {
         Toast.makeText(
             context,
