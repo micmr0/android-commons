@@ -146,7 +146,7 @@ fun showMoreApps(context: Context, developerName: String) {
 
 fun sendFeedback(context: Context, mail: String) {
     val intent = Intent(Intent.ACTION_SEND).apply {
-        type = "message/rfc822
+        type = "message/rfc822"
         putExtra(Intent.EXTRA_EMAIL, arrayOf(mail))
         putExtra(Intent.EXTRA_SUBJECT, context.getString(R.string.feedback))
     }
