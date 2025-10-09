@@ -8,11 +8,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.viewinterop.AndroidView
 import com.google.ads.mediation.admob.AdMobAdapter
@@ -30,24 +31,21 @@ import kotlin.jvm.java
 @Composable
 fun NativeAdViewComposable(adUnitId: String, isSystemDarkTheme: Boolean) {
     val context = LocalContext.current
-    var isAdLoaded by remember { mutableStateOf(false) }
+    val adView = remember { mutableStateOf<View?>(null) }
 
-    AndroidView(
-        factory = { ctx ->
-            // load xml layout
-            val view = LayoutInflater.from(ctx).inflate(R.layout.native_ad_layout, null)
-            if (!isAdLoaded) {
-                loadNativeAd(context, adUnitId, view, isSystemDarkTheme) { isAdLoaded = true }
-            }
-            view
-        },
-        update = { view ->
-            if (isAdLoaded) {
-                // ad already loaded, do not load again
-                Log.d("AdMob", "Ad already loaded, skipping reload")
-            }
+    LaunchedEffect(Unit) {
+        val view = LayoutInflater.from(context).inflate(R.layout.native_ad_layout, null)
+        loadNativeAd(context, adUnitId, view, isSystemDarkTheme) {
+            adView.value = view
         }
-    )
+    }
+
+    adView.value?.let { view ->
+        AndroidView(
+            modifier = Modifier.fillMaxWidth(),
+            factory = { view }
+        )
+    }
 }
 
 private fun loadNativeAd(
