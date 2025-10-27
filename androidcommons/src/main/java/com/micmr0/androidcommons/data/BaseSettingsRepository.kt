@@ -6,6 +6,7 @@ import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.intPreferencesKey
 import androidx.datastore.preferences.core.longPreferencesKey
+import androidx.datastore.preferences.core.stringPreferencesKey
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.first
@@ -158,7 +159,26 @@ abstract class BaseSettingsRepository(
         return canShow
     }
 
+    fun themePreference(): Flow<ThemePreference> =
+        getValueFlow(PreferencesKeys.THEME_PREFERENCE_KEY, ThemePreference.SYSTEM.name)
+            .map { ThemePreference.fromString(it) }
+
+    suspend fun setThemePreference(pref: ThemePreference) {
+        saveValue(PreferencesKeys.THEME_PREFERENCE_KEY, pref.name)
+    }
+
+
+    enum class ThemePreference {
+        SYSTEM, LIGHT, DARK;
+
+        companion object {
+            fun fromString(value: String?): ThemePreference =
+                entries.find { it.name == value } ?: SYSTEM
+        }
+    }
+
     object PreferencesKeys {
+        val THEME_PREFERENCE_KEY = stringPreferencesKey("theme_preference")
         val ONBOARDING_DISPLAYED_KEY = booleanPreferencesKey("show_onboarding")
         val SHOW_RATE_APP_KEY = booleanPreferencesKey("show_rate_app")
         val APP_LAUNCHED_COUNT_KEY = intPreferencesKey("app_launch_count")
