@@ -57,7 +57,8 @@ abstract class RemoteConfigActivity : ComponentActivity() {
 
                 if (configUpdate.updatedKeys.contains(WELCOME_MESSAGE_KEY)
                     || configUpdate.updatedKeys.contains(SHOW_AD_1_KEY)
-                    || configUpdate.updatedKeys.contains(SHOW_AD_2_KEY)) {
+                    || configUpdate.updatedKeys.contains(SHOW_AD_2_KEY)
+                    || configUpdate.updatedKeys.contains(SHOW_AD_3_KEY)) {
                     remoteConfig.activate().addOnCompleteListener {
                         val remoteData = fetchRemoteData()
                         onRemoteDataFetched(remoteData)
@@ -81,13 +82,15 @@ abstract class RemoteConfigActivity : ComponentActivity() {
         val welcomeMessage = remoteConfig[WELCOME_MESSAGE_KEY].asString()
         val showAd1 = remoteConfig[SHOW_AD_1_KEY].asBoolean()
         val showAd2 = remoteConfig[SHOW_AD_2_KEY].asBoolean()
+        val showAd3 = remoteConfig[SHOW_AD_3_KEY].asBoolean()
 
         Log.d(this::class.java.simpleName, "welcome_message: $welcomeMessage")
 
         return mapOf(
             WELCOME_MESSAGE_KEY to welcomeMessage,
             SHOW_AD_1_KEY to showAd1,
-            SHOW_AD_2_KEY to showAd2
+            SHOW_AD_2_KEY to showAd2,
+            SHOW_AD_3_KEY to showAd3
         )
 
     }
@@ -166,5 +169,6 @@ abstract class RemoteConfigActivity : ComponentActivity() {
         const val WELCOME_MESSAGE_KEY = "welcome_message"
         const val SHOW_AD_1_KEY = "show_ad_1"
         const val SHOW_AD_2_KEY = "show_ad_2"
+        const val SHOW_AD_3_KEY = "show_ad_3"
     }
 }
