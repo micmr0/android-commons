@@ -147,7 +147,7 @@ private fun populateNativeAdView(nativeAd: NativeAd, adView: NativeAdView, isDar
     )
 
     // initialize image
-    adView.mediaView = adView.findViewById(R.id.ad_image)
+    adView.mediaView = adView.findViewById(R.id.ad_media)
     adView.mediaView?.mediaContent = nativeAd.mediaContent
 
     // initialize call-to-action
