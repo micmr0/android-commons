@@ -10,9 +10,12 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.viewinterop.AndroidView
@@ -29,22 +32,54 @@ import com.google.android.ump.UserMessagingPlatform
 import kotlin.jvm.java
 
 @Composable
-fun NativeAdViewComposable(adUnitId: String, isSystemDarkTheme: Boolean) {
+fun NativeAdViewComposable(
+    adUnitId: String,
+    isSystemDarkTheme: Boolean,
+    modifier: Modifier = Modifier
+) {
     val context = LocalContext.current
-    val adView = remember { mutableStateOf<View?>(null) }
 
-    LaunchedEffect(Unit) {
-        val view = LayoutInflater.from(context).inflate(R.layout.native_ad_layout, null)
-        loadNativeAd(context, adUnitId, view, isSystemDarkTheme) {
-            adView.value = view
-        }
+    val nativeAdView = remember {
+        LayoutInflater.from(context)
+            .inflate(R.layout.native_ad_layout, null) as NativeAdView
     }
 
-    adView.value?.let { view ->
-        AndroidView(
-            modifier = Modifier.fillMaxWidth(),
-            factory = { view }
+    var currentNativeAd by remember { mutableStateOf<NativeAd?>(null) }
+
+    LaunchedEffect(adUnitId, isSystemDarkTheme) {
+        loadNativeAd(
+            context = context,
+            adUnitId = adUnitId,
+            adView = nativeAdView,
+            isDarkTheme = isSystemDarkTheme,
+            onAdLoaded = { nativeAd ->
+                currentNativeAd = nativeAd
+                Log.d("AdMob", "Ad loaded & set")
+                nativeAdView.requestLayout() // czasem pomaga przy impressionach
+            }
         )
+    }
+
+    AndroidView(
+        modifier = modifier.fillMaxWidth(),
+        factory = { nativeAdView },
+        update = { }
+    )
+
+    DisposableEffect(nativeAdView) {
+        onDispose {
+            currentNativeAd?.destroy()
+            currentNativeAd = null
+
+            nativeAdView.destroy()
+
+            nativeAdView.headlineView = null
+            nativeAdView.bodyView = null
+            nativeAdView.mediaView = null
+            nativeAdView.callToActionView = null
+
+            Log.d("AdMob", "Native ad & view destroyed and cleaned")
+        }
     }
 }
 
@@ -53,7 +88,7 @@ private fun loadNativeAd(
     adUnitId: String,
     adView: View,
     isDarkTheme: Boolean,
-    onAdLoaded: () -> Unit
+    onAdLoaded: (NativeAd) -> Unit
 ) {
     Log.d("AdMob", "Loading native ad with Ad Unit ID: $adUnitId")
 
@@ -75,7 +110,7 @@ private fun loadNativeAd(
         .forNativeAd { nativeAd ->
             Log.d("AdMob", "Native ad loaded successfully")
             populateNativeAdView(nativeAd, adView as NativeAdView, isDarkTheme)
-            onAdLoaded()
+            onAdLoaded(nativeAd)
         }
         .withAdListener(object : AdListener() {
             override fun onAdFailedToLoad(adError: LoadAdError) {
@@ -88,7 +123,7 @@ private fun loadNativeAd(
         .withNativeAdOptions(
             NativeAdOptions.Builder()
                 .setAdChoicesPlacement(NativeAdOptions.ADCHOICES_TOP_RIGHT)
-                .setMediaAspectRatio(NativeAdOptions.NATIVE_MEDIA_ASPECT_RATIO_LANDSCAPE)
+                .setMediaAspectRatio(NativeAdOptions.NATIVE_MEDIA_ASPECT_RATIO_ANY)
                 .build()
         )
         .build()
