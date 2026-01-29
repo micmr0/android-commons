@@ -1,9 +1,7 @@
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
-import org.jetbrains.kotlin.gradle.tasks.KotlinJvmCompile
 
 plugins {
     alias(libs.plugins.android.library)
-    alias(libs.plugins.kotlin.android)
     alias(libs.plugins.maven.publish)
     alias(libs.plugins.kotlin.compose)
 }
@@ -33,12 +31,9 @@ android {
         buildConfig = true
         compose = true
     }
-}
 
-tasks.withType<KotlinJvmCompile>().configureEach {
-    compilerOptions {
-        jvmTarget.set(JvmTarget.JVM_17)
-        // freeCompilerArgs.add("-opt-in=kotlin.RequiresOptIn")
+    publishing {
+        singleVariant("release")
     }
 }
 
