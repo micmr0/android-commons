@@ -49,6 +49,34 @@ fun goToGooglePlay(context: Context) {
     }
 }
 
+fun openAppOrPlayStore(context: Context, packageName: String) {
+    try {
+        val pm = context.packageManager
+        val launchIntent = pm.getLaunchIntentForPackage(packageName)
+
+        if (launchIntent != null) {
+            launchIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+            context.startActivity(launchIntent)
+            return
+        }
+    } catch (_: Exception) {}
+
+    val playIntent = Intent(Intent.ACTION_VIEW).apply {
+        data = "https://play.google.com/store/apps/details?id=$packageName".toUri()
+        addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+    }
+
+    try {
+        context.startActivity(playIntent)
+    } catch (_: Exception) {
+        val browserIntent = Intent(Intent.ACTION_VIEW).apply {
+            data = "https://play.google.com/store/apps/details?id=$packageName".toUri()
+            addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+        }
+        context.startActivity(browserIntent)
+    }
+}
+
 fun showPrivacyPolicy(context: Context, privacyPolicyUrl: String) {
     val intent = Intent(Intent.ACTION_VIEW).apply {
         data = privacyPolicyUrl.toUri()
