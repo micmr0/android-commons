@@ -58,6 +58,8 @@ gradle.properties
 
 !gradle/wrapper/gradle-wrapper.jar
 
+gradle-daemon-jvm.properties
+
 ehthumbs.db
 
 # OS-specific files
