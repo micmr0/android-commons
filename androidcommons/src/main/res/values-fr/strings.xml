@@ -24,7 +24,7 @@
     <string name="no_mail_app_info">Aucune application e‑mail disponible. Veuillez installer un client de messagerie.</string>
     <string name="choose_mail_app">Choisir une application e‑mail</string>
     <string name="not_logged_in">Non connecté</string>
-    <string name="authentication_failed">Échec de l'authentification ou non initialisée</string>
+    <string name="authentication_failed">Échec de l\'authentification ou non initialisée</string>
     <string name="retry">Réessayer</string>
 
     <string name="close">Fermer</string>
