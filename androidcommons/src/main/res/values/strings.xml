@@ -59,9 +59,8 @@
     <string name="support_app">Unlock PLUS for free ❤️️</string>
     <string name="subscription_plus_active">Active subscription: PLUS</string>
     <string name="add_feedback">Add feedback</string>
-    <string name="support_email_optional">Your email (optional)</string>
+    <string name="support_title">Unlock PLUS for free</string>
     <string name="support_send_a_request">Send request</string>
-    <string name="support_title">Support us</string>
     <string name="user_have_plus">You already have the PLUS version! 🎉</string>
     <string name="user_have_plus_info">Thank you for your support!\nYou can now enjoy the app with all additional features.</string>
     <string name="support_google_login">Sign in with Google (optional)</string>

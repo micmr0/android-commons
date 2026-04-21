@@ -59,9 +59,8 @@
     <string name="support_app">Odblokuj PLUS za darmo ❤️️</string>
     <string name="subscription_plus_active">Aktywna subskrypcja: PLUS</string>
     <string name="add_feedback">Dodaj opinię</string>
-    <string name="support_email_optional">Twój e‑mail (opcjonalnie)</string>
+    <string name="support_title">Odblokuj PLUS za darmo</string>
     <string name="support_send_a_request">Wyślij zgłoszenie</string>
-    <string name="support_title">Wesprzyj nas</string>
     <string name="user_have_plus">Masz już wersję PLUS! 🎉</string>
     <string name="user_have_plus_info">Dziękujemy za wsparcie!\nMożesz teraz korzystać ze wszystkich dodatkowych funkcji.</string>
     <string name="support_google_login">Zaloguj się przez Google (opcjonalnie)</string>

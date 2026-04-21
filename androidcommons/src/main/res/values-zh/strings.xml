@@ -59,9 +59,8 @@
     <string name="support_app">免费解锁 PLUS ❤️️</string>
     <string name="subscription_plus_active">已激活订阅：PLUS</string>
     <string name="add_feedback">添加反馈</string>
-    <string name="support_email_optional">你的邮箱（可选）</string>
+    <string name="support_title">免费解锁 PLUS</string>
     <string name="support_send_a_request">发送请求</string>
-    <string name="support_title">支持我们</string>
     <string name="user_have_plus">你已经拥有 PLUS 版本！🎉</string>
     <string name="user_have_plus_info">感谢你的支持！\n你现在可以使用所有额外功能。</string>
     <string name="support_google_login">使用 Google 登录（可选）</string>

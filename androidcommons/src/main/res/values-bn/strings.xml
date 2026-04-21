@@ -59,9 +59,8 @@
     <string name="support_app">PLUS বিনামূল্যে আনলক করুন ❤️️</string>
     <string name="subscription_plus_active">সক্রিয় সাবস্ক্রিপশন: PLUS</string>
     <string name="add_feedback">মতামত যোগ করুন</string>
-    <string name="support_email_optional">আপনার ই‑মেইল (ঐচ্ছিক)</string>
+    <string name="support_title">PLUS বিনামূল্যে আনলক করুন</string>
     <string name="support_send_a_request">অনুরোধ পাঠান</string>
-    <string name="support_title">আমাদের সমর্থন করুন</string>
     <string name="user_have_plus">আপনার কাছে ইতিমধ্যেই PLUS সংস্করণ আছে! 🎉</string>
     <string name="user_have_plus_info">আপনার সমর্থনের জন্য ধন্যবাদ!\nএখন আপনি সব অতিরিক্ত ফিচার ব্যবহার করতে পারবেন।</string>
     <string name="support_google_login">Google দিয়ে লগইন করুন (ঐচ্ছিক)</string>

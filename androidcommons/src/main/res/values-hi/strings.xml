@@ -59,9 +59,8 @@
     <string name="support_app">PLUS संस्करण मुफ्त में अनलॉक करें ❤️️</string>
     <string name="subscription_plus_active">सक्रिय सदस्यता: PLUS</string>
     <string name="add_feedback">प्रतिक्रिया जोड़ें</string>
-    <string name="support_email_optional">आपका ई‑मेल (वैकल्पिक)</string>
+    <string name="support_title">PLUS मुफ्त में अनलॉक करें</string>
     <string name="support_send_a_request">अनुरोध भेजें</string>
-    <string name="support_title">हमें समर्थन दें</string>
     <string name="user_have_plus">आपके पास पहले से ही PLUS संस्करण है! 🎉</string>
     <string name="user_have_plus_info">आपके समर्थन के लिए धन्यवाद!\nअब आप सभी अतिरिक्त सुविधाओं का आनंद ले सकते हैं।</string>
     <string name="support_google_login">Google से साइन इन करें (वैकल्पिक)</string>

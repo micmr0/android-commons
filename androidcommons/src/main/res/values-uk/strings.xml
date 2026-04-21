@@ -59,9 +59,8 @@
     <string name="support_app">Відкрийте PLUS безкоштовно ❤️️</string>
     <string name="subscription_plus_active">Активна підписка: PLUS</string>
     <string name="add_feedback">Додати відгук</string>
-    <string name="support_email_optional">Ваш email (необов’язково)</string>
+    <string name="support_title">Відкрити PLUS безкоштовно</string>
     <string name="support_send_a_request">Надіслати запит</string>
-    <string name="support_title">Підтримайте нас</string>
     <string name="user_have_plus">У вас уже є версія PLUS! 🎉</string>
     <string name="user_have_plus_info">Дякуємо за вашу підтримку!\nТепер ви можете користуватися всіма додатковими функціями.</string>
     <string name="support_google_login">Увійти через Google (необов’язково)</string>

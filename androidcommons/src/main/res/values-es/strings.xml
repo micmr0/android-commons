@@ -59,9 +59,8 @@
     <string name="support_app">Desbloquea PLUS gratis ❤️️</string>
     <string name="subscription_plus_active">Suscripción activa: PLUS</string>
     <string name="add_feedback">Añadir comentario</string>
-    <string name="support_email_optional">Tu correo (opcional)</string>
+    <string name="support_title">Desbloquear PLUS gratis</string>
     <string name="support_send_a_request">Enviar solicitud</string>
-    <string name="support_title">Apóyanos</string>
     <string name="user_have_plus">¡Ya tienes la versión PLUS! 🎉</string>
     <string name="user_have_plus_info">¡Gracias por tu apoyo!\nAhora puedes disfrutar de todas las funciones adicionales.</string>
     <string name="support_google_login">Iniciar sesión con Google (opcional)</string>

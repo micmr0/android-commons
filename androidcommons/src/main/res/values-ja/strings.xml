@@ -59,9 +59,8 @@
     <string name="support_app">PLUS を無料でアンロック ❤️️</string>
     <string name="subscription_plus_active">有効なサブスクリプション：PLUS</string>
     <string name="add_feedback">フィードバックを追加</string>
-    <string name="support_email_optional">メールアドレス（任意）</string>
+    <string name="support_title">PLUS を無料でアンロック</string>
     <string name="support_send_a_request">リクエストを送信</string>
-    <string name="support_title">サポートする</string>
     <string name="user_have_plus">すでに PLUS バージョンをお持ちです！🎉</string>
     <string name="user_have_plus_info">ご支援ありがとうございます！\nすべての追加機能をご利用いただけます。</string>
     <string name="support_google_login">Google でログイン（任意）</string>

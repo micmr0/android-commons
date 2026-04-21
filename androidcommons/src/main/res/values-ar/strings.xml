@@ -59,9 +59,8 @@
     <string name="support_app">افتح PLUS مجاناً ❤️️</string>
     <string name="subscription_plus_active">اشتراك نشط: PLUS</string>
     <string name="add_feedback">إضافة ملاحظات</string>
-    <string name="support_email_optional">بريدك الإلكتروني (اختياري)</string>
+    <string name="support_title">افتح PLUS مجانًا</string>
     <string name="support_send_a_request">إرسال طلب</string>
-    <string name="support_title">ادعمنا</string>
     <string name="user_have_plus">لديك بالفعل نسخة PLUS! 🎉</string>
     <string name="user_have_plus_info">شكراً لدعمك!\nيمكنك الآن استخدام جميع الميزات الإضافية.</string>
     <string name="support_google_login">تسجيل الدخول عبر Google (اختياري)</string>

@@ -59,9 +59,8 @@
     <string name="support_app">PLUS kostenlos freischalten ❤️️</string>
     <string name="subscription_plus_active">Aktives Abonnement: PLUS</string>
     <string name="add_feedback">Feedback hinzufügen</string>
-    <string name="support_email_optional">Deine E‑Mail (optional)</string>
+    <string name="support_title">PLUS kostenlos freischalten</string>
     <string name="support_send_a_request">Anfrage senden</string>
-    <string name="support_title">Unterstütze uns</string>
     <string name="user_have_plus">Du hast bereits die PLUS‑Version! 🎉</string>
     <string name="user_have_plus_info">Vielen Dank für deine Unterstützung!\nDu kannst jetzt alle zusätzlichen Funktionen nutzen.</string>
     <string name="support_google_login">Mit Google anmelden (optional)</string>
