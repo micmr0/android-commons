@@ -150,7 +150,7 @@ fun LanguagePickerDialog(
                         modifier = Modifier
                             .fillMaxWidth()
                             .clickable { onSelect(lang) }
-                            .padding(5.dp)
+                            .padding(4.dp)
                     ) {
                         RadioButton(
                             selected = currentLanguage == lang,
