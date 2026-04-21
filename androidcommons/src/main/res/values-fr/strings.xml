@@ -9,6 +9,12 @@
     <!-- settings -->
     <string name="settings_title">Paramètres</string>
     <string name="settings_section_general">Général</string>
+    <string name="sign_in_with_google">Se connecter avec Google</string>
+    <string name="sign_with_google_description">Vous ne perdrez pas la version PLUS après une réinstallation ou un changement de téléphone.</string>
+    <string name="login_as">Connecté en tant que :</string>
+    <string name="google_account">Compte Google</string>
+    <string name="logout_succesful">Déconnexion réussie</string>
+    <string name="logout">Se déconnecter</string>
     <string name="settings_section_app">Application</string>
     <string name="settings_privacy_policy">Politique de confidentialité</string>
     <string name="settings_share_app">Partager l’application</string>
@@ -17,6 +23,9 @@
     <string name="feedback">Avis</string>
     <string name="no_mail_app_info">Aucune application e‑mail disponible. Veuillez installer un client de messagerie.</string>
     <string name="choose_mail_app">Choisir une application e‑mail</string>
+    <string name="not_logged_in">Non connecté</string>
+    <string name="authentication_failed">Échec de l'authentification ou non initialisée</string>
+    <string name="retry">Réessayer</string>
 
     <string name="close">Fermer</string>
 

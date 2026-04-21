@@ -9,6 +9,12 @@
     <!-- settings -->
     <string name="settings_title">सेटिंग्स</string>
     <string name="settings_section_general">सामान्य</string>
+    <string name="sign_in_with_google">Google से साइन इन करें</string>
+    <string name="sign_with_google_description">रीइंस्टॉल या फ़ोन बदलने पर भी आप PLUS संस्करण नहीं खोएंगे।</string>
+    <string name="login_as">इस रूप में लॉग इन:</string>
+    <string name="google_account">Google खाता</string>
+    <string name="logout_succesful">सफलतापूर्वक लॉग आउट किया गया</string>
+    <string name="logout">लॉग आउट</string>
     <string name="settings_section_app">ऐप</string>
     <string name="settings_privacy_policy">गोपनीयता नीति</string>
     <string name="settings_share_app">ऐप साझा करें</string>
@@ -17,6 +23,9 @@
     <string name="feedback">प्रतिक्रिया</string>
     <string name="no_mail_app_info">कोई ई‑मेल ऐप उपलब्ध नहीं है। कृपया एक ई‑मेल क्लाइंट इंस्टॉल करें।</string>
     <string name="choose_mail_app">ई‑मेल ऐप चुनें</string>
+    <string name="not_logged_in">लॉग इन नहीं किया गया</string>
+    <string name="authentication_failed">प्रमाणीकरण विफल या प्रारंभ नहीं किया गया</string>
+    <string name="retry">पुनः प्रयास करें</string>
 
     <string name="close">बंद करें</string>
 

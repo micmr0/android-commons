@@ -9,6 +9,12 @@
     <!-- settings -->
     <string name="settings_title">সেটিংস</string>
     <string name="settings_section_general">সাধারণ</string>
+    <string name="sign_in_with_google">Google দিয়ে সাইন ইন করুন</string>
+    <string name="sign_with_google_description">ফোন পরিবর্তন বা অ্যাপ পুনরায় ইনস্টল করলেও আপনি PLUS সংস্করণ হারাবেন না।</string>
+    <string name="login_as">লগইন করেছেন:</string>
+    <string name="google_account">Google অ্যাকাউন্ট</string>
+    <string name="logout_succesful">সফলভাবে লগআউট হয়েছে</string>
+    <string name="logout">লগআউট</string>
     <string name="settings_section_app">অ্যাপ</string>
     <string name="settings_privacy_policy">গোপনীয়তা নীতি</string>
     <string name="settings_share_app">অ্যাপ শেয়ার করুন</string>
@@ -17,6 +23,9 @@
     <string name="feedback">মতামত</string>
     <string name="no_mail_app_info">কোনো ই‑মেইল অ্যাপ পাওয়া যায়নি। অনুগ্রহ করে একটি ই‑মেইল অ্যাপ ইনস্টল করুন।</string>
     <string name="choose_mail_app">ই‑মেইল অ্যাপ নির্বাচন করুন</string>
+    <string name="not_logged_in">লগ ইন করা হয়নি</string>
+    <string name="authentication_failed">প্রমাণীকরণ ব্যর্থ হয়েছে বা শুরু করা হয়নি</string>
+    <string name="retry">আবার চেষ্টা করুন</string>
 
     <string name="close">বন্ধ করুন</string>
 

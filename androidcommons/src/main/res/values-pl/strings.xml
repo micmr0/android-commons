@@ -9,6 +9,12 @@
     <!-- settings -->
     <string name="settings_title">Ustawienia</string>
     <string name="settings_section_general">Ogólne</string>
+    <string name="sign_in_with_google">Zaloguj się kontem Google</string>
+    <string name="sign_with_google_description">Nie stracisz wersji PLUS po reinstalacji lub zmianie telefonu.</string>
+    <string name="login_as">Zalogowany jako:</string>
+    <string name="google_account">Konto Google</string>
+    <string name="logout_succesful">Wylogowano pomyślnie</string>
+    <string name="logout">Wyloguj</string>
     <string name="settings_section_app">Aplikacja</string>
     <string name="settings_privacy_policy">Polityka prywatności</string>
     <string name="settings_share_app">Udostępnij aplikację</string>
@@ -17,6 +23,9 @@
     <string name="feedback">Opinia</string>
     <string name="no_mail_app_info">Brak aplikacji e‑mail. Zainstaluj klienta poczty.</string>
     <string name="choose_mail_app">Wybierz aplikację e‑mail</string>
+    <string name="not_logged_in">Nie zalogowano</string>
+    <string name="authentication_failed">Uwierzytelnianie nie powiodło się lub nie zostało zainicjalizowane</string>
+    <string name="retry">Spróbuj ponownie</string>
 
     <string name="close">Zamknij</string>
 

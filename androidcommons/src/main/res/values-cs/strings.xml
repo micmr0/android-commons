@@ -9,6 +9,12 @@
     <!-- settings -->
     <string name="settings_title">Nastavení</string>
     <string name="settings_section_general">Obecné</string>
+    <string name="sign_in_with_google">Přihlásit se pomocí Google</string>
+    <string name="sign_with_google_description">O verzi PLUS nepřijdete ani po reinstalaci nebo změně telefonu.</string>
+    <string name="login_as">Přihlášen jako:</string>
+    <string name="google_account">Účet Google</string>
+    <string name="logout_succesful">Úspěšně odhlášeno</string>
+    <string name="logout">Odhlásit se</string>
     <string name="settings_section_app">Aplikace</string>
     <string name="settings_privacy_policy">Zásady ochrany osobních údajů</string>
     <string name="settings_share_app">Sdílet aplikaci</string>
@@ -17,6 +23,9 @@
     <string name="feedback">Zpětná vazba</string>
     <string name="no_mail_app_info">Není dostupná žádná e‑mailová aplikace. Nainstalujte si prosím e‑mailového klienta.</string>
     <string name="choose_mail_app">Vyberte e‑mailovou aplikaci</string>
+    <string name="not_logged_in">Nejste přihlášeni</string>
+    <string name="authentication_failed">Ověření selhalo nebo nebylo inicializováno</string>
+    <string name="retry">Zkusit znovu</string>
 
     <string name="close">Zavřít</string>
 

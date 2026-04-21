@@ -9,6 +9,12 @@
     <!-- settings -->
     <string name="settings_title">Налаштування</string>
     <string name="settings_section_general">Загальні</string>
+    <string name="sign_in_with_google">Увійти через Google</string>
+    <string name="sign_with_google_description">Ви не втратите версію PLUS після перевстановлення або зміни телефону.</string>
+    <string name="login_as">Увійшли як:</string>
+    <string name="google_account">Обліковий запис Google</string>
+    <string name="logout_succesful">Успішно вийшли з облікового запису</string>
+    <string name="logout">Вийти</string>
     <string name="settings_section_app">Застосунок</string>
     <string name="settings_privacy_policy">Політика конфіденційності</string>
     <string name="settings_share_app">Поділитися застосунком</string>
@@ -17,6 +23,9 @@
     <string name="feedback">Відгук</string>
     <string name="no_mail_app_info">Немає застосунку для електронної пошти. Встановіть поштовий клієнт.</string>
     <string name="choose_mail_app">Виберіть поштовий застосунок</string>
+    <string name="not_logged_in">Ви не ввійшли</string>
+    <string name="authentication_failed">Помилка автентифікації або не ініціалізовано</string>
+    <string name="retry">Спробувати знову</string>
 
     <string name="close">Закрити</string>
 

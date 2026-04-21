@@ -9,6 +9,12 @@
     <!-- settings -->
     <string name="settings_title">設定</string>
     <string name="settings_section_general">一般</string>
+    <string name="sign_in_with_google">Google でログイン</string>
+    <string name="sign_with_google_description">アプリを再インストールしたり、スマホを変更しても PLUS バージョンは失われません。</string>
+    <string name="login_as">ログイン中:</string>
+    <string name="google_account">Google アカウント</string>
+    <string name="logout_succesful">ログアウトしました</string>
+    <string name="logout">ログアウト</string>
     <string name="settings_section_app">アプリ</string>
     <string name="settings_privacy_policy">プライバシーポリシー</string>
     <string name="settings_share_app">アプリを共有</string>
@@ -17,6 +23,9 @@
     <string name="feedback">フィードバック</string>
     <string name="no_mail_app_info">メールアプリが見つかりません。メールアプリをインストールしてください。</string>
     <string name="choose_mail_app">メールアプリを選択</string>
+    <string name="not_logged_in">ログインしていません</string>
+    <string name="authentication_failed">認証に失敗したか初期化されていません</string>
+    <string name="retry">再試行</string>
 
     <string name="close">閉じる</string>
 

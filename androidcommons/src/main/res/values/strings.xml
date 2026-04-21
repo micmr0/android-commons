@@ -9,6 +9,16 @@
     <!-- settings !-->
     <string name="settings_title">Settings</string>
     <string name="settings_section_general">General</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="sign_with_google_description">You won’t lose the PLUS version after reinstalling or changing your phone.</string>
+    <string name="login">Sign in</string>
+    <string name="not_logged_in">Not logged in</string>
+    <string name="authentication_failed">Authentication failed or not initialized</string>
+    <string name="retry">Retry</string>
+    <string name="login_as">Logged in as:</string>
+    <string name="google_account">Google account</string>
+    <string name="logout_succesful">Logged out successfully</string>
+    <string name="logout">Logout</string>
     <string name="settings_section_app">App</string>
     <string name="settings_privacy_policy">Privacy Policy</string>
     <string name="settings_share_app">Share app</string>

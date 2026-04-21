@@ -9,6 +9,12 @@
     <!-- settings -->
     <string name="settings_title">الإعدادات</string>
     <string name="settings_section_general">عام</string>
+    <string name="sign_in_with_google">تسجيل الدخول باستخدام Google</string>
+    <string name="sign_with_google_description">لن تفقد نسخة PLUS بعد إعادة التثبيت أو تغيير الهاتف.</string>
+    <string name="login_as">تسجيل الدخول كـ:</string>
+    <string name="google_account">حساب Google</string>
+    <string name="logout_succesful">تم تسجيل الخروج بنجاح</string>
+    <string name="logout">تسجيل الخروج</string>
     <string name="settings_section_app">التطبيق</string>
     <string name="settings_privacy_policy">سياسة الخصوصية</string>
     <string name="settings_share_app">مشاركة التطبيق</string>
@@ -17,6 +23,9 @@
     <string name="feedback">ملاحظات</string>
     <string name="no_mail_app_info">لا يوجد تطبيق بريد إلكتروني. يرجى تثبيت تطبيق بريد.</string>
     <string name="choose_mail_app">اختر تطبيق البريد</string>
+    <string name="not_logged_in">غير مسجل الدخول</string>
+    <string name="authentication_failed">فشل المصادقة أو لم تتم التهيئة</string>
+    <string name="retry">إعادة المحاولة</string>
 
     <string name="close">إغلاق</string>
 
