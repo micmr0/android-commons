@@ -1,56 +1,104 @@
 <resources>
-    <string name="background_description">Tło</string>
+    <string name="background_description">tło</string>
 
-    <!-- about app !-->
+    <!-- about app -->
     <string name="app_info_title">O aplikacji</string>
     <string name="policy_privacy">Polityka prywatności</string>
     <string name="ok">OK</string>
 
-    <!-- settings !-->
+    <!-- settings -->
     <string name="settings_title">Ustawienia</string>
     <string name="settings_section_general">Ogólne</string>
-    <string name="settings_section_app">Inne</string>
+    <string name="settings_section_app">Aplikacja</string>
     <string name="settings_privacy_policy">Polityka prywatności</string>
-    <string name="settings_share_app">Udostępnij aplikacje</string>
+    <string name="settings_share_app">Udostępnij aplikację</string>
     <string name="settings_more_apps">Więcej aplikacji</string>
     <string name="settings_send_feedback">Wyślij opinię</string>
     <string name="feedback">Opinia</string>
-    <string name="no_mail_app_info">Brak aplikacji do obsługi e-mail. Proszę zainstalować klienta poczty.</string>
-    <string name="choose_mail_app">Wybierz aplikacje do wysłania email</string>
+    <string name="no_mail_app_info">Brak aplikacji e‑mail. Zainstaluj klienta poczty.</string>
+    <string name="choose_mail_app">Wybierz aplikację e‑mail</string>
 
     <string name="close">Zamknij</string>
 
-    <!-- onboarding !-->
-    <string name="onboarding_button_skip">Pomiń</string>
-    <string name="onboarding_button_next">Dalej</string>
+    <!-- onboarding -->
     <string name="onboarding_button_start">Start</string>
+    <string name="onboarding_button_next">Dalej</string>
+    <string name="onboarding_button_skip">Pomiń</string>
 
-    <!-- uprawnienia lokalizacji !-->
-    <string name="alert_dialog_permission_message">Uprawnienia lokalizacji wymagane</string>
-    <string name="alert_dialog_permission_desc">Aby korzystać z tej aplikacji, musisz przyznać dostęp do lokalizacji.</string>
-    <string name="alert_dialog_location_permission_allow">Przyznaj dostęp</string>
+    <!-- location permission -->
+    <string name="alert_dialog_permission_message">Wymagane uprawnienia lokalizacji</string>
+    <string name="alert_dialog_permission_desc">Aby korzystać z aplikacji, musisz zezwolić na dostęp do lokalizacji.</string>
+    <string name="alert_dialog_location_permission_allow">Zezwól</string>
     <string name="alert_dialog_location_permission_deny">Zamknij aplikację</string>
 
-    <!-- ocen app !-->
+    <!-- select language -->
+    <string name="select_language">Wybierz język</string>
+
+    <!-- rate app -->
     <string name="yes">Tak</string>
     <string name="no">Nie</string>
-    <string name="remind_later">Przypomniej poźniej</string>
-    <string name="rate_app_dialog_title">Oceń aplikacje</string>
-    <string name="rate_app_dialog_description">Jeśli podoba Ci się korzystanie z tej aplikacji, poświęć chwilę, aby ją ocenić. Dzięki!</string>
+    <string name="remind_later">Przypomnij później</string>
+    <string name="rate_app_dialog_title">Oceń aplikację</string>
+    <string name="rate_app_dialog_description">Jeśli podoba Ci się ta aplikacja, poświęć chwilę, aby ją ocenić. Dziękujemy!</string>
 
-    <string name="open_google_play_no_app">Brak aplikacji do otwierania Google Play</string>
-    <string name="open_google_play_problem">Cannot open Google Play</string>
-
-    <string name="select_an_app_to_share">Wybierz aplikację</string>
+    <string name="open_google_play_no_app">Brak aplikacji do otwarcia Google Play</string>
+    <string name="open_google_play_problem">Nie udało się otworzyć Google Play</string>
 
     <string name="share_app_no_app">Brak aplikacji do udostępnienia linku</string>
-    <string name="share_app_problem">Nie można udostępnić aplikacji</string>
+    <string name="share_app_problem">Nie udało się udostępnić aplikacji</string>
 
     <string name="privacy_policy_no_app">Brak aplikacji do otwarcia polityki prywatności</string>
-    <string name="privacy_policy_problem">Nie można otworzyć polityki prywatności</string>
+    <string name="privacy_policy_problem">Nie udało się otworzyć polityki prywatności</string>
 
     <string name="more_apps_no_app">Brak aplikacji do wyświetlenia aplikacji dewelopera</string>
-    <string name="more_apps_problem">Nie można otworzyć listy aplikacji dewelopera</string>
+    <string name="more_apps_problem">Nie udało się otworzyć listy aplikacji dewelopera</string>
+
+    <string name="select_an_app_to_share">Wybierz aplikację do udostępnienia</string>
+
+    <!-- SUPPORT -->
+    <string name="support_app">Odblokuj PLUS za darmo ❤️️</string>
+    <string name="subscription_plus_active">Aktywna subskrypcja: PLUS</string>
+    <string name="add_feedback">Dodaj opinię</string>
+    <string name="support_email_optional">Twój e‑mail (opcjonalnie)</string>
+    <string name="support_send_a_request">Wyślij zgłoszenie</string>
+    <string name="support_title">Wesprzyj nas</string>
+    <string name="user_have_plus">Masz już wersję PLUS! 🎉</string>
+    <string name="user_have_plus_info">Dziękujemy za wsparcie!\nMożesz teraz korzystać ze wszystkich dodatkowych funkcji.</string>
+    <string name="support_google_login">Zaloguj się przez Google (opcjonalnie)</string>
+    <string name="support_google_login_info">Nie stracisz wersji PLUS po reinstalacji lub zmianie telefonu</string>
+    <string name="login">Zaloguj się</string>
+    <string name="promo_code_error">❌ Kod jest nieprawidłowy lub został już wykorzystany</string>
+    <string name="plus_version_title">Wersja PLUS – co zyskujesz?</string>
+    <string name="plus_version_latest_update">Priorytetowe aktualizacje i nowe funkcje</string>
+    <string name="plus_version_support_for_us">Wsparcie dalszego rozwoju aplikacji</string>
+    <string name="plus_version_summary">Możesz otrzymać to wszystko za darmo — w podziękowaniu za Twoją opinię ❤️</string>
+    <string name="support_rate_app">Oceń aplikację w Google Play</string>
+    <string name="plus_version_rate_app_description">Twoja ocena i opinia bardzo pomagają w rozwoju aplikacji. Dziękujemy za każdą gwiazdkę i komentarz!</string>
+    <string name="plus_version_rate_app_after_store_question">Czy udało Ci się dodać opinię?</string>
+    <string name="plus_version_rate_app_after_store_succeed">Tak, dodałem opinię</string>
+    <string name="plus_version_rate_app_after_store_came_back">Jeszcze nie — wróć do Google Play</string>
+    <string name="support_go_to_play_store">Przejdź do Google Play</string>
+    <string name="promo_code_request_title">Wyślij prośbę o kod promocyjny</string>
+    <string name="promo_code_request_description">Jeśli dodałeś już opinię, możesz poprosić o kod do wersji PLUS.</string>
+
+    <string name="promo_code_email_subject">Prośba o kod PLUS – aplikacja pogodowa</string>
+    <string name="promo_code_send_request">Wyślij prośbę</string>
+    <string name="promo_code_request_thanks">Dziękujemy! Wkrótce się odezwiemy.</string>
+    <string name="email_chooser_title">Wyślij prośbę</string>
+    <string name="email_app_not_found">Nie znaleziono aplikacji e‑mail</string>
+
+    <string name="promo_code_enter_title">Wpisz otrzymany kod promocyjny</string>
+    <string name="promo_code_label">Kod promocyjny</string>
+    <string name="promo_code_activate_button">Aktywuj kod</string>
+    <string name="promo_code_activating">Aktywowanie…</string>
+    <string name="promo_code_empty_error">Wpisz kod promocyjny</string>
+    <string name="promo_code_success">Subskrypcja PLUS aktywowana! Dziękujemy ❤️</string>
+    <string name="promo_code_invalid_or_used">Nieprawidłowy lub wykorzystany kod</string>
+    <string name="promo_code_server_error">Błąd połączenia z serwerem</string>
+
+    <string name="promo_code_message">Dzień dobry,\n\nChciałbym otrzymać kod promocyjny do wersji PLUS.\nMój identyfikator użytkownika: %1$s\n\nDziękuję!</string>
+
+    <string name="error_no_user">Brak zalogowanego użytkownika</string>
 
     <string name="advertisement">Reklama</string>
 </resources>

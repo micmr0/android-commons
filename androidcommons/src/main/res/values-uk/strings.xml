@@ -1,39 +1,104 @@
 <resources>
-    <string name="background_description">фон</string>
-    <string name="app_info_title">Про додаток</string>
+    <string name="background_description">тло</string>
+
+    <!-- about app -->
+    <string name="app_info_title">Про застосунок</string>
     <string name="policy_privacy">Політика конфіденційності</string>
-    <string name="ok">Гаразд</string>
+    <string name="ok">OK</string>
+
+    <!-- settings -->
     <string name="settings_title">Налаштування</string>
     <string name="settings_section_general">Загальні</string>
-    <string name="settings_section_app">Додаток</string>
+    <string name="settings_section_app">Застосунок</string>
     <string name="settings_privacy_policy">Політика конфіденційності</string>
-    <string name="settings_share_app">Поділитися додатком</string>
-    <string name="settings_more_apps">Інші додатки</string>
+    <string name="settings_share_app">Поділитися застосунком</string>
+    <string name="settings_more_apps">Більше застосунків</string>
     <string name="settings_send_feedback">Надіслати відгук</string>
     <string name="feedback">Відгук</string>
-    <string name="no_mail_app_info">Немає доступного поштового додатка. Встановіть поштовий клієнт.</string>
-    <string name="choose_mail_app">Виберіть поштовий додаток</string>
+    <string name="no_mail_app_info">Немає застосунку для електронної пошти. Встановіть поштовий клієнт.</string>
+    <string name="choose_mail_app">Виберіть поштовий застосунок</string>
+
     <string name="close">Закрити</string>
+
+    <!-- onboarding -->
     <string name="onboarding_button_start">Почати</string>
     <string name="onboarding_button_next">Далі</string>
     <string name="onboarding_button_skip">Пропустити</string>
-    <string name="alert_dialog_permission_message">Потрібні дозволи на доступ до місцезнаходження</string>
-    <string name="alert_dialog_permission_desc">Щоб використовувати цей додаток, потрібно надати доступ до місцезнаходження.</string>
+
+    <!-- location permission -->
+    <string name="alert_dialog_permission_message">Потрібен доступ до місцезнаходження</string>
+    <string name="alert_dialog_permission_desc">Щоб користуватися застосунком, потрібно надати доступ до місцезнаходження.</string>
     <string name="alert_dialog_location_permission_allow">Надати доступ</string>
-    <string name="alert_dialog_location_permission_deny">Закрити додаток</string>
+    <string name="alert_dialog_location_permission_deny">Закрити застосунок</string>
+
+    <!-- select language -->
+    <string name="select_language">Виберіть мову</string>
+
+    <!-- rate app -->
     <string name="yes">Так</string>
     <string name="no">Ні</string>
     <string name="remind_later">Нагадати пізніше</string>
-    <string name="rate_app_dialog_title">Оцініть додаток</string>
-    <string name="rate_app_dialog_description">Якщо вам подобається цей додаток, будь ласка, оцініть його. Дякуємо!</string>
-    <string name="open_google_play_no_app">Немає додатка для відкриття Google Play</string>
+    <string name="rate_app_dialog_title">Оцінити застосунок</string>
+    <string name="rate_app_dialog_description">Якщо вам подобається цей застосунок, будь ласка, знайдіть хвилинку, щоб його оцінити. Дякуємо!</string>
+
+    <string name="open_google_play_no_app">Немає застосунку для відкриття Google Play</string>
     <string name="open_google_play_problem">Не вдалося відкрити Google Play</string>
-    <string name="share_app_no_app">Немає додатка для поділу посилання</string>
-    <string name="share_app_problem">Не вдалося поділитися додатком</string>
-    <string name="privacy_policy_no_app">Немає додатка для відкриття політики конфіденційності</string>
+
+    <string name="share_app_no_app">Немає застосунку для поширення посилання</string>
+    <string name="share_app_problem">Не вдалося поділитися застосунком</string>
+
+    <string name="privacy_policy_no_app">Немає застосунку для відкриття політики конфіденційності</string>
     <string name="privacy_policy_problem">Не вдалося відкрити політику конфіденційності</string>
-    <string name="more_apps_no_app">Немає додатка для перегляду додатків розробника</string>
-    <string name="more_apps_problem">Не вдалося відкрити список додатків розробника</string>
-    <string name="select_an_app_to_share">Виберіть додаток для поділу</string>
+
+    <string name="more_apps_no_app">Немає застосунку для перегляду застосунків розробника</string>
+    <string name="more_apps_problem">Не вдалося відкрити список застосунків розробника</string>
+
+    <string name="select_an_app_to_share">Виберіть застосунок для поширення</string>
+
+    <!-- SUPPORT -->
+    <string name="support_app">Відкрийте PLUS безкоштовно ❤️️</string>
+    <string name="subscription_plus_active">Активна підписка: PLUS</string>
+    <string name="add_feedback">Додати відгук</string>
+    <string name="support_email_optional">Ваш email (необов’язково)</string>
+    <string name="support_send_a_request">Надіслати запит</string>
+    <string name="support_title">Підтримайте нас</string>
+    <string name="user_have_plus">У вас уже є версія PLUS! 🎉</string>
+    <string name="user_have_plus_info">Дякуємо за вашу підтримку!\nТепер ви можете користуватися всіма додатковими функціями.</string>
+    <string name="support_google_login">Увійти через Google (необов’язково)</string>
+    <string name="support_google_login_info">Ви не втратите версію PLUS після перевстановлення або зміни телефону</string>
+    <string name="login">Увійти</string>
+    <string name="promo_code_error">❌ Код недійсний або вже використаний</string>
+    <string name="plus_version_title">Версія PLUS – що ви отримуєте?</string>
+    <string name="plus_version_latest_update">Пріоритетні оновлення та нові функції</string>
+    <string name="plus_version_support_for_us">Підтримка подальшого розвитку застосунку</string>
+    <string name="plus_version_summary">Усе це ви можете отримати безкоштовно — як подяку за ваш відгук ❤️</string>
+    <string name="support_rate_app">Оцінити в Google Play</string>
+    <string name="plus_version_rate_app_description">Ваші оцінки та відгуки дуже допомагають у розвитку застосунку. Дякуємо за кожну зірочку та коментар!</string>
+    <string name="plus_version_rate_app_after_store_question">Вам вдалося залишити відгук?</string>
+    <string name="plus_version_rate_app_after_store_succeed">Так, я залишив(ла) відгук</string>
+    <string name="plus_version_rate_app_after_store_came_back">Ще ні — повернутися до Google Play</string>
+    <string name="support_go_to_play_store">Перейти до Google Play</string>
+    <string name="promo_code_request_title">Надіслати запит на промокод</string>
+    <string name="promo_code_request_description">Якщо ви вже залишили відгук, можете запросити код для версії PLUS.</string>
+
+    <string name="promo_code_email_subject">Запит на код PLUS – застосунок Погода</string>
+    <string name="promo_code_send_request">Надіслати запит</string>
+    <string name="promo_code_request_thanks">Дякуємо! Ми зв’яжемося з вами найближчим часом.</string>
+    <string name="email_chooser_title">Надіслати запит</string>
+    <string name="email_app_not_found">Не знайдено жодного поштового застосунку</string>
+
+    <string name="promo_code_enter_title">Введіть отриманий промокод</string>
+    <string name="promo_code_label">Промокод</string>
+    <string name="promo_code_activate_button">Активувати код</string>
+    <string name="promo_code_activating">Активування…</string>
+    <string name="promo_code_empty_error">Введіть промокод</string>
+    <string name="promo_code_success">Підписку PLUS активовано! Дякуємо ❤️</string>
+    <string name="promo_code_invalid_or_used">Недійсний або вже використаний код</string>
+    <string name="promo_code_server_error">Помилка з’єднання з сервером</string>
+
+    <string name="promo_code_message">Вітаю,\n\nЯ хотів(ла) би отримати промокод для версії PLUS.\nМій ID користувача: %1$s\n\nДякую!</string>
+
+    <string name="error_no_user">Немає авторизованого користувача</string>
+
     <string name="advertisement">Реклама</string>
 </resources>

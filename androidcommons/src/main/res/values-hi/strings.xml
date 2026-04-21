@@ -1,8 +1,12 @@
 <resources>
     <string name="background_description">पृष्ठभूमि</string>
+
+    <!-- about app -->
     <string name="app_info_title">ऐप के बारे में</string>
     <string name="policy_privacy">गोपनीयता नीति</string>
     <string name="ok">ठीक है</string>
+
+    <!-- settings -->
     <string name="settings_title">सेटिंग्स</string>
     <string name="settings_section_general">सामान्य</string>
     <string name="settings_section_app">ऐप</string>
@@ -11,29 +15,90 @@
     <string name="settings_more_apps">और ऐप्स</string>
     <string name="settings_send_feedback">प्रतिक्रिया भेजें</string>
     <string name="feedback">प्रतिक्रिया</string>
-    <string name="no_mail_app_info">कोई ईमेल ऐप उपलब्ध नहीं है। कृपया एक ईमेल क्लाइंट इंस्टॉल करें।</string>
-    <string name="choose_mail_app">ईमेल ऐप चुनें</string>
+    <string name="no_mail_app_info">कोई ई‑मेल ऐप उपलब्ध नहीं है। कृपया एक ई‑मेल क्लाइंट इंस्टॉल करें।</string>
+    <string name="choose_mail_app">ई‑मेल ऐप चुनें</string>
+
     <string name="close">बंद करें</string>
+
+    <!-- onboarding -->
     <string name="onboarding_button_start">शुरू करें</string>
-    <string name="onboarding_button_next">अगला</string>
-    <string name="onboarding_button_skip">छोड़ें</string>
-    <string name="alert_dialog_permission_message">स्थान अनुमति आवश्यक है</string>
-    <string name="alert_dialog_permission_desc">इस ऐप का उपयोग करने के लिए आपको स्थान की अनुमति देनी होगी।</string>
+    <string name="onboarding_button_next">आगे</string>
+    <string name="onboarding_button_skip">स्किप करें</string>
+
+    <!-- location permission -->
+    <string name="alert_dialog_permission_message">स्थान अनुमति आवश्यक</string>
+    <string name="alert_dialog_permission_desc">ऐप का उपयोग करने के लिए आपको स्थान की अनुमति देनी होगी।</string>
     <string name="alert_dialog_location_permission_allow">अनुमति दें</string>
     <string name="alert_dialog_location_permission_deny">ऐप बंद करें</string>
+
+    <!-- select language -->
+    <string name="select_language">भाषा चुनें</string>
+
+    <!-- rate app -->
     <string name="yes">हाँ</string>
     <string name="no">नहीं</string>
-    <string name="remind_later">बाद में याद दिलाएं</string>
+    <string name="remind_later">बाद में याद दिलाएँ</string>
     <string name="rate_app_dialog_title">ऐप को रेट करें</string>
-    <string name="rate_app_dialog_description">यदि आपको यह ऐप पसंद आया है, तो कृपया इसे रेट करने के लिए एक क्षण निकालें। धन्यवाद!</string>
-    <string name="open_google_play_no_app">Google Play खोलने के लिए कोई ऐप नहीं है</string>
-    <string name="open_google_play_problem">Google Play खोलने में असमर्थ</string>
-    <string name="share_app_no_app">लिंक साझा करने के लिए कोई ऐप नहीं है</string>
-    <string name="share_app_problem">ऐप साझा करने में असमर्थ</string>
-    <string name="privacy_policy_no_app">गोपनीयता नीति खोलने के लिए कोई ऐप नहीं है</string>
-    <string name="privacy_policy_problem">गोपनीयता नीति खोलने में असमर्थ</string>
-    <string name="more_apps_no_app">डेवलपर के ऐप्स देखने के लिए कोई ऐप नहीं है</string>
-    <string name="more_apps_problem">डेवलपर के ऐप्स की सूची खोलने में असमर्थ</string>
+    <string name="rate_app_dialog_description">यदि आपको यह ऐप पसंद है, तो कृपया इसे रेट करने के लिए थोड़ा समय निकालें। धन्यवाद!</string>
+
+    <string name="open_google_play_no_app">Google Play खोलने के लिए कोई ऐप नहीं मिला</string>
+    <string name="open_google_play_problem">Google Play नहीं खोला जा सका</string>
+
+    <string name="share_app_no_app">लिंक साझा करने के लिए कोई ऐप नहीं मिला</string>
+    <string name="share_app_problem">ऐप साझा नहीं किया जा सका</string>
+
+    <string name="privacy_policy_no_app">गोपनीयता नीति खोलने के लिए कोई ऐप नहीं मिला</string>
+    <string name="privacy_policy_problem">गोपनीयता नीति नहीं खोली जा सकी</string>
+
+    <string name="more_apps_no_app">डेवलपर के ऐप्स देखने के लिए कोई ऐप नहीं मिला</string>
+    <string name="more_apps_problem">डेवलपर की ऐप सूची नहीं खोली जा सकी</string>
+
     <string name="select_an_app_to_share">साझा करने के लिए ऐप चुनें</string>
+
+    <!-- SUPPORT -->
+    <string name="support_app">PLUS संस्करण मुफ्त में अनलॉक करें ❤️️</string>
+    <string name="subscription_plus_active">सक्रिय सदस्यता: PLUS</string>
+    <string name="add_feedback">प्रतिक्रिया जोड़ें</string>
+    <string name="support_email_optional">आपका ई‑मेल (वैकल्पिक)</string>
+    <string name="support_send_a_request">अनुरोध भेजें</string>
+    <string name="support_title">हमें समर्थन दें</string>
+    <string name="user_have_plus">आपके पास पहले से ही PLUS संस्करण है! 🎉</string>
+    <string name="user_have_plus_info">आपके समर्थन के लिए धन्यवाद!\nअब आप सभी अतिरिक्त सुविधाओं का आनंद ले सकते हैं।</string>
+    <string name="support_google_login">Google से साइन इन करें (वैकल्पिक)</string>
+    <string name="support_google_login_info">फोन बदलने या ऐप पुनः इंस्टॉल करने पर भी PLUS संस्करण नहीं खोएगा</string>
+    <string name="login">साइन इन करें</string>
+    <string name="promo_code_error">❌ कोड अमान्य है या पहले ही उपयोग किया जा चुका है</string>
+    <string name="plus_version_title">PLUS संस्करण – आपको क्या मिलता है?</string>
+    <string name="plus_version_latest_update">प्राथमिकता अपडेट और नई सुविधाएँ</string>
+    <string name="plus_version_support_for_us">ऐप के आगे विकास के लिए समर्थन</string>
+    <string name="plus_version_summary">आप यह सब मुफ्त में प्राप्त कर सकते हैं — आपकी समीक्षा के लिए धन्यवाद ❤️</string>
+    <string name="support_rate_app">Google Play पर ऐप को रेट करें</string>
+    <string name="plus_version_rate_app_description">आपकी रेटिंग और प्रतिक्रिया ऐप के विकास में बहुत मदद करती है। हर सितारे और टिप्पणी के लिए धन्यवाद!</string>
+    <string name="plus_version_rate_app_after_store_question">क्या आप समीक्षा छोड़ पाए?</string>
+    <string name="plus_version_rate_app_after_store_succeed">हाँ, मैंने समीक्षा छोड़ दी</string>
+    <string name="plus_version_rate_app_after_store_came_back">अभी नहीं — Google Play पर वापस जाएँ</string>
+    <string name="support_go_to_play_store">Google Play पर जाएँ</string>
+    <string name="promo_code_request_title">प्रोमो कोड अनुरोध भेजें</string>
+    <string name="promo_code_request_description">यदि आपने पहले ही समीक्षा छोड़ दी है, तो आप PLUS संस्करण के लिए कोड का अनुरोध कर सकते हैं।</string>
+
+    <string name="promo_code_email_subject">PLUS कोड अनुरोध – मौसम ऐप</string>
+    <string name="promo_code_send_request">अनुरोध भेजें</string>
+    <string name="promo_code_request_thanks">धन्यवाद! हम जल्द ही आपसे संपर्क करेंगे।</string>
+    <string name="email_chooser_title">अनुरोध भेजें</string>
+    <string name="email_app_not_found">कोई ई‑मेल ऐप नहीं मिला</string>
+
+    <string name="promo_code_enter_title">प्राप्त प्रोमो कोड दर्ज करें</string>
+    <string name="promo_code_label">प्रोमो कोड</string>
+    <string name="promo_code_activate_button">कोड सक्रिय करें</string>
+    <string name="promo_code_activating">सक्रिय किया जा रहा है…</string>
+    <string name="promo_code_empty_error">कृपया प्रोमो कोड दर्ज करें</string>
+    <string name="promo_code_success">PLUS सदस्यता सक्रिय! धन्यवाद ❤️</string>
+    <string name="promo_code_invalid_or_used">अमान्य या पहले से उपयोग किया गया कोड</string>
+    <string name="promo_code_server_error">सर्वर कनेक्शन त्रुटि</string>
+
+    <string name="promo_code_message">नमस्ते,\n\nमैं PLUS संस्करण के लिए एक प्रोमो कोड प्राप्त करना चाहता हूँ।\nमेरा उपयोगकर्ता ID: %1$s\n\nधन्यवाद!</string>
+
+    <string name="error_no_user">कोई उपयोगकर्ता लॉग इन नहीं है</string>
+
     <string name="advertisement">विज्ञापन</string>
 </resources>

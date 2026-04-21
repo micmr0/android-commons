@@ -31,6 +31,9 @@
     <string name="alert_dialog_location_permission_allow">Grant access</string>
     <string name="alert_dialog_location_permission_deny">Close app</string>
 
+    <!-- select language !-->
+    <string name="select_language">Select language</string>
+
     <!-- rate app !-->
     <string name="yes">Yes</string>
     <string name="no">No</string>
@@ -51,6 +54,51 @@
     <string name="more_apps_problem">Unable to open developer\'s app list</string>
 
     <string name="select_an_app_to_share">Select app to share</string>
+
+    <!-- SUPPORT !-->
+    <string name="support_app">Unlock PLUS for free ❤️️</string>
+    <string name="subscription_plus_active">Active subscription: PLUS</string>
+    <string name="add_feedback">Add feedback</string>
+    <string name="support_email_optional">Your email (optional)</string>
+    <string name="support_send_a_request">Send request</string>
+    <string name="support_title">Support us</string>
+    <string name="user_have_plus">You already have the PLUS version! 🎉</string>
+    <string name="user_have_plus_info">Thank you for your support!\nYou can now enjoy the app with all additional features.</string>
+    <string name="support_google_login">Sign in with Google (optional)</string>
+    <string name="support_google_login_info">You won’t lose the PLUS version after reinstalling or changing your phone</string>
+    <string name="login">Sign in</string>
+    <string name="promo_code_error">❌ The code is invalid or has already been used</string>
+    <string name="plus_version_title">PLUS version – what do you get?</string>
+    <string name="plus_version_latest_update">Priority updates and new features</string>
+    <string name="plus_version_support_for_us">Support for further app development</string>
+    <string name="plus_version_summary">You can get all of this for free — as a thank‑you for your review ❤️</string>
+    <string name="support_rate_app">Rate the app on Google Play</string>
+    <string name="plus_version_rate_app_description">Your rating and feedback greatly help the development of the app. Thank you for every star and comment!</string>
+    <string name="plus_version_rate_app_after_store_question">Were you able to leave a review??</string>
+    <string name="plus_version_rate_app_after_store_succeed">Yes, I left a review</string>
+    <string name="plus_version_rate_app_after_store_came_back">Not yet - go back to Google Play</string>
+    <string name="support_go_to_play_store">Go to Google Play</string>
+    <string name="promo_code_request_title">Send a promo code request</string>
+    <string name="promo_code_request_description">If you’ve already left a review, you can request a code for the PLUS version.</string>
+
+    <string name="promo_code_email_subject">Request for PLUS code – Weather app</string>
+    <string name="promo_code_send_request">Send request</string>
+    <string name="promo_code_request_thanks">Thank you! We’ll get back to you soon.</string>
+    <string name="email_chooser_title">Send request</string>
+    <string name="email_app_not_found">No email app found</string>
+
+    <string name="promo_code_enter_title">Enter the received promo code</string>
+    <string name="promo_code_label">Promo code</string>
+    <string name="promo_code_activate_button">Activate code</string>
+    <string name="promo_code_activating">Activating…</string>
+    <string name="promo_code_empty_error">Enter a promo code</string>
+    <string name="promo_code_success">PLUS subscription activated! Thank you ❤️</string>
+    <string name="promo_code_invalid_or_used">Invalid or already used code</string>
+    <string name="promo_code_server_error">Server connection error</string>
+
+    <string name="promo_code_message">Hello,\n\nI would like to receive a promo code for the PLUS version.\nMy user ID: %1$s\n\nThank you!</string>
+
+    <string name="error_no_user">No logged‑in user</string>
 
     <string name="advertisement">Advertisement</string>
 </resources>

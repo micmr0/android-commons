@@ -1,0 +1,104 @@
+<resources>
+    <string name="background_description">背景</string>
+
+    <!-- about app -->
+    <string name="app_info_title">关于应用</string>
+    <string name="policy_privacy">隐私政策</string>
+    <string name="ok">好的</string>
+
+    <!-- settings -->
+    <string name="settings_title">设置</string>
+    <string name="settings_section_general">通用</string>
+    <string name="settings_section_app">应用</string>
+    <string name="settings_privacy_policy">隐私政策</string>
+    <string name="settings_share_app">分享应用</string>
+    <string name="settings_more_apps">更多应用</string>
+    <string name="settings_send_feedback">发送反馈</string>
+    <string name="feedback">反馈</string>
+    <string name="no_mail_app_info">未找到邮件应用，请安装邮件客户端。</string>
+    <string name="choose_mail_app">选择邮件应用</string>
+
+    <string name="close">关闭</string>
+
+    <!-- onboarding -->
+    <string name="onboarding_button_start">开始</string>
+    <string name="onboarding_button_next">下一步</string>
+    <string name="onboarding_button_skip">跳过</string>
+
+    <!-- location permission -->
+    <string name="alert_dialog_permission_message">需要定位权限</string>
+    <string name="alert_dialog_permission_desc">使用此应用需要授予定位权限。</string>
+    <string name="alert_dialog_location_permission_allow">允许</string>
+    <string name="alert_dialog_location_permission_deny">关闭应用</string>
+
+    <!-- select language -->
+    <string name="select_language">选择语言</string>
+
+    <!-- rate app -->
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="remind_later">稍后提醒</string>
+    <string name="rate_app_dialog_title">评价应用</string>
+    <string name="rate_app_dialog_description">如果你喜欢这款应用，请花一点时间给我们评分，谢谢！</string>
+
+    <string name="open_google_play_no_app">没有可打开 Google Play 的应用</string>
+    <string name="open_google_play_problem">无法打开 Google Play</string>
+
+    <string name="share_app_no_app">没有可分享链接的应用</string>
+    <string name="share_app_problem">无法分享应用</string>
+
+    <string name="privacy_policy_no_app">没有可打开隐私政策的应用</string>
+    <string name="privacy_policy_problem">无法打开隐私政策</string>
+
+    <string name="more_apps_no_app">没有可查看开发者应用的程序</string>
+    <string name="more_apps_problem">无法打开应用列表</string>
+
+    <string name="select_an_app_to_share">选择一个应用进行分享</string>
+
+    <!-- SUPPORT -->
+    <string name="support_app">免费解锁 PLUS ❤️️</string>
+    <string name="subscription_plus_active">已激活订阅：PLUS</string>
+    <string name="add_feedback">添加反馈</string>
+    <string name="support_email_optional">你的邮箱（可选）</string>
+    <string name="support_send_a_request">发送请求</string>
+    <string name="support_title">支持我们</string>
+    <string name="user_have_plus">你已经拥有 PLUS 版本！🎉</string>
+    <string name="user_have_plus_info">感谢你的支持！\n你现在可以使用所有额外功能。</string>
+    <string name="support_google_login">使用 Google 登录（可选）</string>
+    <string name="support_google_login_info">重新安装或更换手机后不会失去 PLUS</string>
+    <string name="login">登录</string>
+    <string name="promo_code_error">❌ 代码无效或已被使用</string>
+    <string name="plus_version_title">PLUS 版本 – 你将获得什么？</string>
+    <string name="plus_version_latest_update">优先更新和新功能</string>
+    <string name="plus_version_support_for_us">支持应用持续开发</string>
+    <string name="plus_version_summary">你可以免费获得所有这些 — 感谢你的评价 ❤️</string>
+    <string name="support_rate_app">在 Google Play 上评分</string>
+    <string name="plus_version_rate_app_description">你的评分和反馈对应用开发非常重要。感谢每一颗星和每一条评论！</string>
+    <string name="plus_version_rate_app_after_store_question">你成功留下评价了吗？</string>
+    <string name="plus_version_rate_app_after_store_succeed">是的，我已经评价了</string>
+    <string name="plus_version_rate_app_after_store_came_back">还没有 — 返回 Google Play</string>
+    <string name="support_go_to_play_store">前往 Google Play</string>
+    <string name="promo_code_request_title">发送优惠码请求</string>
+    <string name="promo_code_request_description">如果你已经留下评价，可以申请 PLUS 优惠码。</string>
+
+    <string name="promo_code_email_subject">PLUS 优惠码申请 – 天气应用</string>
+    <string name="promo_code_send_request">发送请求</string>
+    <string name="promo_code_request_thanks">谢谢！我们会尽快联系你。</string>
+    <string name="email_chooser_title">发送请求</string>
+    <string name="email_app_not_found">未找到邮件应用</string>
+
+    <string name="promo_code_enter_title">输入收到的优惠码</string>
+    <string name="promo_code_label">优惠码</string>
+    <string name="promo_code_activate_button">激活代码</string>
+    <string name="promo_code_activating">正在激活…</string>
+    <string name="promo_code_empty_error">请输入优惠码</string>
+    <string name="promo_code_success">PLUS 订阅已激活！谢谢 ❤️</string>
+    <string name="promo_code_invalid_or_used">无效或已使用的代码</string>
+    <string name="promo_code_server_error">服务器连接错误</string>
+
+    <string name="promo_code_message">你好，\n\n我想申请 PLUS 版本的优惠码。\n我的用户 ID：%1$s\n\n谢谢！</string>
+
+    <string name="error_no_user">没有已登录的用户</string>
+
+    <string name="advertisement">广告</string>
+</resources>

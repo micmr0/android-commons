@@ -1,8 +1,12 @@
 <resources>
     <string name="background_description">fundo</string>
+
+    <!-- about app -->
     <string name="app_info_title">Sobre o aplicativo</string>
     <string name="policy_privacy">Política de privacidade</string>
     <string name="ok">OK</string>
+
+    <!-- settings -->
     <string name="settings_title">Configurações</string>
     <string name="settings_section_general">Geral</string>
     <string name="settings_section_app">Aplicativo</string>
@@ -11,29 +15,90 @@
     <string name="settings_more_apps">Mais aplicativos</string>
     <string name="settings_send_feedback">Enviar feedback</string>
     <string name="feedback">Feedback</string>
-    <string name="no_mail_app_info">Nenhum aplicativo de e-mail disponível. Instale um cliente de e-mail.</string>
-    <string name="choose_mail_app">Escolher aplicativo de e-mail</string>
+    <string name="no_mail_app_info">Nenhum app de e‑mail disponível. Instale um cliente de e‑mail.</string>
+    <string name="choose_mail_app">Escolha um app de e‑mail</string>
+
     <string name="close">Fechar</string>
-    <string name="onboarding_button_start">Iniciar</string>
-    <string name="onboarding_button_next">Próximo</string>
+
+    <!-- onboarding -->
+    <string name="onboarding_button_start">Começar</string>
+    <string name="onboarding_button_next">Avançar</string>
     <string name="onboarding_button_skip">Pular</string>
-    <string name="alert_dialog_permission_message">Permissões de localização necessárias</string>
-    <string name="alert_dialog_permission_desc">Para usar este aplicativo, você deve conceder acesso à localização.</string>
-    <string name="alert_dialog_location_permission_allow">Conceder acesso</string>
+
+    <!-- location permission -->
+    <string name="alert_dialog_permission_message">Permissão de localização necessária</string>
+    <string name="alert_dialog_permission_desc">Para usar o aplicativo, você precisa permitir o acesso à localização.</string>
+    <string name="alert_dialog_location_permission_allow">Permitir acesso</string>
     <string name="alert_dialog_location_permission_deny">Fechar aplicativo</string>
+
+    <!-- select language -->
+    <string name="select_language">Selecionar idioma</string>
+
+    <!-- rate app -->
     <string name="yes">Sim</string>
     <string name="no">Não</string>
     <string name="remind_later">Lembrar mais tarde</string>
     <string name="rate_app_dialog_title">Avaliar aplicativo</string>
-    <string name="rate_app_dialog_description">Se você gosta deste aplicativo, tire um momento para avaliá-lo. Obrigado!</string>
-    <string name="open_google_play_no_app">Nenhum aplicativo para abrir o Google Play</string>
+    <string name="rate_app_dialog_description">Se você gosta deste aplicativo, tire um momento para avaliá‑lo. Obrigado!</string>
+
+    <string name="open_google_play_no_app">Nenhum app para abrir o Google Play</string>
     <string name="open_google_play_problem">Não foi possível abrir o Google Play</string>
-    <string name="share_app_no_app">Nenhum aplicativo para compartilhar o link</string>
+
+    <string name="share_app_no_app">Nenhum app para compartilhar o link</string>
     <string name="share_app_problem">Não foi possível compartilhar o aplicativo</string>
-    <string name="privacy_policy_no_app">Nenhum aplicativo para abrir a política de privacidade</string>
+
+    <string name="privacy_policy_no_app">Nenhum app para abrir a política de privacidade</string>
     <string name="privacy_policy_problem">Não foi possível abrir a política de privacidade</string>
-    <string name="more_apps_no_app">Nenhum aplicativo para ver os aplicativos do desenvolvedor</string>
+
+    <string name="more_apps_no_app">Nenhum app para visualizar os aplicativos do desenvolvedor</string>
     <string name="more_apps_problem">Não foi possível abrir a lista de aplicativos do desenvolvedor</string>
-    <string name="select_an_app_to_share">Selecione um aplicativo para compartilhar</string>
+
+    <string name="select_an_app_to_share">Selecione um app para compartilhar</string>
+
+    <!-- SUPPORT -->
+    <string name="support_app">Desbloqueie o PLUS de graça ❤️️</string>
+    <string name="subscription_plus_active">Assinatura ativa: PLUS</string>
+    <string name="add_feedback">Adicionar feedback</string>
+    <string name="support_email_optional">Seu e‑mail (opcional)</string>
+    <string name="support_send_a_request">Enviar solicitação</string>
+    <string name="support_title">Apoie‑nos</string>
+    <string name="user_have_plus">Você já tem a versão PLUS! 🎉</string>
+    <string name="user_have_plus_info">Obrigado pelo seu apoio!\nAgora você pode aproveitar todos os recursos adicionais.</string>
+    <string name="support_google_login">Entrar com Google (opcional)</string>
+    <string name="support_google_login_info">Você não perderá a versão PLUS ao reinstalar ou trocar de celular</string>
+    <string name="login">Entrar</string>
+    <string name="promo_code_error">❌ O código é inválido ou já foi usado</string>
+    <string name="plus_version_title">Versão PLUS – o que você recebe?</string>
+    <string name="plus_version_latest_update">Atualizações prioritárias e novos recursos</string>
+    <string name="plus_version_support_for_us">Apoio ao desenvolvimento contínuo do aplicativo</string>
+    <string name="plus_version_summary">Você pode receber tudo isso de graça — como agradecimento pela sua avaliação ❤️</string>
+    <string name="support_rate_app">Avaliar no Google Play</string>
+    <string name="plus_version_rate_app_description">Sua avaliação e feedback ajudam muito no desenvolvimento do aplicativo. Obrigado por cada estrela e comentário!</string>
+    <string name="plus_version_rate_app_after_store_question">Você conseguiu deixar uma avaliação?</string>
+    <string name="plus_version_rate_app_after_store_succeed">Sim, deixei uma avaliação</string>
+    <string name="plus_version_rate_app_after_store_came_back">Ainda não — voltar ao Google Play</string>
+    <string name="support_go_to_play_store">Ir para o Google Play</string>
+    <string name="promo_code_request_title">Enviar solicitação de código promocional</string>
+    <string name="promo_code_request_description">Se você já deixou uma avaliação, pode solicitar um código para a versão PLUS.</string>
+
+    <string name="promo_code_email_subject">Solicitação de código PLUS – Aplicativo de clima</string>
+    <string name="promo_code_send_request">Enviar solicitação</string>
+    <string name="promo_code_request_thanks">Obrigado! Entraremos em contato em breve.</string>
+    <string name="email_chooser_title">Enviar solicitação</string>
+    <string name="email_app_not_found">Nenhum app de e‑mail encontrado</string>
+
+    <string name="promo_code_enter_title">Digite o código promocional recebido</string>
+    <string name="promo_code_label">Código promocional</string>
+    <string name="promo_code_activate_button">Ativar código</string>
+    <string name="promo_code_activating">Ativando…</string>
+    <string name="promo_code_empty_error">Digite um código promocional</string>
+    <string name="promo_code_success">Assinatura PLUS ativada! Obrigado ❤️</string>
+    <string name="promo_code_invalid_or_used">Código inválido ou já utilizado</string>
+    <string name="promo_code_server_error">Erro de conexão com o servidor</string>
+
+    <string name="promo_code_message">Olá,\n\nGostaria de receber um código promocional para a versão PLUS.\nMeu ID de usuário: %1$s\n\nObrigado!</string>
+
+    <string name="error_no_user">Nenhum usuário conectado</string>
+
     <string name="advertisement">Publicidade</string>
 </resources>

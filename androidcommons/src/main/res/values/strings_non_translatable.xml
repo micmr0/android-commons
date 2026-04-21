@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="polish_lang" translatable="false">Polski</string>
+    <string name="english_lang" translatable="false">English</string>
+    <string name="deutsch_lang" translatable="false">Deutsch</string>
+    <string name="french_lang" translatable="false">Français</string>
+    <string name="espanol_lang" translatable="false">Español</string>
+    <string name="portugues_lang" translatable="false">Português</string>
+    <string name="czech_lang" translatable="false">Čeština</string>
+    <string name="ukraine_lang" translatable="false">Українська</string>
+    <string name="arabic_lang" translatable="false">العربية</string>
+    <string name="hindu_lang" translatable="false">हिन्दी</string>
+    <string name="bengali_lang" translatable="false">বাংলা</string>
+    <string name="chinese_lang" translatable="false">中文</string>
+    <string name="japanese_lang" translatable="false">日本語</string>
+</resources>

@@ -1,0 +1,104 @@
+<resources>
+    <string name="background_description">الخلفية</string>
+
+    <!-- about app -->
+    <string name="app_info_title">حول التطبيق</string>
+    <string name="policy_privacy">سياسة الخصوصية</string>
+    <string name="ok">حسناً</string>
+
+    <!-- settings -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_section_general">عام</string>
+    <string name="settings_section_app">التطبيق</string>
+    <string name="settings_privacy_policy">سياسة الخصوصية</string>
+    <string name="settings_share_app">مشاركة التطبيق</string>
+    <string name="settings_more_apps">تطبيقات أخرى</string>
+    <string name="settings_send_feedback">إرسال ملاحظات</string>
+    <string name="feedback">ملاحظات</string>
+    <string name="no_mail_app_info">لا يوجد تطبيق بريد إلكتروني. يرجى تثبيت تطبيق بريد.</string>
+    <string name="choose_mail_app">اختر تطبيق البريد</string>
+
+    <string name="close">إغلاق</string>
+
+    <!-- onboarding -->
+    <string name="onboarding_button_start">ابدأ</string>
+    <string name="onboarding_button_next">التالي</string>
+    <string name="onboarding_button_skip">تخطي</string>
+
+    <!-- location permission -->
+    <string name="alert_dialog_permission_message">مطلوب إذن الموقع</string>
+    <string name="alert_dialog_permission_desc">لاستخدام التطبيق، يجب السماح بالوصول إلى الموقع.</string>
+    <string name="alert_dialog_location_permission_allow">السماح</string>
+    <string name="alert_dialog_location_permission_deny">إغلاق التطبيق</string>
+
+    <!-- select language -->
+    <string name="select_language">اختر اللغة</string>
+
+    <!-- rate app -->
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="remind_later">ذكّرني لاحقاً</string>
+    <string name="rate_app_dialog_title">قيّم التطبيق</string>
+    <string name="rate_app_dialog_description">إذا أعجبك التطبيق، يرجى تخصيص لحظة لتقييمه. شكراً لك!</string>
+
+    <string name="open_google_play_no_app">لا يوجد تطبيق لفتح Google Play</string>
+    <string name="open_google_play_problem">تعذر فتح Google Play</string>
+
+    <string name="share_app_no_app">لا يوجد تطبيق لمشاركة الرابط</string>
+    <string name="share_app_problem">تعذر مشاركة التطبيق</string>
+
+    <string name="privacy_policy_no_app">لا يوجد تطبيق لفتح سياسة الخصوصية</string>
+    <string name="privacy_policy_problem">تعذر فتح سياسة الخصوصية</string>
+
+    <string name="more_apps_no_app">لا يوجد تطبيق لعرض تطبيقات المطور</string>
+    <string name="more_apps_problem">تعذر فتح قائمة التطبيقات</string>
+
+    <string name="select_an_app_to_share">اختر تطبيقاً للمشاركة</string>
+
+    <!-- SUPPORT -->
+    <string name="support_app">افتح PLUS مجاناً ❤️️</string>
+    <string name="subscription_plus_active">اشتراك نشط: PLUS</string>
+    <string name="add_feedback">إضافة ملاحظات</string>
+    <string name="support_email_optional">بريدك الإلكتروني (اختياري)</string>
+    <string name="support_send_a_request">إرسال طلب</string>
+    <string name="support_title">ادعمنا</string>
+    <string name="user_have_plus">لديك بالفعل نسخة PLUS! 🎉</string>
+    <string name="user_have_plus_info">شكراً لدعمك!\nيمكنك الآن استخدام جميع الميزات الإضافية.</string>
+    <string name="support_google_login">تسجيل الدخول عبر Google (اختياري)</string>
+    <string name="support_google_login_info">لن تفقد نسخة PLUS بعد إعادة التثبيت أو تغيير الهاتف</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="promo_code_error">❌ الرمز غير صالح أو مستخدم مسبقاً</string>
+    <string name="plus_version_title">نسخة PLUS – ماذا ستحصل؟</string>
+    <string name="plus_version_latest_update">تحديثات أولوية وميزات جديدة</string>
+    <string name="plus_version_support_for_us">دعم تطوير التطبيق</string>
+    <string name="plus_version_summary">يمكنك الحصول على كل هذا مجاناً — شكراً لمراجعتك ❤️</string>
+    <string name="support_rate_app">قيّم التطبيق على Google Play</string>
+    <string name="plus_version_rate_app_description">تقييمك وملاحظاتك يساعدان كثيراً في تطوير التطبيق. شكراً لكل نجمة وتعليق!</string>
+    <string name="plus_version_rate_app_after_store_question">هل تمكنت من ترك تقييم؟</string>
+    <string name="plus_version_rate_app_after_store_succeed">نعم، تركت تقييماً</string>
+    <string name="plus_version_rate_app_after_store_came_back">ليس بعد — العودة إلى Google Play</string>
+    <string name="support_go_to_play_store">الانتقال إلى Google Play</string>
+    <string name="promo_code_request_title">طلب رمز ترويجي</string>
+    <string name="promo_code_request_description">إذا تركت تقييماً، يمكنك طلب رمز لنسخة PLUS.</string>
+
+    <string name="promo_code_email_subject">طلب رمز PLUS – تطبيق الطقس</string>
+    <string name="promo_code_send_request">إرسال الطلب</string>
+    <string name="promo_code_request_thanks">شكراً لك! سنتواصل معك قريباً.</string>
+    <string name="email_chooser_title">إرسال الطلب</string>
+    <string name="email_app_not_found">لم يتم العثور على تطبيق بريد إلكتروني</string>
+
+    <string name="promo_code_enter_title">أدخل الرمز الترويجي المستلم</string>
+    <string name="promo_code_label">الرمز الترويجي</string>
+    <string name="promo_code_activate_button">تفعيل الرمز</string>
+    <string name="promo_code_activating">جارٍ التفعيل…</string>
+    <string name="promo_code_empty_error">أدخل الرمز الترويجي</string>
+    <string name="promo_code_success">تم تفعيل اشتراك PLUS! شكراً ❤️</string>
+    <string name="promo_code_invalid_or_used">رمز غير صالح أو مستخدم مسبقاً</string>
+    <string name="promo_code_server_error">خطأ في الاتصال بالخادم</string>
+
+    <string name="promo_code_message">مرحباً،\n\nأود الحصول على رمز ترويجي لنسخة PLUS.\nمعرّف المستخدم الخاص بي: %1$s\n\nشكراً لك!</string>
+
+    <string name="error_no_user">لا يوجد مستخدم مسجل الدخول</string>
+
+    <string name="advertisement">إعلان</string>
+</resources>

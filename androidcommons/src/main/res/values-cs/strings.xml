@@ -1,8 +1,12 @@
 <resources>
     <string name="background_description">pozadí</string>
+
+    <!-- about app -->
     <string name="app_info_title">O aplikaci</string>
     <string name="policy_privacy">Zásady ochrany osobních údajů</string>
     <string name="ok">OK</string>
+
+    <!-- settings -->
     <string name="settings_title">Nastavení</string>
     <string name="settings_section_general">Obecné</string>
     <string name="settings_section_app">Aplikace</string>
@@ -11,29 +15,90 @@
     <string name="settings_more_apps">Další aplikace</string>
     <string name="settings_send_feedback">Odeslat zpětnou vazbu</string>
     <string name="feedback">Zpětná vazba</string>
-    <string name="no_mail_app_info">Není dostupná žádná e-mailová aplikace. Nainstalujte prosím e-mailového klienta.</string>
-    <string name="choose_mail_app">Vyberte e-mailovou aplikaci</string>
+    <string name="no_mail_app_info">Není dostupná žádná e‑mailová aplikace. Nainstalujte si prosím e‑mailového klienta.</string>
+    <string name="choose_mail_app">Vyberte e‑mailovou aplikaci</string>
+
     <string name="close">Zavřít</string>
+
+    <!-- onboarding -->
     <string name="onboarding_button_start">Start</string>
     <string name="onboarding_button_next">Další</string>
     <string name="onboarding_button_skip">Přeskočit</string>
-    <string name="alert_dialog_permission_message">Je vyžadováno povolení k poloze</string>
-    <string name="alert_dialog_permission_desc">Pro použití této aplikace musíte udělit přístup k poloze.</string>
-    <string name="alert_dialog_location_permission_allow">Udělit přístup</string>
+
+    <!-- location permission -->
+    <string name="alert_dialog_permission_message">Vyžadováno povolení polohy</string>
+    <string name="alert_dialog_permission_desc">Pro používání aplikace musíte povolit přístup k poloze.</string>
+    <string name="alert_dialog_location_permission_allow">Povolit přístup</string>
     <string name="alert_dialog_location_permission_deny">Zavřít aplikaci</string>
+
+    <!-- select language -->
+    <string name="select_language">Vyberte jazyk</string>
+
+    <!-- rate app -->
     <string name="yes">Ano</string>
     <string name="no">Ne</string>
     <string name="remind_later">Připomenout později</string>
     <string name="rate_app_dialog_title">Ohodnotit aplikaci</string>
     <string name="rate_app_dialog_description">Pokud se vám aplikace líbí, věnujte prosím chvíli jejímu ohodnocení. Děkujeme!</string>
+
     <string name="open_google_play_no_app">Žádná aplikace pro otevření Google Play</string>
-    <string name="open_google_play_problem">Nelze otevřít Google Play</string>
+    <string name="open_google_play_problem">Google Play se nepodařilo otevřít</string>
+
     <string name="share_app_no_app">Žádná aplikace pro sdílení odkazu</string>
-    <string name="share_app_problem">Nelze sdílet aplikaci</string>
+    <string name="share_app_problem">Aplikaci se nepodařilo sdílet</string>
+
     <string name="privacy_policy_no_app">Žádná aplikace pro otevření zásad ochrany osobních údajů</string>
-    <string name="privacy_policy_problem">Nelze otevřít zásady ochrany osobních údajů</string>
+    <string name="privacy_policy_problem">Zásady ochrany osobních údajů se nepodařilo otevřít</string>
+
     <string name="more_apps_no_app">Žádná aplikace pro zobrazení aplikací vývojáře</string>
-    <string name="more_apps_problem">Nelze otevřít seznam aplikací vývojáře</string>
+    <string name="more_apps_problem">Seznam aplikací vývojáře se nepodařilo otevřít</string>
+
     <string name="select_an_app_to_share">Vyberte aplikaci pro sdílení</string>
+
+    <!-- SUPPORT -->
+    <string name="support_app">Odemkněte PLUS zdarma ❤️️</string>
+    <string name="subscription_plus_active">Aktivní předplatné: PLUS</string>
+    <string name="add_feedback">Přidat zpětnou vazbu</string>
+    <string name="support_email_optional">Váš e‑mail (volitelné)</string>
+    <string name="support_send_a_request">Odeslat žádost</string>
+    <string name="support_title">Podpořte nás</string>
+    <string name="user_have_plus">Už máte verzi PLUS! 🎉</string>
+    <string name="user_have_plus_info">Děkujeme za podporu!\nNyní můžete využívat všechny dodatečné funkce.</string>
+    <string name="support_google_login">Přihlásit se přes Google (volitelné)</string>
+    <string name="support_google_login_info">O verzi PLUS nepřijdete ani po přeinstalaci nebo změně telefonu</string>
+    <string name="login">Přihlásit se</string>
+    <string name="promo_code_error">❌ Kód je neplatný nebo již byl použit</string>
+    <string name="plus_version_title">Verze PLUS – co získáte?</string>
+    <string name="plus_version_latest_update">Prioritní aktualizace a nové funkce</string>
+    <string name="plus_version_support_for_us">Podpora dalšího vývoje aplikace</string>
+    <string name="plus_version_summary">To vše můžete získat zdarma — jako poděkování za vaše hodnocení ❤️</string>
+    <string name="support_rate_app">Ohodnotit aplikaci na Google Play</string>
+    <string name="plus_version_rate_app_description">Vaše hodnocení a zpětná vazba výrazně pomáhají s dalším vývojem aplikace. Děkujeme za každou hvězdičku i komentář!</string>
+    <string name="plus_version_rate_app_after_store_question">Podařilo se vám zanechat hodnocení?</string>
+    <string name="plus_version_rate_app_after_store_succeed">Ano, zanechal(a) jsem hodnocení</string>
+    <string name="plus_version_rate_app_after_store_came_back">Ještě ne — vrátit se do Google Play</string>
+    <string name="support_go_to_play_store">Přejít do Google Play</string>
+    <string name="promo_code_request_title">Odeslat žádost o promo kód</string>
+    <string name="promo_code_request_description">Pokud jste již zanechali hodnocení, můžete požádat o kód pro verzi PLUS.</string>
+
+    <string name="promo_code_email_subject">Žádost o kód PLUS – aplikace Počasí</string>
+    <string name="promo_code_send_request">Odeslat žádost</string>
+    <string name="promo_code_request_thanks">Děkujeme! Brzy se vám ozveme.</string>
+    <string name="email_chooser_title">Odeslat žádost</string>
+    <string name="email_app_not_found">Nebyla nalezena žádná e‑mailová aplikace</string>
+
+    <string name="promo_code_enter_title">Zadejte obdržený promo kód</string>
+    <string name="promo_code_label">Promo kód</string>
+    <string name="promo_code_activate_button">Aktivovat kód</string>
+    <string name="promo_code_activating">Aktivace…</string>
+    <string name="promo_code_empty_error">Zadejte promo kód</string>
+    <string name="promo_code_success">Předplatné PLUS aktivováno! Děkujeme ❤️</string>
+    <string name="promo_code_invalid_or_used">Neplatný nebo již použitý kód</string>
+    <string name="promo_code_server_error">Chyba připojení k serveru</string>
+
+    <string name="promo_code_message">Dobrý den,\n\nrád(a) bych získal(a) promo kód pro verzi PLUS.\nMoje uživatelské ID: %1$s\n\nDěkuji!</string>
+
+    <string name="error_no_user">Žádný přihlášený uživatel</string>
+
     <string name="advertisement">Reklama</string>
 </resources>

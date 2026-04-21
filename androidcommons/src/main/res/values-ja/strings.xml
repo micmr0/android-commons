@@ -1,0 +1,104 @@
+<resources>
+    <string name="background_description">背景</string>
+
+    <!-- about app -->
+    <string name="app_info_title">アプリについて</string>
+    <string name="policy_privacy">プライバシーポリシー</string>
+    <string name="ok">OK</string>
+
+    <!-- settings -->
+    <string name="settings_title">設定</string>
+    <string name="settings_section_general">一般</string>
+    <string name="settings_section_app">アプリ</string>
+    <string name="settings_privacy_policy">プライバシーポリシー</string>
+    <string name="settings_share_app">アプリを共有</string>
+    <string name="settings_more_apps">その他のアプリ</string>
+    <string name="settings_send_feedback">フィードバックを送信</string>
+    <string name="feedback">フィードバック</string>
+    <string name="no_mail_app_info">メールアプリが見つかりません。メールアプリをインストールしてください。</string>
+    <string name="choose_mail_app">メールアプリを選択</string>
+
+    <string name="close">閉じる</string>
+
+    <!-- onboarding -->
+    <string name="onboarding_button_start">開始</string>
+    <string name="onboarding_button_next">次へ</string>
+    <string name="onboarding_button_skip">スキップ</string>
+
+    <!-- location permission -->
+    <string name="alert_dialog_permission_message">位置情報の許可が必要です</string>
+    <string name="alert_dialog_permission_desc">アプリを使用するには、位置情報へのアクセスを許可する必要があります。</string>
+    <string name="alert_dialog_location_permission_allow">許可する</string>
+    <string name="alert_dialog_location_permission_deny">アプリを閉じる</string>
+
+    <!-- select language -->
+    <string name="select_language">言語を選択</string>
+
+    <!-- rate app -->
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+    <string name="remind_later">後で通知</string>
+    <string name="rate_app_dialog_title">アプリを評価</string>
+    <string name="rate_app_dialog_description">アプリを気に入っていただけたら、評価にご協力ください。ありがとうございます！</string>
+
+    <string name="open_google_play_no_app">Google Play を開くアプリがありません</string>
+    <string name="open_google_play_problem">Google Play を開けませんでした</string>
+
+    <string name="share_app_no_app">リンクを共有できるアプリがありません</string>
+    <string name="share_app_problem">アプリを共有できませんでした</string>
+
+    <string name="privacy_policy_no_app">プライバシーポリシーを開くアプリがありません</string>
+    <string name="privacy_policy_problem">プライバシーポリシーを開けませんでした</string>
+
+    <string name="more_apps_no_app">開発者のアプリを表示できるアプリがありません</string>
+    <string name="more_apps_problem">アプリ一覧を開けませんでした</string>
+
+    <string name="select_an_app_to_share">共有するアプリを選択</string>
+
+    <!-- SUPPORT -->
+    <string name="support_app">PLUS を無料でアンロック ❤️️</string>
+    <string name="subscription_plus_active">有効なサブスクリプション：PLUS</string>
+    <string name="add_feedback">フィードバックを追加</string>
+    <string name="support_email_optional">メールアドレス（任意）</string>
+    <string name="support_send_a_request">リクエストを送信</string>
+    <string name="support_title">サポートする</string>
+    <string name="user_have_plus">すでに PLUS バージョンをお持ちです！🎉</string>
+    <string name="user_have_plus_info">ご支援ありがとうございます！\nすべての追加機能をご利用いただけます。</string>
+    <string name="support_google_login">Google でログイン（任意）</string>
+    <string name="support_google_login_info">再インストールや機種変更をしても PLUS は失われません</string>
+    <string name="login">ログイン</string>
+    <string name="promo_code_error">❌ コードが無効、またはすでに使用されています</string>
+    <string name="plus_version_title">PLUS バージョン – 内容</string>
+    <string name="plus_version_latest_update">優先アップデートと新機能</string>
+    <string name="plus_version_support_for_us">アプリ開発の継続支援</string>
+    <string name="plus_version_summary">レビューへのお礼として、これらすべてを無料でご利用いただけます ❤️</string>
+    <string name="support_rate_app">Google Play で評価</string>
+    <string name="plus_version_rate_app_description">皆さまの評価とフィードバックは、アプリ開発に大きく貢献します。星やコメントをありがとうございます！</string>
+    <string name="plus_version_rate_app_after_store_question">レビューを投稿できましたか？</string>
+    <string name="plus_version_rate_app_after_store_succeed">はい、投稿しました</string>
+    <string name="plus_version_rate_app_after_store_came_back">まだです — Google Play に戻る</string>
+    <string name="support_go_to_play_store">Google Play へ</string>
+    <string name="promo_code_request_title">プロモコードをリクエスト</string>
+    <string name="promo_code_request_description">すでにレビューを投稿している場合、PLUS のコードをリクエストできます。</string>
+
+    <string name="promo_code_email_subject">PLUS コードのリクエスト – 天気アプリ</string>
+    <string name="promo_code_send_request">リクエストを送信</string>
+    <string name="promo_code_request_thanks">ありがとうございます！後ほどご連絡いたします。</string>
+    <string name="email_chooser_title">リクエストを送信</string>
+    <string name="email_app_not_found">メールアプリが見つかりません</string>
+
+    <string name="promo_code_enter_title">受け取ったプロモコードを入力</string>
+    <string name="promo_code_label">プロモコード</string>
+    <string name="promo_code_activate_button">コードを有効化</string>
+    <string name="promo_code_activating">有効化中…</string>
+    <string name="promo_code_empty_error">プロモコードを入力してください</string>
+    <string name="promo_code_success">PLUS サブスクリプションが有効になりました！ありがとうございます ❤️</string>
+    <string name="promo_code_invalid_or_used">無効または使用済みのコードです</string>
+    <string name="promo_code_server_error">サーバー接続エラー</string>
+
+    <string name="promo_code_message">こんにちは、\n\nPLUS バージョンのプロモコードを受け取りたいです。\nユーザー ID：%1$s\n\nよろしくお願いします！</string>
+
+    <string name="error_no_user">ログイン中のユーザーがいません</string>
+
+    <string name="advertisement">広告</string>
+</resources>

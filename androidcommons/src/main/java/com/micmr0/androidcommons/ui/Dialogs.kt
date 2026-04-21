@@ -3,15 +3,19 @@ package com.micmr0.androidcommons.ui
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.RadioButton
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
@@ -95,6 +99,77 @@ fun InfoDialog(
         },
     )
 }
+
+@Composable
+fun LanguagePickerDialog(
+    currentLanguage: String,
+    onSelect: (String) -> Unit,
+    onDismiss: () -> Unit
+) {
+    val languages = listOf(
+        "pl", // Polish
+        "en", // English
+        "de", // German
+        "fr", // French
+        "es", // Spanish
+        "pt", // Portuguese
+        "cs", // Czech
+        "uk", // Ukrainian
+        "ar", // Arabic
+        "hi", // Hindi
+        "bn", // Bengali
+        "zh", // Chinese
+        "ja"  // Japanese
+    )
+
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text(stringResource(R.string.select_language)) },
+        text = {
+            Column {
+                languages.forEach { lang ->
+                    val label = when (lang) {
+                        "pl" -> stringResource(R.string.polish_lang)
+                        "en" -> stringResource(R.string.english_lang)
+                        "de" -> stringResource(R.string.deutsch_lang)
+                        "fr" -> stringResource(R.string.french_lang)
+                        "es" -> stringResource(R.string.espanol_lang)
+                        "pt" -> stringResource(R.string.portugues_lang)
+                        "cs" -> stringResource(R.string.czech_lang)
+                        "uk" -> stringResource(R.string.ukraine_lang)
+                        "ar" -> stringResource(R.string.arabic_lang)
+                        "hi" -> stringResource(R.string.hindu_lang)
+                        "bn" -> stringResource(R.string.bengali_lang)
+                        "zh" -> stringResource(R.string.chinese_lang)
+                        "ja" -> stringResource(R.string.japanese_lang)
+                        else -> lang
+                    }
+
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .clickable { onSelect(lang) }
+                            .padding(8.dp)
+                    ) {
+                        RadioButton(
+                            selected = currentLanguage == lang,
+                            onClick = { onSelect(lang) }
+                        )
+                        Text(
+                            text = label,
+                            modifier = Modifier
+                                .padding(start = 8.dp)
+                                .weight(1f)
+                        )
+                    }
+                }
+            }
+        },
+        confirmButton = {}
+    )
+}
+
 
 @Composable
 fun RateAppDialog(

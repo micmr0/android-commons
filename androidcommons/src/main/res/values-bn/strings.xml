@@ -1,0 +1,104 @@
+<resources>
+    <string name="background_description">পটভূমি</string>
+
+    <!-- about app -->
+    <string name="app_info_title">অ্যাপ সম্পর্কে</string>
+    <string name="policy_privacy">গোপনীয়তা নীতি</string>
+    <string name="ok">ঠিক আছে</string>
+
+    <!-- settings -->
+    <string name="settings_title">সেটিংস</string>
+    <string name="settings_section_general">সাধারণ</string>
+    <string name="settings_section_app">অ্যাপ</string>
+    <string name="settings_privacy_policy">গোপনীয়তা নীতি</string>
+    <string name="settings_share_app">অ্যাপ শেয়ার করুন</string>
+    <string name="settings_more_apps">আরও অ্যাপ</string>
+    <string name="settings_send_feedback">মতামত পাঠান</string>
+    <string name="feedback">মতামত</string>
+    <string name="no_mail_app_info">কোনো ই‑মেইল অ্যাপ পাওয়া যায়নি। অনুগ্রহ করে একটি ই‑মেইল অ্যাপ ইনস্টল করুন।</string>
+    <string name="choose_mail_app">ই‑মেইল অ্যাপ নির্বাচন করুন</string>
+
+    <string name="close">বন্ধ করুন</string>
+
+    <!-- onboarding -->
+    <string name="onboarding_button_start">শুরু করুন</string>
+    <string name="onboarding_button_next">পরবর্তী</string>
+    <string name="onboarding_button_skip">এড়িয়ে যান</string>
+
+    <!-- location permission -->
+    <string name="alert_dialog_permission_message">অবস্থান অনুমতি প্রয়োজন</string>
+    <string name="alert_dialog_permission_desc">অ্যাপ ব্যবহার করতে হলে অবস্থান অ্যাক্সেস অনুমতি দিতে হবে।</string>
+    <string name="alert_dialog_location_permission_allow">অনুমতি দিন</string>
+    <string name="alert_dialog_location_permission_deny">অ্যাপ বন্ধ করুন</string>
+
+    <!-- select language -->
+    <string name="select_language">ভাষা নির্বাচন করুন</string>
+
+    <!-- rate app -->
+    <string name="yes">হ্যাঁ</string>
+    <string name="no">না</string>
+    <string name="remind_later">পরে মনে করিয়ে দিন</string>
+    <string name="rate_app_dialog_title">অ্যাপ রেট করুন</string>
+    <string name="rate_app_dialog_description">যদি অ্যাপটি আপনার ভালো লাগে, অনুগ্রহ করে রেট করার জন্য একটু সময় দিন। ধন্যবাদ!</string>
+
+    <string name="open_google_play_no_app">Google Play খোলার মতো কোনো অ্যাপ নেই</string>
+    <string name="open_google_play_problem">Google Play খোলা যায়নি</string>
+
+    <string name="share_app_no_app">লিংক শেয়ার করার মতো কোনো অ্যাপ নেই</string>
+    <string name="share_app_problem">অ্যাপ শেয়ার করা যায়নি</string>
+
+    <string name="privacy_policy_no_app">গোপনীয়তা নীতি খোলার মতো কোনো অ্যাপ নেই</string>
+    <string name="privacy_policy_problem">গোপনীয়তা নীতি খোলা যায়নি</string>
+
+    <string name="more_apps_no_app">ডেভেলপারের অ্যাপ দেখার মতো কোনো অ্যাপ নেই</string>
+    <string name="more_apps_problem">অ্যাপ তালিকা খোলা যায়নি</string>
+
+    <string name="select_an_app_to_share">শেয়ার করার জন্য একটি অ্যাপ নির্বাচন করুন</string>
+
+    <!-- SUPPORT -->
+    <string name="support_app">PLUS বিনামূল্যে আনলক করুন ❤️️</string>
+    <string name="subscription_plus_active">সক্রিয় সাবস্ক্রিপশন: PLUS</string>
+    <string name="add_feedback">মতামত যোগ করুন</string>
+    <string name="support_email_optional">আপনার ই‑মেইল (ঐচ্ছিক)</string>
+    <string name="support_send_a_request">অনুরোধ পাঠান</string>
+    <string name="support_title">আমাদের সমর্থন করুন</string>
+    <string name="user_have_plus">আপনার কাছে ইতিমধ্যেই PLUS সংস্করণ আছে! 🎉</string>
+    <string name="user_have_plus_info">আপনার সমর্থনের জন্য ধন্যবাদ!\nএখন আপনি সব অতিরিক্ত ফিচার ব্যবহার করতে পারবেন।</string>
+    <string name="support_google_login">Google দিয়ে লগইন করুন (ঐচ্ছিক)</string>
+    <string name="support_google_login_info">অ্যাপ পুনরায় ইনস্টল বা ফোন পরিবর্তন করলেও PLUS হারাবেন না</string>
+    <string name="login">লগইন</string>
+    <string name="promo_code_error">❌ কোডটি অবৈধ বা ইতিমধ্যেই ব্যবহৃত</string>
+    <string name="plus_version_title">PLUS সংস্করণ – আপনি কী পাবেন?</string>
+    <string name="plus_version_latest_update">অগ্রাধিকার আপডেট এবং নতুন ফিচার</string>
+    <string name="plus_version_support_for_us">অ্যাপ উন্নয়নে সহায়তা</string>
+    <string name="plus_version_summary">আপনি এগুলো সব বিনামূল্যে পেতে পারেন — আপনার রিভিউয়ের জন্য ধন্যবাদ ❤️</string>
+    <string name="support_rate_app">Google Play‑এ রেট করুন</string>
+    <string name="plus_version_rate_app_description">আপনার রেটিং এবং মতামত অ্যাপ উন্নয়নে অনেক সাহায্য করে। প্রতিটি স্টার এবং মন্তব্যের জন্য ধন্যবাদ!</string>
+    <string name="plus_version_rate_app_after_store_question">আপনি কি রিভিউ দিতে পেরেছেন?</string>
+    <string name="plus_version_rate_app_after_store_succeed">হ্যাঁ, আমি রিভিউ দিয়েছি</string>
+    <string name="plus_version_rate_app_after_store_came_back">এখনও না — Google Play‑এ ফিরে যান</string>
+    <string name="support_go_to_play_store">Google Play‑এ যান</string>
+    <string name="promo_code_request_title">প্রোমো কোড অনুরোধ পাঠান</string>
+    <string name="promo_code_request_description">আপনি যদি রিভিউ দিয়ে থাকেন, তাহলে PLUS সংস্করণের জন্য কোড অনুরোধ করতে পারেন।</string>
+
+    <string name="promo_code_email_subject">PLUS কোড অনুরোধ – আবহাওয়া অ্যাপ</string>
+    <string name="promo_code_send_request">অনুরোধ পাঠান</string>
+    <string name="promo_code_request_thanks">ধন্যবাদ! আমরা শীঘ্রই যোগাযোগ করব।</string>
+    <string name="email_chooser_title">অনুরোধ পাঠান</string>
+    <string name="email_app_not_found">কোনো ই‑মেইল অ্যাপ পাওয়া যায়নি</string>
+
+    <string name="promo_code_enter_title">প্রাপ্ত প্রোমো কোড লিখুন</string>
+    <string name="promo_code_label">প্রোমো কোড</string>
+    <string name="promo_code_activate_button">কোড সক্রিয় করুন</string>
+    <string name="promo_code_activating">সক্রিয় করা হচ্ছে…</string>
+    <string name="promo_code_empty_error">প্রোমো কোড লিখুন</string>
+    <string name="promo_code_success">PLUS সাবস্ক্রিপশন সক্রিয় হয়েছে! ধন্যবাদ ❤️</string>
+    <string name="promo_code_invalid_or_used">অবৈধ বা ব্যবহৃত কোড</string>
+    <string name="promo_code_server_error">সার্ভার সংযোগ ত্রুটি</string>
+
+    <string name="promo_code_message">হ্যালো,\n\nআমি PLUS সংস্করণের জন্য একটি প্রোমো কোড পেতে চাই।\nআমার ব্যবহারকারী ID: %1$s\n\nধন্যবাদ!</string>
+
+    <string name="error_no_user">কোনো ব্যবহারকারী লগইন নেই</string>
+
+    <string name="advertisement">বিজ্ঞাপন</string>
+</resources>
