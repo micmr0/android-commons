@@ -33,7 +33,7 @@ import kotlin.jvm.java
 
 @Composable
 fun NativeAdViewComposable(
-    adUnitId: String,
+    nativeAd: NativeAd,
     isSystemDarkTheme: Boolean,
     modifier: Modifier = Modifier
 ) {
@@ -44,20 +44,13 @@ fun NativeAdViewComposable(
             .inflate(R.layout.native_ad_layout, null) as NativeAdView
     }
 
-    var currentNativeAd by remember { mutableStateOf<NativeAd?>(null) }
-
-    LaunchedEffect(adUnitId, isSystemDarkTheme) {
-        loadNativeAd(
-            context = context,
-            adUnitId = adUnitId,
+    LaunchedEffect(nativeAd, isSystemDarkTheme) {
+        populateNativeAdView(
+            nativeAd = nativeAd,
             adView = nativeAdView,
-            isDarkTheme = isSystemDarkTheme,
-            onAdLoaded = { nativeAd ->
-                currentNativeAd = nativeAd
-                Log.d("AdMob", "Ad loaded & set")
-                nativeAdView.requestLayout() // czasem pomaga przy impressionach
-            }
+            isDarkTheme = isSystemDarkTheme
         )
+        Log.d("AdMob", "NativeAdViewComposable: ad bound to view")
     }
 
     AndroidView(
@@ -65,22 +58,6 @@ fun NativeAdViewComposable(
         factory = { nativeAdView },
         update = { }
     )
-
-    DisposableEffect(nativeAdView) {
-        onDispose {
-            currentNativeAd?.destroy()
-            currentNativeAd = null
-
-            nativeAdView.destroy()
-
-            nativeAdView.headlineView = null
-            nativeAdView.bodyView = null
-            nativeAdView.mediaView = null
-            nativeAdView.callToActionView = null
-
-            Log.d("AdMob", "Native ad & view destroyed and cleaned")
-        }
-    }
 }
 
 private fun loadNativeAd(
@@ -129,6 +106,33 @@ private fun loadNativeAd(
         .build()
 
     adLoader.loadAd(adRequestBuilder.build())
+}
+
+@Composable
+fun rememberNativeAd(
+    adUnitId: String,
+    isDark: Boolean
+): NativeAd? {
+    val context = LocalContext.current
+    var ad by remember { mutableStateOf<NativeAd?>(null) }
+
+    LaunchedEffect(adUnitId, isDark) {
+        val adLoader = AdLoader.Builder(context, adUnitId)
+            .forNativeAd { loadedAd ->
+                ad = loadedAd
+                Log.d("AdMob", "Native ad loaded once")
+            }
+            .withAdListener(object : AdListener() {
+                override fun onAdFailedToLoad(error: LoadAdError) {
+                    Log.e("AdMob", "Failed to load native ad: ${error.message}")
+                }
+            })
+            .build()
+
+        adLoader.loadAd(AdRequest.Builder().build())
+    }
+
+    return ad
 }
 
 private fun populateNativeAdView(nativeAd: NativeAd, adView: NativeAdView, isDarkTheme: Boolean) {
