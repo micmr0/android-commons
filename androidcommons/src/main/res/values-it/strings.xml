@@ -1,0 +1,112 @@
+<resources>
+    <string name="background_description">sfondo</string>
+
+    <!-- about app -->
+    <string name="app_info_title">Informazioni sull’app</string>
+    <string name="policy_privacy">Informativa sulla privacy</string>
+    <string name="ok">OK</string>
+
+    <!-- settings -->
+    <string name="settings_title">Impostazioni</string>
+    <string name="settings_section_general">Generale</string>
+    <string name="sign_in_with_google">Accedi con Google</string>
+    <string name="sign_with_google_description">Non perderai la versione PLUS dopo una reinstallazione o un cambio di telefono.</string>
+    <string name="login_as">Accesso effettuato come:</string>
+    <string name="google_account">Account Google</string>
+    <string name="logout_succesful">Disconnessione riuscita</string>
+    <string name="logout">Disconnetti</string>
+    <string name="settings_section_app">Applicazione</string>
+    <string name="settings_privacy_policy">Informativa sulla privacy</string>
+    <string name="settings_share_app">Condividi l’app</string>
+    <string name="settings_more_apps">Altre applicazioni</string>
+    <string name="settings_send_feedback">Invia feedback</string>
+    <string name="feedback">Feedback</string>
+    <string name="no_mail_app_info">Nessuna app e‑mail disponibile. Installa un client di posta.</string>
+    <string name="choose_mail_app">Scegli un’app e‑mail</string>
+    <string name="not_logged_in">Non connesso</string>
+    <string name="authentication_failed">Autenticazione non riuscita o non inizializzata</string>
+    <string name="retry">Riprova</string>
+
+    <string name="close">Chiudi</string>
+
+    <!-- onboarding -->
+    <string name="onboarding_button_start">Inizia</string>
+    <string name="onboarding_button_next">Avanti</string>
+    <string name="onboarding_button_skip">Salta</string>
+
+    <!-- location permission -->
+    <string name="alert_dialog_permission_message">Autorizzazione alla posizione richiesta</string>
+    <string name="alert_dialog_permission_desc">Per utilizzare l’app devi consentire l’accesso alla posizione.</string>
+    <string name="alert_dialog_location_permission_allow">Consenti</string>
+    <string name="alert_dialog_location_permission_deny">Chiudi l’app</string>
+
+    <!-- select language -->
+    <string name="select_language">Seleziona la lingua</string>
+
+    <!-- rate app -->
+    <string name="yes">Sì</string>
+    <string name="no">No</string>
+    <string name="remind_later">Ricorda più tardi</string>
+    <string name="rate_app_dialog_title">Valuta l’app</string>
+    <string name="rate_app_dialog_description">Se ti piace questa applicazione, prenditi un momento per valutarla. Grazie!</string>
+
+    <string name="open_google_play_no_app">Nessuna app per aprire Google Play</string>
+    <string name="open_google_play_problem">Impossibile aprire Google Play</string>
+
+    <string name="share_app_no_app">Nessuna app per condividere il link</string>
+    <string name="share_app_problem">Impossibile condividere l’app</string>
+
+    <string name="privacy_policy_no_app">Nessuna app per aprire l’informativa sulla privacy</string>
+    <string name="privacy_policy_problem">Impossibile aprire l’informativa sulla privacy</string>
+
+    <string name="more_apps_no_app">Nessuna app per mostrare le applicazioni dello sviluppatore</string>
+    <string name="more_apps_problem">Impossibile aprire l’elenco delle app dello sviluppatore</string>
+
+    <string name="select_an_app_to_share">Scegli un’app per condividere</string>
+
+    <!-- SUPPORT -->
+    <string name="support_app">Sblocca PLUS gratuitamente ❤️️</string>
+    <string name="subscription_plus_active">Abbonamento attivo: PLUS</string>
+    <string name="add_feedback">Aggiungi feedback</string>
+    <string name="support_title">Sblocca PLUS gratuitamente</string>
+    <string name="support_send_a_request">Invia richiesta</string>
+    <string name="user_have_plus">Hai già la versione PLUS! 🎉</string>
+    <string name="user_have_plus_info">Grazie per il tuo supporto!\nOra puoi usufruire di tutte le funzionalità aggiuntive.</string>
+    <string name="support_google_login">Accesso con Google (opzionale)</string>
+    <string name="support_google_login_info">Non perderai la versione PLUS dopo una reinstallazione o un cambio di telefono</string>
+    <string name="login">Accedi</string>
+    <string name="promo_code_error">❌ Il codice non è valido o è già stato utilizzato</string>
+    <string name="plus_version_title">Versione PLUS – cosa include?</string>
+    <string name="plus_version_latest_update">Aggiornamenti prioritari e nuove funzionalità</string>
+    <string name="plus_version_support_for_us">Supporto allo sviluppo continuo dell’app</string>
+    <string name="plus_version_summary">Puoi ottenere tutto questo gratuitamente — come ringraziamento per il tuo feedback ❤️</string>
+    <string name="support_rate_app">Valuta l’app su Google Play</string>
+    <string name="plus_version_rate_app_description">La tua valutazione e i tuoi commenti aiutano enormemente lo sviluppo dell’app. Grazie per ogni stella e ogni messaggio!</string>
+    <string name="plus_version_rate_app_after_store_question">Sei riuscito a lasciare una recensione?</string>
+    <string name="plus_version_rate_app_after_store_succeed">Sì, ho lasciato una recensione</string>
+    <string name="plus_version_rate_app_after_store_came_back">Non ancora — torna su Google Play</string>
+    <string name="support_go_to_play_store">Vai su Google Play</string>
+    <string name="promo_code_request_title">Richiedi un codice promo</string>
+    <string name="promo_code_request_description">Se hai già lasciato una recensione, puoi richiedere un codice per la versione PLUS.</string>
+
+    <string name="promo_code_email_subject">Richiesta codice PLUS – App meteo</string>
+    <string name="promo_code_send_request">Invia richiesta</string>
+    <string name="promo_code_request_thanks">Grazie! Ti risponderemo presto.</string>
+    <string name="email_chooser_title">Invia richiesta</string>
+    <string name="email_app_not_found">Nessuna app e‑mail trovata</string>
+
+    <string name="promo_code_enter_title">Inserisci il codice promo ricevuto</string>
+    <string name="promo_code_label">Codice promo</string>
+    <string name="promo_code_activate_button">Attiva codice</string>
+    <string name="promo_code_activating">Attivazione…</string>
+    <string name="promo_code_empty_error">Inserisci un codice promo</string>
+    <string name="promo_code_success">Versione PLUS attivata! Grazie ❤️</string>
+    <string name="promo_code_invalid_or_used">Codice non valido o già utilizzato</string>
+    <string name="promo_code_server_error">Errore di connessione al server</string>
+
+    <string name="promo_code_message">Ciao,\n\nVorrei ricevere un codice promo per la versione PLUS.\nIl mio ID utente: %1$s\n\nGrazie mille!</string>
+
+    <string name="error_no_user">Nessun utente connesso</string>
+
+    <string name="advertisement">Pubblicità</string>
+</resources>
