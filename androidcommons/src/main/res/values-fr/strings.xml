@@ -9,8 +9,8 @@
     <!-- settings -->
     <string name="settings_title">Paramètres</string>
     <string name="settings_section_general">Général</string>
-    <string name="sign_in_with_google">Se connecter avec Google</string>
-    <string name="sign_with_google_description">Vous ne perdrez pas la version PLUS après une réinstallation ou un changement de téléphone.</string>
+    <string name="sign_in_with_google">Compte Google</string>
+    <string name="sign_with_google_description">Connectez-vous pour synchroniser vos données en toute sécurité et accéder à toutes les fonctionnalités sur vos appareils.</string>
     <string name="login_as">Connecté en tant que :</string>
     <string name="google_account">Compte Google</string>
     <string name="logout_succesful">Déconnexion réussie</string>

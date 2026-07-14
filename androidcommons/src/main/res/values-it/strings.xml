@@ -9,8 +9,8 @@
     <!-- settings -->
     <string name="settings_title">Impostazioni</string>
     <string name="settings_section_general">Generale</string>
-    <string name="sign_in_with_google">Accedi con Google</string>
-    <string name="sign_with_google_description">Non perderai la versione PLUS dopo una reinstallazione o un cambio di telefono.</string>
+    <string name="sign_in_with_google">Account Google</string>
+    <string name="sign_with_google_description">Accedi per sincronizzare in modo sicuro i tuoi dati e accedere a tutte le funzionalità sui tuoi dispositivi.</string>
     <string name="login_as">Accesso effettuato come:</string>
     <string name="google_account">Account Google</string>
     <string name="logout_succesful">Disconnessione riuscita</string>

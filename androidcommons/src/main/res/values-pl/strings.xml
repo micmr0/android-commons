@@ -9,8 +9,8 @@
     <!-- settings -->
     <string name="settings_title">Ustawienia</string>
     <string name="settings_section_general">Ogólne</string>
-    <string name="sign_in_with_google">Zaloguj się kontem Google</string>
-    <string name="sign_with_google_description">Nie stracisz wersji PLUS po reinstalacji lub zmianie telefonu.</string>
+    <string name="sign_in_with_google">Konto Google</string>
+    <string name="sign_with_google_description">Zaloguj się, aby bezpiecznie zsynchronizować dane i uzyskać dostęp do wszystkich funkcji na swoich urządzeniach.</string>
     <string name="login_as">Zalogowany jako:</string>
     <string name="google_account">Konto Google</string>
     <string name="logout_succesful">Wylogowano pomyślnie</string>

@@ -9,8 +9,8 @@
     <!-- settings -->
     <string name="settings_title">設定</string>
     <string name="settings_section_general">一般</string>
-    <string name="sign_in_with_google">Google でログイン</string>
-    <string name="sign_with_google_description">アプリを再インストールしたり、スマホを変更しても PLUS バージョンは失われません。</string>
+    <string name="sign_in_with_google">Google アカウント</string>
+    <string name="sign_with_google_description">安全にデータを同期し、すべてのデバイスで全機能にアクセスするためにサインインしてください。</string>
     <string name="login_as">ログイン中:</string>
     <string name="google_account">Google アカウント</string>
     <string name="logout_succesful">ログアウトしました</string>

@@ -9,8 +9,8 @@
     <!-- settings -->
     <string name="settings_title">Nastavení</string>
     <string name="settings_section_general">Obecné</string>
-    <string name="sign_in_with_google">Přihlásit se pomocí Google</string>
-    <string name="sign_with_google_description">O verzi PLUS nepřijdete ani po reinstalaci nebo změně telefonu.</string>
+    <string name="sign_in_with_google">Účet Google</string>
+    <string name="sign_with_google_description">Přihlaste se, abyste bezpečně synchronizovali svá data a získali přístup ke všem funkcím na svých zařízeních.</string
     <string name="login_as">Přihlášen jako:</string>
     <string name="google_account">Účet Google</string>
     <string name="logout_succesful">Úspěšně odhlášeno</string>

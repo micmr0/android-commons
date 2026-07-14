@@ -9,8 +9,8 @@
     <!-- settings -->
     <string name="settings_title">设置</string>
     <string name="settings_section_general">通用</string>
-    <string name="sign_in_with_google">使用 Google 登录</string>
-    <string name="sign_with_google_description">重新安装或更换手机后，您不会失去 PLUS 版本。</string>
+    <string name="sign_in_with_google">Google 帐号</string>
+    <string name="sign_with_google_description">登录以安全同步您的数据并在所有设备上访问全部功能。</string>
     <string name="login_as">登录为：</string>
     <string name="google_account">Google 账号</string>
     <string name="logout_succesful">已成功退出</string>

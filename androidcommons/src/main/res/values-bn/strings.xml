@@ -9,8 +9,8 @@
     <!-- settings -->
     <string name="settings_title">সেটিংস</string>
     <string name="settings_section_general">সাধারণ</string>
-    <string name="sign_in_with_google">Google দিয়ে সাইন ইন করুন</string>
-    <string name="sign_with_google_description">ফোন পরিবর্তন বা অ্যাপ পুনরায় ইনস্টল করলেও আপনি PLUS সংস্করণ হারাবেন না।</string>
+    <string name="sign_in_with_google">গুগল অ্যাকাউন্ট</string>
+    <string name="sign_with_google_description">নিরাপদে আপনার ডেটা সিঙ্ক করতে এবং সব ডিভাইসে সমস্ত ফিচার অ্যাক্সেস করতে সাইন ইন করুন।</string>
     <string name="login_as">লগইন করেছেন:</string>
     <string name="google_account">Google অ্যাকাউন্ট</string>
     <string name="logout_succesful">সফলভাবে লগআউট হয়েছে</string>

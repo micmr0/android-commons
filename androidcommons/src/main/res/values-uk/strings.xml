@@ -9,8 +9,8 @@
     <!-- settings -->
     <string name="settings_title">Налаштування</string>
     <string name="settings_section_general">Загальні</string>
-    <string name="sign_in_with_google">Увійти через Google</string>
-    <string name="sign_with_google_description">Ви не втратите версію PLUS після перевстановлення або зміни телефону.</string>
+    <string name="sign_in_with_google">Обліковий запис Google</string>
+    <string name="sign_with_google_description">Увійдіть, щоб безпечно синхронізувати дані та отримати доступ до всіх функцій на своїх пристроях.</string>
     <string name="login_as">Увійшли як:</string>
     <string name="google_account">Обліковий запис Google</string>
     <string name="logout_succesful">Успішно вийшли з облікового запису</string>

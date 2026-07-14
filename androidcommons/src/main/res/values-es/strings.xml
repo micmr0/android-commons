@@ -9,8 +9,8 @@
     <!-- settings -->
     <string name="settings_title">Ajustes</string>
     <string name="settings_section_general">General</string>
-    <string name="sign_in_with_google">Iniciar sesión con Google</string>
-    <string name="sign_with_google_description">No perderás la versión PLUS después de reinstalar o cambiar de teléfono.</string>
+    <string name="sign_in_with_google">Cuenta de Google</string>
+    <string name="sign_with_google_description">Inicia sesión para sincronizar tus datos de forma segura y acceder a todas las funciones en tus dispositivos.</string>
     <string name="login_as">Sesión iniciada como:</string>
     <string name="google_account">Cuenta de Google</string>
     <string name="logout_succesful">Sesión cerrada correctamente</string>

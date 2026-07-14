@@ -9,8 +9,8 @@
     <!-- settings -->
     <string name="settings_title">Einstellungen</string>
     <string name="settings_section_general">Allgemein</string>
-    <string name="sign_in_with_google">Mit Google anmelden</string>
-    <string name="sign_with_google_description">Sie verlieren die PLUS‑Version nicht nach einer Neuinstallation oder einem Gerätewechsel.</string>
+    <string name="sign_in_with_google">Google‑Konto</string>
+    <string name="sign_with_google_description">Melde dich an, um deine Daten sicher zu synchronisieren und auf alle Funktionen deiner Geräte zuzugreifen.</string>
     <string name="login_as">Angemeldet als:</string>
     <string name="google_account">Google‑Konto</string>
     <string name="logout_succesful">Erfolgreich abgemeldet</string>

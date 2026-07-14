@@ -9,8 +9,8 @@
     <!-- settings -->
     <string name="settings_title">सेटिंग्स</string>
     <string name="settings_section_general">सामान्य</string>
-    <string name="sign_in_with_google">Google से साइन इन करें</string>
-    <string name="sign_with_google_description">रीइंस्टॉल या फ़ोन बदलने पर भी आप PLUS संस्करण नहीं खोएंगे।</string>
+    <string name="sign_in_with_google">Google खाता</string>
+    <string name="sign_with_google_description">अपने डेटा को सुरक्षित रूप से सिंक करने और सभी डिवाइसों पर सभी सुविधाओं का उपयोग करने के लिए साइन इन करें।</string>
     <string name="login_as">इस रूप में लॉग इन:</string>
     <string name="google_account">Google खाता</string>
     <string name="logout_succesful">सफलतापूर्वक लॉग आउट किया गया</string>

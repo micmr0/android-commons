@@ -9,8 +9,8 @@
     <!-- settings -->
     <string name="settings_title">الإعدادات</string>
     <string name="settings_section_general">عام</string>
-    <string name="sign_in_with_google">تسجيل الدخول باستخدام Google</string>
-    <string name="sign_with_google_description">لن تفقد نسخة PLUS بعد إعادة التثبيت أو تغيير الهاتف.</string>
+    <string name="sign_in_with_google">حساب Google</string>
+    <string name="sign_with_google_description">سجّل الدخول لمزامنة بياناتك بأمان والوصول إلى جميع الميزات عبر أجهزتك.</string>
     <string name="login_as">تسجيل الدخول كـ:</string>
     <string name="google_account">حساب Google</string>
     <string name="logout_succesful">تم تسجيل الخروج بنجاح</string>
