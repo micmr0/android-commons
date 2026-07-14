@@ -8,7 +8,7 @@ plugins {
 
 android {
     namespace = "com.micmr0.androidcommons"
-    compileSdk = 36
+    compileSdk = 37
 
     defaultConfig {
         minSdk = 29
