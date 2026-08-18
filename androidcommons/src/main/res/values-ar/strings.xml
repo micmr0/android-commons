@@ -106,6 +106,17 @@
 
     <string name="promo_code_message">مرحباً،\n\nأود الحصول على رمز ترويجي لنسخة PLUS.\nمعرّف المستخدم الخاص بي: %1$s\n\nشكراً لك!</string>
 
+    <!-- SUBSCRIPTIONS SCREEN -->
+    <string name="current_plan_label">الخطة الحالية:</string>
+    <string name="subscription">الاشتراك</string>
+    <string name="back">رجوع</string>
+    <string name="manage_subscriptions">عرض الخطط وإدارة اشتراكك</string>
+    <string name="subscription_sign_in_required">تسجيل الدخول مطلوب</string>
+    <string name="subscription_sign_in_description">الاشتراكات مرتبطة بحسابك على Google.\n\nسجّل الدخول مرة واحدة لشراء اشتراكك واستعادته وإدارته على جميع أجهزة Android الخاصة بك.</string>
+    <string name="unlock_more_features">افتح المزيد من الميزات</string>
+    <string name="choose_plan_description">اختر الخطة التي تناسبك أكثر.</string>
+    <string name="current_plan">الخطة الحالية: %1$s</string>
+
     <string name="error_no_user">لا يوجد مستخدم مسجل الدخول</string>
 
     <string name="advertisement">إعلان</string>

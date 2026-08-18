@@ -106,6 +106,17 @@
 
     <string name="promo_code_message">Hallo,\n\nich möchte einen Promo‑Code für die PLUS‑Version erhalten.\nMeine Benutzer‑ID: %1$s\n\nVielen Dank!</string>
 
+    <!-- SUBSCRIPTIONS SCREEN -->
+    <string name="current_plan_label">Aktueller Tarif:</string>
+    <string name="subscription">Abonnement</string>
+    <string name="back">Zurück</string>
+    <string name="manage_subscriptions">Tarife anzeigen und Abonnement verwalten</string>
+    <string name="subscription_sign_in_required">Anmeldung erforderlich</string>
+    <string name="subscription_sign_in_description">Abonnements sind mit deinem Google-Konto verknüpft.\n\nMelde dich einmal an, um dein Abonnement auf all deinen Android-Geräten zu kaufen, wiederherzustellen und zu verwalten.</string>
+    <string name="unlock_more_features">Weitere Funktionen freischalten</string>
+    <string name="choose_plan_description">Wähle den Tarif, der am besten zu dir passt.</string>
+    <string name="current_plan">Aktueller Tarif: %1$s</string>
+
     <string name="error_no_user">Kein angemeldeter Benutzer</string>
 
     <string name="advertisement">Werbung</string>

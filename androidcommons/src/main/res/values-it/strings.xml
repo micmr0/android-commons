@@ -106,6 +106,17 @@
 
     <string name="promo_code_message">Ciao,\n\nVorrei ricevere un codice promo per la versione PLUS.\nIl mio ID utente: %1$s\n\nGrazie mille!</string>
 
+    <!-- SUBSCRIPTIONS SCREEN -->
+    <string name="current_plan_label">Piano attuale:</string>
+    <string name="subscription">Abbonamento</string>
+    <string name="back">Indietro</string>
+    <string name="manage_subscriptions">Visualizza i piani e gestisci il tuo abbonamento</string>
+    <string name="subscription_sign_in_required">Accesso richiesto</string>
+    <string name="subscription_sign_in_description">Gli abbonamenti sono collegati al tuo Account Google.\n\nAccedi una volta per acquistare, ripristinare e gestire il tuo abbonamento su tutti i tuoi dispositivi Android.</string>
+    <string name="unlock_more_features">Sblocca altre funzionalità</string>
+    <string name="choose_plan_description">Scegli il piano più adatto a te.</string>
+    <string name="current_plan">Piano attuale: %1$s</string>
+
     <string name="error_no_user">Nessun utente connesso</string>
 
     <string name="advertisement">Pubblicità</string>

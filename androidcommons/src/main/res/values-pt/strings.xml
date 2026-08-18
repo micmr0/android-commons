@@ -106,6 +106,17 @@
 
     <string name="promo_code_message">Olá,\n\nGostaria de receber um código promocional para a versão PLUS.\nO meu ID de utilizador: %1$s\n\nObrigado!</string>
 
+    <!-- SUBSCRIPTIONS SCREEN -->
+    <string name="current_plan_label">Plano atual:</string>
+    <string name="subscription">Subscrição</string>
+    <string name="back">Voltar</string>
+    <string name="manage_subscriptions">Ver planos e gerir a sua subscrição</string>
+    <string name="subscription_sign_in_required">É necessário iniciar sessão</string>
+    <string name="subscription_sign_in_description">As subscrições estão associadas à sua Conta Google.\n\nInicie sessão uma vez para comprar, restaurar e gerir a sua subscrição em todos os seus dispositivos Android.</string>
+    <string name="unlock_more_features">Desbloqueie mais funcionalidades</string>
+    <string name="choose_plan_description">Escolha o plano mais adequado para si.</string>
+    <string name="current_plan">Plano atual: %1$s</string>
+
     <string name="error_no_user">Nenhum utilizador com sessão iniciada</string>
 
     <string name="advertisement">Publicidade</string>

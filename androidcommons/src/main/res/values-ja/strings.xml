@@ -106,6 +106,17 @@
 
     <string name="promo_code_message">こんにちは、\n\nPLUS バージョンのプロモコードを受け取りたいです。\nユーザー ID：%1$s\n\nよろしくお願いします！</string>
 
+    <!-- SUBSCRIPTIONS SCREEN -->
+    <string name="current_plan_label">現在のプラン:</string>
+    <string name="subscription">サブスクリプション</string>
+    <string name="back">戻る</string>
+    <string name="manage_subscriptions">プランを表示してサブスクリプションを管理</string>
+    <string name="subscription_sign_in_required">ログインが必要です</string>
+    <string name="subscription_sign_in_description">サブスクリプションは Google アカウントに関連付けられています。\n\n一度ログインすると、すべての Android デバイスでサブスクリプションの購入、復元、管理ができます。</string>
+    <string name="unlock_more_features">さらに多くの機能を利用する</string>
+    <string name="choose_plan_description">あなたに最適なプランをお選びください。</string>
+    <string name="current_plan">現在のプラン: %1$s</string>
+
     <string name="error_no_user">ログイン中のユーザーがいません</string>
 
     <string name="advertisement">広告</string>

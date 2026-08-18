@@ -106,6 +106,17 @@
 
     <string name="promo_code_message">Вітаю,\n\nЯ хотів(ла) би отримати промокод для версії PLUS.\nМій ID користувача: %1$s\n\nДякую!</string>
 
+    <!-- SUBSCRIPTIONS SCREEN -->
+    <string name="current_plan_label">Поточний план:</string>
+    <string name="subscription">Підписка</string>
+    <string name="back">Назад</string>
+    <string name="manage_subscriptions">Переглянути плани та керувати підпискою</string>
+    <string name="subscription_sign_in_required">Потрібно ввійти</string>
+    <string name="subscription_sign_in_description">Підписки пов’язані з вашим обліковим записом Google.\n\nУвійдіть один раз, щоб купувати, відновлювати та керувати підпискою на всіх своїх пристроях Android.</string>
+    <string name="unlock_more_features">Розблокуйте більше функцій</string>
+    <string name="choose_plan_description">Виберіть план, який найкраще вам підходить.</string>
+    <string name="current_plan">Поточний план: %1$s</string>
+
     <string name="error_no_user">Немає авторизованого користувача</string>
 
     <string name="advertisement">Реклама</string>

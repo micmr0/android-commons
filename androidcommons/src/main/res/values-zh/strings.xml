@@ -106,6 +106,17 @@
 
     <string name="promo_code_message">你好，\n\n我想申请 PLUS 版本的优惠码。\n我的用户 ID：%1$s\n\n谢谢！</string>
 
+    <!-- SUBSCRIPTIONS SCREEN -->
+    <string name="current_plan_label">当前方案：</string>
+    <string name="subscription">订阅</string>
+    <string name="back">返回</string>
+    <string name="manage_subscriptions">查看方案并管理您的订阅</string>
+    <string name="subscription_sign_in_required">需要登录</string>
+    <string name="subscription_sign_in_description">订阅与您的 Google 账号关联。\n\n登录一次，即可在您的所有 Android 设备上购买、恢复和管理订阅。</string>
+    <string name="unlock_more_features">解锁更多功能</string>
+    <string name="choose_plan_description">选择最适合您的方案。</string>
+    <string name="current_plan">当前方案：%1$s</string>
+
     <string name="error_no_user">没有已登录的用户</string>
 
     <string name="advertisement">广告</string>

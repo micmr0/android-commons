@@ -106,6 +106,17 @@
 
     <string name="promo_code_message">नमस्ते,\n\nमैं PLUS संस्करण के लिए एक प्रोमो कोड प्राप्त करना चाहता हूँ।\nमेरा उपयोगकर्ता ID: %1$s\n\nधन्यवाद!</string>
 
+    <!-- SUBSCRIPTIONS SCREEN -->
+    <string name="current_plan_label">मौजूदा प्लान:</string>
+    <string name="subscription">सदस्यता</string>
+    <string name="back">वापस</string>
+    <string name="manage_subscriptions">प्लान देखें और अपनी सदस्यता मैनेज करें</string>
+    <string name="subscription_sign_in_required">साइन इन करना ज़रूरी है</string>
+    <string name="subscription_sign_in_description">सदस्यताएँ आपके Google खाते से जुड़ी होती हैं।\n\nअपने सभी Android डिवाइस पर सदस्यता खरीदने, रीस्टोर करने और मैनेज करने के लिए एक बार साइन इन करें।</string>
+    <string name="unlock_more_features">और सुविधाएँ अनलॉक करें</string>
+    <string name="choose_plan_description">वह प्लान चुनें जो आपके लिए सबसे सही हो।</string>
+    <string name="current_plan">मौजूदा प्लान: %1$s</string>
+
     <string name="error_no_user">कोई उपयोगकर्ता लॉग इन नहीं है</string>
 
     <string name="advertisement">विज्ञापन</string>

@@ -106,6 +106,17 @@
 
     <string name="promo_code_message">Dobrý den,\n\nrád(a) bych získal(a) promo kód pro verzi PLUS.\nMoje uživatelské ID: %1$s\n\nDěkuji!</string>
 
+    <!-- SUBSCRIPTIONS SCREEN -->
+    <string name="current_plan_label">Aktuální tarif:</string>
+    <string name="subscription">Předplatné</string>
+    <string name="back">Zpět</string>
+    <string name="manage_subscriptions">Zobrazit tarify a spravovat předplatné</string>
+    <string name="subscription_sign_in_required">Je vyžadováno přihlášení</string>
+    <string name="subscription_sign_in_description">Předplatné je propojeno s vaším účtem Google.\n\nStačí se jednou přihlásit a můžete předplatné zakoupit, obnovit a spravovat na všech svých zařízeních Android.</string>
+    <string name="unlock_more_features">Odemknout další funkce</string>
+    <string name="choose_plan_description">Vyberte si tarif, který vám nejlépe vyhovuje.</string>
+    <string name="current_plan">Aktuální tarif: %1$s</string>
+
     <string name="error_no_user">Žádný přihlášený uživatel</string>
 
     <string name="advertisement">Reklama</string>
