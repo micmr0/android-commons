@@ -117,6 +117,17 @@
     <string name="choose_plan_description">Виберіть план, який найкраще вам підходить.</string>
     <string name="current_plan">Поточний план: %1$s</string>
 
+    <string name="selected_plan">Вибраний план</string>
+    <string name="billing_period">Розрахунковий період</string>
+    <string name="monthly">Щомісяця</string>
+    <string name="yearly">Щороку</string>
+    <string name="manage_subscription">Керувати підпискою</string>
+    <string name="save_percent">Заощадьте %1$d%%</string>
+    <string name="price_unavailable">Недоступно</string>
+    <string name="subscriptions_loading">Завантаження пропозицій…</string>
+    <string name="loading_subscription_offers">Завантаження пропозицій підписки…</string>
+    <string name="subscription_offers_unavailable">Пропозиції підписки тимчасово недоступні. Спробуйте ще раз пізніше.</string>
+
     <string name="error_no_user">Немає авторизованого користувача</string>
 
     <string name="advertisement">Реклама</string>

@@ -117,6 +117,17 @@
     <string name="choose_plan_description">Choisissez le forfait qui vous convient le mieux.</string>
     <string name="current_plan">Forfait actuel : %1$s</string>
 
+    <string name="selected_plan">Forfait sélectionné</string>
+    <string name="billing_period">Période de facturation</string>
+    <string name="monthly">Mensuel</string>
+    <string name="yearly">Annuel</string>
+    <string name="manage_subscription">Gérer l’abonnement</string>
+    <string name="save_percent">Économisez %1$d%%</string>
+    <string name="price_unavailable">Indisponible</string>
+    <string name="subscriptions_loading">Chargement des offres…</string>
+    <string name="loading_subscription_offers">Chargement des offres d’abonnement…</string>
+    <string name="subscription_offers_unavailable">Les offres d’abonnement sont temporairement indisponibles. Veuillez réessayer plus tard.</string>
+
     <string name="error_no_user">Aucun utilisateur connecté</string>
 
     <string name="advertisement">Publicité</string>

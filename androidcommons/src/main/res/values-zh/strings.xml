@@ -117,6 +117,17 @@
     <string name="choose_plan_description">选择最适合您的方案。</string>
     <string name="current_plan">当前方案：%1$s</string>
 
+    <string name="selected_plan">已选方案</string>
+    <string name="billing_period">结算周期</string>
+    <string name="monthly">按月</string>
+    <string name="yearly">按年</string>
+    <string name="manage_subscription">管理订阅</string>
+    <string name="save_percent">节省 %1$d%%</string>
+    <string name="price_unavailable">不可用</string>
+    <string name="subscriptions_loading">正在加载优惠…</string>
+    <string name="loading_subscription_offers">正在加载订阅优惠…</string>
+    <string name="subscription_offers_unavailable">订阅优惠暂时不可用。请稍后重试。</string>
+
     <string name="error_no_user">没有已登录的用户</string>
 
     <string name="advertisement">广告</string>

@@ -117,6 +117,17 @@
     <string name="choose_plan_description">اختر الخطة التي تناسبك أكثر.</string>
     <string name="current_plan">الخطة الحالية: %1$s</string>
 
+    <string name="selected_plan">الخطة المحددة</string>
+    <string name="billing_period">فترة الفوترة</string>
+    <string name="monthly">شهري</string>
+    <string name="yearly">سنوي</string>
+    <string name="manage_subscription">إدارة الاشتراك</string>
+    <string name="save_percent">وفّر %1$d%%</string>
+    <string name="price_unavailable">غير متاح</string>
+    <string name="subscriptions_loading">جارٍ تحميل العروض…</string>
+    <string name="loading_subscription_offers">جارٍ تحميل عروض الاشتراك…</string>
+    <string name="subscription_offers_unavailable">عروض الاشتراك غير متاحة مؤقتًا. يُرجى المحاولة مرة أخرى لاحقًا.</string>
+
     <string name="error_no_user">لا يوجد مستخدم مسجل الدخول</string>
 
     <string name="advertisement">إعلان</string>

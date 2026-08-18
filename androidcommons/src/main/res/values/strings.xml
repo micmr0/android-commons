@@ -117,6 +117,17 @@
     <string name="choose_plan_description">Choose the plan that fits you best.</string>
     <string name="current_plan">Current plan: %1$s</string>
 
+    <string name="selected_plan">Selected plan</string>
+    <string name="billing_period">Billing period</string>
+    <string name="monthly">Monthly</string>
+    <string name="yearly">Yearly</string>
+    <string name="manage_subscription">Manage subscription</string>
+    <string name="save_percent">Save %1$d%%</string>
+    <string name="price_unavailable">Unavailable</string>
+    <string name="subscriptions_loading">Loading offers…</string>
+    <string name="loading_subscription_offers">Loading subscription offers…</string>
+    <string name="subscription_offers_unavailable">Subscription offers are temporarily unavailable. Please try again later.</string>
+
     <string name="error_no_user">No logged‑in user</string>
 
     <string name="advertisement">Advertisement</string>

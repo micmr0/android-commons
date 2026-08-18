@@ -117,6 +117,17 @@
     <string name="choose_plan_description">あなたに最適なプランをお選びください。</string>
     <string name="current_plan">現在のプラン: %1$s</string>
 
+    <string name="selected_plan">選択したプラン</string>
+    <string name="billing_period">請求期間</string>
+    <string name="monthly">月額</string>
+    <string name="yearly">年額</string>
+    <string name="manage_subscription">サブスクリプションを管理</string>
+    <string name="save_percent">%1$d%% お得</string>
+    <string name="price_unavailable">利用できません</string>
+    <string name="subscriptions_loading">オファーを読み込んでいます…</string>
+    <string name="loading_subscription_offers">サブスクリプションのオファーを読み込んでいます…</string>
+    <string name="subscription_offers_unavailable">サブスクリプションのオファーは現在一時的にご利用いただけません。後でもう一度お試しください。</string>
+
     <string name="error_no_user">ログイン中のユーザーがいません</string>
 
     <string name="advertisement">広告</string>

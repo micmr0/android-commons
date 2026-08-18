@@ -117,6 +117,17 @@
     <string name="choose_plan_description">Escolha o plano que mais combina com você.</string>
     <string name="current_plan">Plano atual: %1$s</string>
 
+    <string name="selected_plan">Plano selecionado</string>
+    <string name="billing_period">Período de cobrança</string>
+    <string name="monthly">Mensal</string>
+    <string name="yearly">Anual</string>
+    <string name="manage_subscription">Gerenciar assinatura</string>
+    <string name="save_percent">Economize %1$d%%</string>
+    <string name="price_unavailable">Indisponível</string>
+    <string name="subscriptions_loading">Carregando ofertas…</string>
+    <string name="loading_subscription_offers">Carregando ofertas de assinatura…</string>
+    <string name="subscription_offers_unavailable">As ofertas de assinatura estão temporariamente indisponíveis. Tente novamente mais tarde.</string>
+
     <string name="error_no_user">Nenhum usuário conectado</string>
 
     <string name="advertisement">Publicidade</string>

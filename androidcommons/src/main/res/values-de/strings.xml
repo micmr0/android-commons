@@ -117,6 +117,17 @@
     <string name="choose_plan_description">Wähle den Tarif, der am besten zu dir passt.</string>
     <string name="current_plan">Aktueller Tarif: %1$s</string>
 
+    <string name="selected_plan">Ausgewählter Tarif</string>
+    <string name="billing_period">Abrechnungszeitraum</string>
+    <string name="monthly">Monatlich</string>
+    <string name="yearly">Jährlich</string>
+    <string name="manage_subscription">Abonnement verwalten</string>
+    <string name="save_percent">%1$d%% sparen</string>
+    <string name="price_unavailable">Nicht verfügbar</string>
+    <string name="subscriptions_loading">Angebote werden geladen…</string>
+    <string name="loading_subscription_offers">Abonnementangebote werden geladen…</string>
+    <string name="subscription_offers_unavailable">Abonnementangebote sind vorübergehend nicht verfügbar. Bitte versuche es später erneut.</string>
+
     <string name="error_no_user">Kein angemeldeter Benutzer</string>
 
     <string name="advertisement">Werbung</string>

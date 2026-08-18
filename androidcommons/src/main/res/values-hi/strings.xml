@@ -117,6 +117,17 @@
     <string name="choose_plan_description">वह प्लान चुनें जो आपके लिए सबसे सही हो।</string>
     <string name="current_plan">मौजूदा प्लान: %1$s</string>
 
+    <string name="selected_plan">चुना गया प्लान</string>
+    <string name="billing_period">बिलिंग अवधि</string>
+    <string name="monthly">मासिक</string>
+    <string name="yearly">वार्षिक</string>
+    <string name="manage_subscription">सदस्यता मैनेज करें</string>
+    <string name="save_percent">%1$d%% बचाएँ</string>
+    <string name="price_unavailable">उपलब्ध नहीं</string>
+    <string name="subscriptions_loading">ऑफ़र लोड हो रहे हैं…</string>
+    <string name="loading_subscription_offers">सदस्यता ऑफ़र लोड हो रहे हैं…</string>
+    <string name="subscription_offers_unavailable">सदस्यता ऑफ़र फ़िलहाल उपलब्ध नहीं हैं। कृपया बाद में फिर से कोशिश करें।</string>
+
     <string name="error_no_user">कोई उपयोगकर्ता लॉग इन नहीं है</string>
 
     <string name="advertisement">विज्ञापन</string>

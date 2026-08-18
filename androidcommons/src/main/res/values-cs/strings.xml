@@ -117,6 +117,17 @@
     <string name="choose_plan_description">Vyberte si tarif, který vám nejlépe vyhovuje.</string>
     <string name="current_plan">Aktuální tarif: %1$s</string>
 
+    <string name="selected_plan">Vybraný tarif</string>
+    <string name="billing_period">Fakturační období</string>
+    <string name="monthly">Měsíčně</string>
+    <string name="yearly">Ročně</string>
+    <string name="manage_subscription">Spravovat předplatné</string>
+    <string name="save_percent">Ušetřete %1$d%%</string>
+    <string name="price_unavailable">Nedostupné</string>
+    <string name="subscriptions_loading">Načítání nabídek…</string>
+    <string name="loading_subscription_offers">Načítání nabídek předplatného…</string>
+    <string name="subscription_offers_unavailable">Nabídky předplatného jsou dočasně nedostupné. Zkuste to prosím později.</string>
+
     <string name="error_no_user">Žádný přihlášený uživatel</string>
 
     <string name="advertisement">Reklama</string>

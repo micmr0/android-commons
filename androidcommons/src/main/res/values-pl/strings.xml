@@ -117,6 +117,17 @@
     <string name="choose_plan_description">Wybierz plan, który najlepiej Ci odpowiada.</string>
     <string name="current_plan">Obecny plan: %1$s</string>
 
+    <string name="selected_plan">Wybrany plan</string>
+    <string name="billing_period">Okres rozliczeniowy</string>
+    <string name="monthly">Miesięcznie</string>
+    <string name="yearly">Rocznie</string>
+    <string name="manage_subscription">Zarządzaj subskrypcją</string>
+    <string name="save_percent">Oszczędź %1$d%%</string>
+    <string name="price_unavailable">Niedostępne</string>
+    <string name="subscriptions_loading">Ładowanie ofert…</string>
+    <string name="loading_subscription_offers">Ładowanie ofert subskrypcji…</string>
+    <string name="subscription_offers_unavailable">Oferty subskrypcji są tymczasowo niedostępne. Spróbuj ponownie później.</string>
+
     <string name="error_no_user">Brak zalogowanego użytkownika</string>
 
     <string name="advertisement">Reklama</string>
