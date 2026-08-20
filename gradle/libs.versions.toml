@@ -1,9 +1,9 @@
 [versions]
-agp = "9.2.1"
+agp = "9.3.1"
 composeBom = "2026.08.00"
 datastore = "1.2.1"
-firebaseBom = "34.17.0"
-firebaseCrashlytics = "3.0.7"
+firebaseBom = "34.18.0"
+firebaseCrashlytics = "3.0.8"
 gson = "2.14.0"
 kotlin = "2.4.10"
 kotlinxSerializationJson = "1.11.0"
