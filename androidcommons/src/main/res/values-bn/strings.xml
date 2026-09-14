@@ -16,6 +16,7 @@
     <string name="logout_succesful">সফলভাবে লগআউট হয়েছে</string>
     <string name="logout">লগআউট</string>
     <string name="settings_section_app">অ্যাপ</string>
+    <string name="settings_web_page">ওয়েবসাইট</string>
     <string name="settings_privacy_policy">গোপনীয়তা নীতি</string>
     <string name="settings_share_app">অ্যাপ শেয়ার করুন</string>
     <string name="settings_more_apps">আরও অ্যাপ</string>

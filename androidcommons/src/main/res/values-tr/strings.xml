@@ -1,0 +1,135 @@
+<resources>
+    <string name="background_description">arka plan</string>
+
+    <!-- about app -->
+    <string name="app_info_title">Uygulama hakkında</string>
+    <string name="policy_privacy">Gizlilik Politikası</string>
+    <string name="ok">Tamam</string>
+
+    <!-- settings -->
+    <string name="settings_title">Ayarlar</string>
+    <string name="settings_section_general">Genel</string>
+    <string name="sign_in_with_google">Google Hesabı</string>
+    <string name="sign_with_google_description">Verilerinizi güvenli bir şekilde senkronize etmek ve tüm cihazlarınızda tüm özelliklere erişmek için oturum açın.</string>
+    <string name="not_logged_in">Oturum açılmadı</string>
+    <string name="authentication_failed">Kimlik doğrulama başarısız oldu veya başlatılmadı</string>
+    <string name="retry">Tekrar dene</string>
+    <string name="login_as">Oturum açılan hesap:</string>
+    <string name="google_account">Google hesabı</string>
+    <string name="logout_succesful">Başarıyla çıkış yapıldı</string>
+    <string name="logout">Çıkış yap</string>
+    <string name="settings_section_app">Uygulama</string>
+    <string name="settings_web_page">Web sitesi</string>
+    <string name="settings_privacy_policy">Gizlilik Politikası</string>
+    <string name="settings_share_app">Uygulamayı paylaş</string>
+    <string name="settings_more_apps">Diğer uygulamalar</string>
+    <string name="settings_send_feedback">Geri bildirim gönder</string>
+    <string name="feedback">Geri bildirim</string>
+    <string name="no_mail_app_info">Kullanılabilir bir e-posta uygulaması yok. Lütfen bir e-posta istemcisi yükleyin.</string>
+    <string name="choose_mail_app">E-posta uygulaması seç</string>
+
+    <string name="close">Kapat</string>
+
+    <!-- onboarding -->
+    <string name="onboarding_button_start">Başla</string>
+    <string name="onboarding_button_next">İleri</string>
+    <string name="onboarding_button_skip">Atla</string>
+
+    <!-- location permission -->
+    <string name="alert_dialog_permission_message">Konum izinleri gerekli</string>
+    <string name="alert_dialog_permission_desc">Bu uygulamayı kullanmak için konum erişimine izin vermelisiniz.</string>
+    <string name="alert_dialog_location_permission_allow">Erişim izni ver</string>
+    <string name="alert_dialog_location_permission_deny">Uygulamayı kapat</string>
+
+    <!-- select language -->
+    <string name="select_language">Dil seç</string>
+
+    <!-- rate app -->
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="remind_later">Daha sonra hatırlat</string>
+    <string name="rate_app_dialog_title">Uygulamayı değerlendir</string>
+    <string name="rate_app_dialog_description">Bu uygulamayı kullanmaktan memnunsanız lütfen kısa bir süre ayırıp değerlendirin. Teşekkürler!</string>
+
+    <string name="open_google_play_no_app">Google Play\'i açabilecek bir uygulama yok</string>
+    <string name="open_google_play_problem">Google Play açılamıyor</string>
+
+    <string name="share_app_no_app">Bağlantıyı paylaşabilecek bir uygulama yok</string>
+    <string name="share_app_problem">Uygulama paylaşılamıyor</string>
+
+    <string name="privacy_policy_no_app">Gizlilik politikasını açabilecek bir uygulama yok</string>
+    <string name="privacy_policy_problem">Gizlilik politikası açılamıyor</string>
+
+    <string name="more_apps_no_app">Geliştiricinin uygulamalarını görüntüleyebilecek bir uygulama yok</string>
+    <string name="more_apps_problem">Geliştiricinin uygulama listesi açılamıyor</string>
+
+    <string name="select_an_app_to_share">Paylaşmak için uygulama seç</string>
+
+    <!-- SUPPORT -->
+    <string name="support_app">PLUS\'ı ücretsiz aç ❤️️</string>
+    <string name="subscription_plus_active">Aktif abonelik: PLUS</string>
+    <string name="add_feedback">Geri bildirim ekle</string>
+    <string name="support_title">PLUS\'ı ücretsiz aç</string>
+    <string name="support_send_a_request">İstek gönder</string>
+    <string name="user_have_plus">Zaten PLUS sürümüne sahipsiniz! 🎉</string>
+    <string name="user_have_plus_info">Desteğiniz için teşekkürler!\nArtık uygulamanın tüm ek özelliklerinden yararlanabilirsiniz.</string>
+    <string name="support_google_login">Google ile oturum aç (isteğe bağlı)</string>
+    <string name="support_google_login_info">Uygulamayı yeniden yükledikten veya telefonunuzu değiştirdikten sonra PLUS sürümünü kaybetmezsiniz</string>
+    <string name="login">Oturum aç</string>
+    <string name="promo_code_error">❌ Kod geçersiz veya daha önce kullanılmış</string>
+    <string name="plus_version_title">PLUS sürümü – neler sunuyor?</string>
+    <string name="plus_version_latest_update">Öncelikli güncellemeler ve yeni özellikler</string>
+    <string name="plus_version_support_for_us">Uygulamanın geliştirilmesine destek</string>
+    <string name="plus_version_summary">Yorumunuz için teşekkür olarak bunların tümünü ücretsiz alabilirsiniz ❤️</string>
+    <string name="support_rate_app">Google Play\'de uygulamayı değerlendir</string>
+    <string name="plus_version_rate_app_description">Puanınız ve geri bildiriminiz uygulamanın geliştirilmesine büyük katkı sağlar. Her yıldız ve yorum için teşekkürler!</string>
+    <string name="plus_version_rate_app_after_store_question">Yorum bırakabildiniz mi?</string>
+    <string name="plus_version_rate_app_after_store_succeed">Evet, yorum bıraktım</string>
+    <string name="plus_version_rate_app_after_store_came_back">Henüz değil - Google Play\'e geri dön</string>
+    <string name="support_go_to_play_store">Google Play\'e git</string>
+    <string name="promo_code_request_title">Promosyon kodu isteği gönder</string>
+    <string name="promo_code_request_description">Zaten bir yorum bıraktıysanız PLUS sürümü için kod isteyebilirsiniz.</string>
+
+    <string name="promo_code_email_subject">PLUS kodu isteği – Weather uygulaması</string>
+    <string name="promo_code_send_request">İstek gönder</string>
+    <string name="promo_code_request_thanks">Teşekkürler! En kısa sürede size dönüş yapacağız.</string>
+    <string name="email_chooser_title">İstek gönder</string>
+    <string name="email_app_not_found">E-posta uygulaması bulunamadı</string>
+
+    <string name="promo_code_enter_title">Aldığınız promosyon kodunu girin</string>
+    <string name="promo_code_label">Promosyon kodu</string>
+    <string name="promo_code_activate_button">Kodu etkinleştir</string>
+    <string name="promo_code_activating">Etkinleştiriliyor…</string>
+    <string name="promo_code_empty_error">Promosyon kodu girin</string>
+    <string name="promo_code_success">PLUS aboneliği etkinleştirildi! Teşekkürler ❤️</string>
+    <string name="promo_code_invalid_or_used">Kod geçersiz veya daha önce kullanılmış</string>
+    <string name="promo_code_server_error">Sunucu bağlantı hatası</string>
+
+    <string name="promo_code_message">Merhaba,\n\nPLUS sürümü için bir promosyon kodu almak istiyorum.\nKullanıcı kimliğim: %1$s\n\nTeşekkürler!</string>
+
+    <!-- SUBSCRIPTIONS SCREEN -->
+    <string name="current_plan_label">Mevcut plan:</string>
+    <string name="subscription">Abonelik</string>
+    <string name="back">Geri</string>
+    <string name="manage_subscriptions">Planları görüntüleyin ve aboneliğinizi yönetin</string>
+    <string name="subscription_sign_in_required">Oturum açmanız gerekiyor</string>
+    <string name="subscription_sign_in_description">Abonelikler Google Hesabınıza bağlıdır.\n\nTüm Android cihazlarınızda aboneliğinizi satın almak, geri yüklemek ve yönetmek için bir kez oturum açın.</string>
+    <string name="unlock_more_features">Daha fazla özelliğin kilidini aç</string>
+    <string name="choose_plan_description">Size en uygun planı seçin.</string>
+    <string name="current_plan">Mevcut plan: %1$s</string>
+
+    <string name="selected_plan">Seçilen plan</string>
+    <string name="billing_period">Faturalandırma dönemi</string>
+    <string name="monthly">Aylık</string>
+    <string name="yearly">Yıllık</string>
+    <string name="manage_subscription">Aboneliği yönet</string>
+    <string name="save_percent">%1$d%% tasarruf edin</string>
+    <string name="price_unavailable">Kullanılamıyor</string>
+    <string name="subscriptions_loading">Teklifler yükleniyor…</string>
+    <string name="loading_subscription_offers">Abonelik teklifleri yükleniyor…</string>
+    <string name="subscription_offers_unavailable">Abonelik teklifleri geçici olarak kullanılamıyor. Lütfen daha sonra tekrar deneyin.</string>
+
+    <string name="error_no_user">Oturum açmış kullanıcı yok</string>
+
+    <string name="advertisement">Reklam</string>
+</resources>

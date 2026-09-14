@@ -16,6 +16,7 @@
     <string name="logout_succesful">Успішно вийшли з облікового запису</string>
     <string name="logout">Вийти</string>
     <string name="settings_section_app">Застосунок</string>
+    <string name="settings_web_page">Вебсайт</string>
     <string name="settings_privacy_policy">Політика конфіденційності</string>
     <string name="settings_share_app">Поділитися застосунком</string>
     <string name="settings_more_apps">Більше застосунків</string>

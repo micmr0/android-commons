@@ -16,6 +16,7 @@
     <string name="logout_succesful">Erfolgreich abgemeldet</string>
     <string name="logout">Abmelden</string>
     <string name="settings_section_app">App</string>
+    <string name="settings_web_page">Webseite</string>
     <string name="settings_privacy_policy">Datenschutzrichtlinie</string>
     <string name="settings_share_app">App teilen</string>
     <string name="settings_more_apps">Weitere Apps</string>

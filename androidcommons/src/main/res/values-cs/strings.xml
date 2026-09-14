@@ -16,6 +16,7 @@
     <string name="logout_succesful">Úspěšně odhlášeno</string>
     <string name="logout">Odhlásit se</string>
     <string name="settings_section_app">Aplikace</string>
+    <string name="settings_web_page">Webové stránky</string>
     <string name="settings_privacy_policy">Zásady ochrany osobních údajů</string>
     <string name="settings_share_app">Sdílet aplikaci</string>
     <string name="settings_more_apps">Další aplikace</string>

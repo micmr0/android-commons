@@ -1,0 +1,135 @@
+<resources>
+    <string name="background_description">배경</string>
+
+    <!-- about app -->
+    <string name="app_info_title">앱 정보</string>
+    <string name="policy_privacy">개인정보처리방침</string>
+    <string name="ok">확인</string>
+
+    <!-- settings -->
+    <string name="settings_title">설정</string>
+    <string name="settings_section_general">일반</string>
+    <string name="sign_in_with_google">Google 계정</string>
+    <string name="sign_with_google_description">로그인하여 데이터를 안전하게 동기화하고 모든 기기에서 모든 기능을 이용하세요.</string>
+    <string name="not_logged_in">로그인하지 않음</string>
+    <string name="authentication_failed">인증에 실패했거나 초기화되지 않았습니다</string>
+    <string name="retry">다시 시도</string>
+    <string name="login_as">로그인 계정:</string>
+    <string name="google_account">Google 계정</string>
+    <string name="logout_succesful">로그아웃되었습니다</string>
+    <string name="logout">로그아웃</string>
+    <string name="settings_section_app">앱</string>
+    <string name="settings_web_page">웹사이트</string>
+    <string name="settings_privacy_policy">개인정보처리방침</string>
+    <string name="settings_share_app">앱 공유</string>
+    <string name="settings_more_apps">더 많은 앱</string>
+    <string name="settings_send_feedback">의견 보내기</string>
+    <string name="feedback">의견</string>
+    <string name="no_mail_app_info">사용 가능한 이메일 앱이 없습니다. 이메일 클라이언트를 설치해 주세요.</string>
+    <string name="choose_mail_app">이메일 앱 선택</string>
+
+    <string name="close">닫기</string>
+
+    <!-- onboarding -->
+    <string name="onboarding_button_start">시작</string>
+    <string name="onboarding_button_next">다음</string>
+    <string name="onboarding_button_skip">건너뛰기</string>
+
+    <!-- location permission -->
+    <string name="alert_dialog_permission_message">위치 권한이 필요합니다</string>
+    <string name="alert_dialog_permission_desc">이 앱을 사용하려면 위치 접근 권한을 허용해야 합니다.</string>
+    <string name="alert_dialog_location_permission_allow">접근 허용</string>
+    <string name="alert_dialog_location_permission_deny">앱 닫기</string>
+
+    <!-- select language -->
+    <string name="select_language">언어 선택</string>
+
+    <!-- rate app -->
+    <string name="yes">예</string>
+    <string name="no">아니요</string>
+    <string name="remind_later">나중에 알림</string>
+    <string name="rate_app_dialog_title">앱 평가</string>
+    <string name="rate_app_dialog_description">이 앱이 마음에 드신다면 잠시 시간을 내어 평가해 주세요. 감사합니다!</string>
+
+    <string name="open_google_play_no_app">Google Play를 열 수 있는 앱이 없습니다</string>
+    <string name="open_google_play_problem">Google Play를 열 수 없습니다</string>
+
+    <string name="share_app_no_app">링크를 공유할 수 있는 앱이 없습니다</string>
+    <string name="share_app_problem">앱을 공유할 수 없습니다</string>
+
+    <string name="privacy_policy_no_app">개인정보처리방침을 열 수 있는 앱이 없습니다</string>
+    <string name="privacy_policy_problem">개인정보처리방침을 열 수 없습니다</string>
+
+    <string name="more_apps_no_app">개발자의 앱을 볼 수 있는 앱이 없습니다</string>
+    <string name="more_apps_problem">개발자의 앱 목록을 열 수 없습니다</string>
+
+    <string name="select_an_app_to_share">공유할 앱 선택</string>
+
+    <!-- SUPPORT -->
+    <string name="support_app">PLUS 무료 잠금 해제 ❤️️</string>
+    <string name="subscription_plus_active">활성 구독: PLUS</string>
+    <string name="add_feedback">의견 추가</string>
+    <string name="support_title">PLUS 무료 잠금 해제</string>
+    <string name="support_send_a_request">요청 보내기</string>
+    <string name="user_have_plus">이미 PLUS 버전을 사용 중입니다! 🎉</string>
+    <string name="user_have_plus_info">응원해 주셔서 감사합니다!\n이제 앱의 모든 추가 기능을 이용할 수 있습니다.</string>
+    <string name="support_google_login">Google로 로그인(선택 사항)</string>
+    <string name="support_google_login_info">앱을 다시 설치하거나 휴대전화를 변경해도 PLUS 버전을 잃지 않습니다</string>
+    <string name="login">로그인</string>
+    <string name="promo_code_error">❌ 코드가 유효하지 않거나 이미 사용되었습니다</string>
+    <string name="plus_version_title">PLUS 버전 – 어떤 혜택이 있나요?</string>
+    <string name="plus_version_latest_update">우선 업데이트 및 새로운 기능</string>
+    <string name="plus_version_support_for_us">앱의 지속적인 개발 지원</string>
+    <string name="plus_version_summary">리뷰에 대한 감사의 의미로 이 모든 기능을 무료로 이용할 수 있습니다 ❤️</string>
+    <string name="support_rate_app">Google Play에서 앱 평가하기</string>
+    <string name="plus_version_rate_app_description">평가와 의견은 앱 개발에 큰 도움이 됩니다. 모든 별점과 댓글에 감사드립니다!</string>
+    <string name="plus_version_rate_app_after_store_question">리뷰를 남기셨나요?</string>
+    <string name="plus_version_rate_app_after_store_succeed">예, 리뷰를 남겼습니다</string>
+    <string name="plus_version_rate_app_after_store_came_back">아직입니다 - Google Play로 돌아가기</string>
+    <string name="support_go_to_play_store">Google Play로 이동</string>
+    <string name="promo_code_request_title">프로모션 코드 요청 보내기</string>
+    <string name="promo_code_request_description">이미 리뷰를 남겼다면 PLUS 버전용 코드를 요청할 수 있습니다.</string>
+
+    <string name="promo_code_email_subject">PLUS 코드 요청 – Weather 앱</string>
+    <string name="promo_code_send_request">요청 보내기</string>
+    <string name="promo_code_request_thanks">감사합니다! 곧 답변드리겠습니다.</string>
+    <string name="email_chooser_title">요청 보내기</string>
+    <string name="email_app_not_found">이메일 앱을 찾을 수 없습니다</string>
+
+    <string name="promo_code_enter_title">받은 프로모션 코드 입력</string>
+    <string name="promo_code_label">프로모션 코드</string>
+    <string name="promo_code_activate_button">코드 활성화</string>
+    <string name="promo_code_activating">활성화 중…</string>
+    <string name="promo_code_empty_error">프로모션 코드를 입력하세요</string>
+    <string name="promo_code_success">PLUS 구독이 활성화되었습니다! 감사합니다 ❤️</string>
+    <string name="promo_code_invalid_or_used">유효하지 않거나 이미 사용된 코드입니다</string>
+    <string name="promo_code_server_error">서버 연결 오류</string>
+
+    <string name="promo_code_message">안녕하세요,\n\nPLUS 버전용 프로모션 코드를 받고 싶습니다.\n사용자 ID: %1$s\n\n감사합니다!</string>
+
+    <!-- SUBSCRIPTIONS SCREEN -->
+    <string name="current_plan_label">현재 요금제:</string>
+    <string name="subscription">구독</string>
+    <string name="back">뒤로</string>
+    <string name="manage_subscriptions">요금제를 확인하고 구독을 관리하세요</string>
+    <string name="subscription_sign_in_required">로그인이 필요합니다</string>
+    <string name="subscription_sign_in_description">구독은 Google 계정에 연결됩니다.\n\n한 번 로그인하면 모든 Android 기기에서 구독을 구매, 복원 및 관리할 수 있습니다.</string>
+    <string name="unlock_more_features">더 많은 기능 잠금 해제</string>
+    <string name="choose_plan_description">가장 적합한 요금제를 선택하세요.</string>
+    <string name="current_plan">현재 요금제: %1$s</string>
+
+    <string name="selected_plan">선택한 요금제</string>
+    <string name="billing_period">결제 주기</string>
+    <string name="monthly">월간</string>
+    <string name="yearly">연간</string>
+    <string name="manage_subscription">구독 관리</string>
+    <string name="save_percent">%1$d%% 절약</string>
+    <string name="price_unavailable">이용 불가</string>
+    <string name="subscriptions_loading">상품 불러오는 중…</string>
+    <string name="loading_subscription_offers">구독 상품 불러오는 중…</string>
+    <string name="subscription_offers_unavailable">구독 상품을 일시적으로 이용할 수 없습니다. 나중에 다시 시도해 주세요.</string>
+
+    <string name="error_no_user">로그인한 사용자가 없습니다</string>
+
+    <string name="advertisement">광고</string>
+</resources>

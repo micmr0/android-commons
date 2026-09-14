@@ -16,6 +16,7 @@
     <string name="logout_succesful">Wylogowano pomyślnie</string>
     <string name="logout">Wyloguj</string>
     <string name="settings_section_app">Aplikacja</string>
+    <string name="settings_web_page">Strona internetowa</string>
     <string name="settings_privacy_policy">Polityka prywatności</string>
     <string name="settings_share_app">Udostępnij aplikację</string>
     <string name="settings_more_apps">Więcej aplikacji</string>

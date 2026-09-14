@@ -16,6 +16,7 @@
     <string name="logout_succesful">تم تسجيل الخروج بنجاح</string>
     <string name="logout">تسجيل الخروج</string>
     <string name="settings_section_app">التطبيق</string>
+    <string name="settings_web_page">الموقع الإلكتروني</string>
     <string name="settings_privacy_policy">سياسة الخصوصية</string>
     <string name="settings_share_app">مشاركة التطبيق</string>
     <string name="settings_more_apps">تطبيقات أخرى</string>

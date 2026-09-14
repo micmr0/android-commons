@@ -16,6 +16,7 @@
     <string name="logout_succesful">Déconnexion réussie</string>
     <string name="logout">Se déconnecter</string>
     <string name="settings_section_app">Application</string>
+    <string name="settings_web_page">Site web</string>
     <string name="settings_privacy_policy">Politique de confidentialité</string>
     <string name="settings_share_app">Partager l’application</string>
     <string name="settings_more_apps">Plus d’applications</string>

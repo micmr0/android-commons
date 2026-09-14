@@ -19,6 +19,7 @@
     <string name="logout_succesful">Logged out successfully</string>
     <string name="logout">Logout</string>
     <string name="settings_section_app">App</string>
+    <string name="settings_web_page">Website</string>
     <string name="settings_privacy_policy">Privacy Policy</string>
     <string name="settings_share_app">Share app</string>
     <string name="settings_more_apps">More apps</string>

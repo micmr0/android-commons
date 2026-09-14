@@ -27,6 +27,7 @@ import com.micmr0.androidcommons.R
 @Composable
 fun SettingsScreen(
     generalSection: @Composable () -> Unit,
+    onWebPageClick: () -> Unit,
     onPrivacyPolicyClick: () -> Unit,
     onShareAppClick: () -> Unit,
     onMoreAppsClick: () -> Unit,
@@ -60,10 +61,21 @@ fun SettingsScreen(
             )
         }
         item {
-            SettingsItem(stringResource(R.string.settings_privacy_policy)) { onPrivacyPolicyClick() }
-            SettingsItem(stringResource(R.string.settings_share_app)) { onShareAppClick() }
-            SettingsItem(stringResource(R.string.settings_more_apps)) { onMoreAppsClick() }
-            SettingsItem(stringResource(R.string.settings_send_feedback)) { onSendFeedbackClick() }
+            SettingsItem(stringResource(R.string.settings_web_page)) {
+                onWebPageClick()
+            }
+            SettingsItem(stringResource(R.string.settings_privacy_policy)) {
+                onPrivacyPolicyClick()
+            }
+            SettingsItem(stringResource(R.string.settings_share_app)) {
+                onShareAppClick()
+            }
+            SettingsItem(stringResource(R.string.settings_more_apps)) {
+                onMoreAppsClick()
+            }
+            SettingsItem(stringResource(R.string.settings_send_feedback)) {
+                onSendFeedbackClick()
+            }
         }
 
         item{

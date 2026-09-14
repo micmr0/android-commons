@@ -16,6 +16,7 @@
     <string name="logout_succesful">Cierre de sesión exitoso</string>
     <string name="logout">Cerrar sesión</string>
     <string name="settings_section_app">Aplicación</string>
+    <string name="settings_web_page">Sitio web</string>
     <string name="settings_privacy_policy">Política de privacidad</string>
     <string name="settings_share_app">Compartir la app</string>
     <string name="settings_more_apps">Más apps</string>

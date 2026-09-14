@@ -16,6 +16,7 @@
     <string name="logout_succesful">ログアウトしました</string>
     <string name="logout">ログアウト</string>
     <string name="settings_section_app">アプリ</string>
+    <string name="settings_web_page">ウェブサイト</string>
     <string name="settings_privacy_policy">プライバシーポリシー</string>
     <string name="settings_share_app">アプリを共有</string>
     <string name="settings_more_apps">その他のアプリ</string>
