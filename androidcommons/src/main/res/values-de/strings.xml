@@ -57,6 +57,9 @@
     <string name="share_app_no_app">Keine App zum Teilen des Links</string>
     <string name="share_app_problem">Die App konnte nicht geteilt werden</string>
 
+    <string name="web_page_no_app">Keine App zum Öffnen der Webseite verfügbar</string>
+    <string name="web_page_problem">Die Webseite konnte nicht geöffnet werden</string>
+
     <string name="privacy_policy_no_app">Keine App zum Öffnen der Datenschutzrichtlinie</string>
     <string name="privacy_policy_problem">Die Datenschutzrichtlinie konnte nicht geöffnet werden</string>
 

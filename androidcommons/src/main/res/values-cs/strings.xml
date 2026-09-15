@@ -57,6 +57,9 @@
     <string name="share_app_no_app">Žádná aplikace pro sdílení odkazu</string>
     <string name="share_app_problem">Aplikaci se nepodařilo sdílet</string>
 
+    <string name="web_page_no_app">Pro otevření webové stránky není k dispozici žádná aplikace</string>
+    <string name="web_page_problem">Webovou stránku se nepodařilo otevřít</string>
+
     <string name="privacy_policy_no_app">Žádná aplikace pro otevření zásad ochrany osobních údajů</string>
     <string name="privacy_policy_problem">Zásady ochrany osobních údajů se nepodařilo otevřít</string>
 

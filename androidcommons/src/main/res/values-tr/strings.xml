@@ -57,6 +57,9 @@
     <string name="share_app_no_app">Bağlantıyı paylaşabilecek bir uygulama yok</string>
     <string name="share_app_problem">Uygulama paylaşılamıyor</string>
 
+    <string name="web_page_no_app">Web sayfasını açacak bir uygulama yok</string>
+    <string name="web_page_problem">Web sayfası açılamadı</string>
+
     <string name="privacy_policy_no_app">Gizlilik politikasını açabilecek bir uygulama yok</string>
     <string name="privacy_policy_problem">Gizlilik politikası açılamıyor</string>
 

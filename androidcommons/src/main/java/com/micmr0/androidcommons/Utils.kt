@@ -5,7 +5,6 @@ import android.content.Context
 import android.content.Intent
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
-import android.net.Uri
 import android.widget.Toast
 import androidx.annotation.RequiresPermission
 import androidx.core.net.toUri
@@ -74,6 +73,31 @@ fun openAppOrPlayStore(context: Context, packageName: String) {
             addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
         }
         context.startActivity(browserIntent)
+    }
+}
+
+fun showWebPage(context: Context, webpageUrl: String) {
+    val intent = Intent(Intent.ACTION_VIEW).apply {
+        data = webpageUrl.toUri()
+        addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+    }
+
+    try {
+        if (intent.resolveActivity(context.packageManager) != null) {
+            context.startActivity(intent)
+        } else {
+            Toast.makeText(
+                context,
+                context.getString(R.string.web_page_no_app),
+                Toast.LENGTH_LONG
+            ).show()
+        }
+    } catch (e: ActivityNotFoundException) {
+        Toast.makeText(
+            context,
+            context.getString(R.string.web_page_problem),
+            Toast.LENGTH_LONG
+        ).show()
     }
 }
 

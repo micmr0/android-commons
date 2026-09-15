@@ -57,6 +57,9 @@
     <string name="share_app_no_app">没有可分享链接的应用</string>
     <string name="share_app_problem">无法分享应用</string>
 
+    <string name="web_page_no_app">没有可用于打开网页的应用</string>
+    <string name="web_page_problem">无法打开网页</string>
+
     <string name="privacy_policy_no_app">没有可打开隐私政策的应用</string>
     <string name="privacy_policy_problem">无法打开隐私政策</string>
 

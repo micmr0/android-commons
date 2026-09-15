@@ -57,6 +57,9 @@
     <string name="share_app_no_app">Brak aplikacji do udostępnienia linku</string>
     <string name="share_app_problem">Nie udało się udostępnić aplikacji</string>
 
+    <string name="web_page_no_app">Brak aplikacji do otwarcia strony internetowej</string>
+    <string name="web_page_problem">Nie udało się otworzyć strony internetowej</string>
+
     <string name="privacy_policy_no_app">Brak aplikacji do otwarcia polityki prywatności</string>
     <string name="privacy_policy_problem">Nie udało się otworzyć polityki prywatności</string>
 

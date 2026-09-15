@@ -54,6 +54,9 @@
     <string name="open_google_play_no_app">Nenhuma aplicação para abrir o Google Play</string>
     <string name="open_google_play_problem">Não foi possível abrir o Google Play</string>
 
+    <string name="web_page_no_app">Não existe nenhuma aplicação para abrir a página Web</string>
+    <string name="web_page_problem">Não foi possível abrir a página Web</string>
+
     <string name="share_app_no_app">Nenhuma aplicação para partilhar a ligação</string>
     <string name="share_app_problem">Não foi possível partilhar a aplicação</string>
 

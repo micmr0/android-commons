@@ -57,6 +57,9 @@
     <string name="share_app_no_app">リンクを共有できるアプリがありません</string>
     <string name="share_app_problem">アプリを共有できませんでした</string>
 
+    <string name="web_page_no_app">ウェブページを開くためのアプリがありません</string>
+    <string name="web_page_problem">ウェブページを開けませんでした</string>
+
     <string name="privacy_policy_no_app">プライバシーポリシーを開くアプリがありません</string>
     <string name="privacy_policy_problem">プライバシーポリシーを開けませんでした</string>
 

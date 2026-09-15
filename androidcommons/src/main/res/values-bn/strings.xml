@@ -57,6 +57,9 @@
     <string name="share_app_no_app">লিংক শেয়ার করার মতো কোনো অ্যাপ নেই</string>
     <string name="share_app_problem">অ্যাপ শেয়ার করা যায়নি</string>
 
+    <string name="web_page_no_app">ওয়েব পেজ খোলার জন্য কোনো অ্যাপ নেই</string>
+    <string name="web_page_problem">ওয়েব পেজ খোলা যায়নি</string>
+
     <string name="privacy_policy_no_app">গোপনীয়তা নীতি খোলার মতো কোনো অ্যাপ নেই</string>
     <string name="privacy_policy_problem">গোপনীয়তা নীতি খোলা যায়নি</string>
 
