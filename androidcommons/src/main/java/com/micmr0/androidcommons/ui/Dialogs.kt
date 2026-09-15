@@ -11,6 +11,8 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.AlertDialog
@@ -29,6 +31,7 @@ import androidx.compose.ui.unit.dp
 import com.micmr0.androidcommons.R
 import java.util.Calendar
 import java.util.Locale
+import androidx.compose.ui.platform.LocalLocale
 
 @Composable
 fun InfoDialog(
@@ -73,7 +76,7 @@ fun InfoDialog(
                 )
                 Text(
                     text = String.format(
-                        Locale.getDefault(),
+                        LocalLocale.current.platformLocale,
                         "%d",
                         Calendar.getInstance().get(Calendar.YEAR)
                     ),
@@ -155,8 +158,8 @@ fun LanguagePickerDialog(
         onDismissRequest = onDismiss,
         title = { Text(stringResource(R.string.select_language)) },
         text = {
-            Column {
-                languages.forEach { lang ->
+            LazyColumn {
+                items(languages) { lang ->
                     val label = languageDisplayName(lang)
 
                     Row(
@@ -170,6 +173,7 @@ fun LanguagePickerDialog(
                             selected = currentLanguage.equals(lang, ignoreCase = true),
                             onClick = { onSelect(lang) }
                         )
+
                         Text(
                             text = label,
                             modifier = Modifier
