@@ -5,7 +5,9 @@
     <string name="deutsch_lang" translatable="false">Deutsch</string>
     <string name="french_lang" translatable="false">Français</string>
     <string name="espanol_lang" translatable="false">Español</string>
+    <string name="espanol_argentina_lang" translatable="false">Español (Argentina)</string>
     <string name="portugues_lang" translatable="false">Português</string>
+    <string name="portugues_brasil_lang" translatable="false">Português (Brasil)</string>
     <string name="italian_lang" translatable="false">Italiano</string>
     <string name="czech_lang" translatable="false">Čeština</string>
     <string name="ukraine_lang" translatable="false">Українська</string>
@@ -14,4 +16,6 @@
     <string name="bengali_lang" translatable="false">বাংলা</string>
     <string name="chinese_lang" translatable="false">中文</string>
     <string name="japanese_lang" translatable="false">日本語</string>
+    <string name="korean_lang" translatable="false">한국어</string>
+    <string name="turkish_lang" translatable="false">Türkçe</string>
 </resources>

@@ -101,25 +101,54 @@ fun InfoDialog(
 }
 
 @Composable
+fun languageDisplayName(language: String): String =
+    when (language.lowercase()) {
+        "pl" -> stringResource(R.string.polish_lang)
+        "en" -> stringResource(R.string.english_lang)
+        "de" -> stringResource(R.string.deutsch_lang)
+        "fr" -> stringResource(R.string.french_lang)
+        "es" -> stringResource(R.string.espanol_lang)
+        "es-ar" -> stringResource(R.string.espanol_argentina_lang)
+        "pt" -> stringResource(R.string.portugues_lang)
+        "pt-br" -> stringResource(R.string.portugues_brasil_lang)
+        "it" -> stringResource(R.string.italian_lang)
+        "cs" -> stringResource(R.string.czech_lang)
+        "uk" -> stringResource(R.string.ukraine_lang)
+        "ar" -> stringResource(R.string.arabic_lang)
+        "hi" -> stringResource(R.string.hindu_lang)
+        "bn" -> stringResource(R.string.bengali_lang)
+        "zh", "zh-cn" -> stringResource(R.string.chinese_lang)
+        "ja" -> stringResource(R.string.japanese_lang)
+        "ko" -> stringResource(R.string.korean_lang)
+        "tr" -> stringResource(R.string.turkish_lang)
+        else -> language.uppercase()
+    }
+
+@Composable
 fun LanguagePickerDialog(
     currentLanguage: String,
     onSelect: (String) -> Unit,
     onDismiss: () -> Unit
 ) {
     val languages = listOf(
-        "pl", // Polish
-        "en", // English
-        "de", // German
-        "fr", // French
-        "es", // Spanish
-        "pt", // Portuguese
-        "cs", // Czech
-        "uk", // Ukrainian
-        "ar", // Arabic
-        "hi", // Hindi
-        "bn", // Bengali
-        "zh", // Chinese
-        "ja"  // Japanese
+        "pl",
+        "en",
+        "de",
+        "fr",
+        "es",
+        "es-AR",
+        "pt",
+        "pt-BR",
+        "it",
+        "cs",
+        "uk",
+        "ar",
+        "hi",
+        "bn",
+        "zh",
+        "ja",
+        "ko",
+        "tr"
     )
 
     AlertDialog(
@@ -128,22 +157,7 @@ fun LanguagePickerDialog(
         text = {
             Column {
                 languages.forEach { lang ->
-                    val label = when (lang) {
-                        "pl" -> stringResource(R.string.polish_lang)
-                        "en" -> stringResource(R.string.english_lang)
-                        "de" -> stringResource(R.string.deutsch_lang)
-                        "fr" -> stringResource(R.string.french_lang)
-                        "es" -> stringResource(R.string.espanol_lang)
-                        "pt" -> stringResource(R.string.portugues_lang)
-                        "cs" -> stringResource(R.string.czech_lang)
-                        "uk" -> stringResource(R.string.ukraine_lang)
-                        "ar" -> stringResource(R.string.arabic_lang)
-                        "hi" -> stringResource(R.string.hindu_lang)
-                        "bn" -> stringResource(R.string.bengali_lang)
-                        "zh" -> stringResource(R.string.chinese_lang)
-                        "ja" -> stringResource(R.string.japanese_lang)
-                        else -> lang
-                    }
+                    val label = languageDisplayName(lang)
 
                     Row(
                         verticalAlignment = Alignment.CenterVertically,
@@ -153,7 +167,7 @@ fun LanguagePickerDialog(
                             .padding(4.dp)
                     ) {
                         RadioButton(
-                            selected = currentLanguage == lang,
+                            selected = currentLanguage.equals(lang, ignoreCase = true),
                             onClick = { onSelect(lang) }
                         )
                         Text(
