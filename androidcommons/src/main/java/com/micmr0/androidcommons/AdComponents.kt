@@ -34,7 +34,7 @@ import kotlin.jvm.java
 @Composable
 fun NativeAdViewComposable(
     nativeAd: NativeAd,
-    contentColor: Color,
+    contentColor: Int,
     modifier: Modifier = Modifier
 ) {
     val context = LocalContext.current
@@ -64,7 +64,7 @@ private fun loadNativeAd(
     context: Context,
     adUnitId: String,
     adView: View,
-    contentColor: Color,
+    contentColor: Int,
     onAdLoaded: (NativeAd) -> Unit
 ) {
     Log.d("AdMob", "Loading native ad with Ad Unit ID: $adUnitId")
@@ -138,18 +138,18 @@ fun rememberNativeAd(
 private fun populateNativeAdView(
     nativeAd: NativeAd,
     adView: NativeAdView,
-    contentColor: Color
+    contentColor: Int
 ) {
     adView.headlineView = adView.findViewById(R.id.ad_headline)
     (adView.headlineView as? TextView)?.apply {
         text = nativeAd.headline
-        setTextColor(contentColor.toArgb())
+        setTextColor(contentColor)
     }
 
     adView.bodyView = adView.findViewById(R.id.ad_body)
     (adView.bodyView as? TextView)?.apply {
         text = nativeAd.body
-        setTextColor(contentColor.toArgb())
+        setTextColor(contentColor)
     }
 
     adView.mediaView = adView.findViewById(R.id.ad_media)
@@ -158,7 +158,7 @@ private fun populateNativeAdView(
     adView.callToActionView = adView.findViewById(R.id.ad_call_to_action)
     (adView.callToActionView as? Button)?.apply {
         text = nativeAd.callToAction
-        setTextColor(contentColor.toArgb())
+        setTextColor(contentColor)
     }
 
     adView.setNativeAd(nativeAd)
