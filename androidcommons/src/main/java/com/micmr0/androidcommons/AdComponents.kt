@@ -34,7 +34,7 @@ import kotlin.jvm.java
 @Composable
 fun NativeAdViewComposable(
     nativeAd: NativeAd,
-    isSystemDarkTheme: Boolean,
+    contentColor: Color,
     modifier: Modifier = Modifier
 ) {
     val context = LocalContext.current
@@ -44,11 +44,11 @@ fun NativeAdViewComposable(
             .inflate(R.layout.native_ad_layout, null) as NativeAdView
     }
 
-    LaunchedEffect(nativeAd, isSystemDarkTheme) {
+    LaunchedEffect(nativeAd, contentColor) {
         populateNativeAdView(
             nativeAd = nativeAd,
             adView = nativeAdView,
-            isDarkTheme = isSystemDarkTheme
+            contentColor = contentColor
         )
         Log.d("AdMob", "NativeAdViewComposable: ad bound to view")
     }
@@ -64,7 +64,7 @@ private fun loadNativeAd(
     context: Context,
     adUnitId: String,
     adView: View,
-    isDarkTheme: Boolean,
+    contentColor: Color,
     onAdLoaded: (NativeAd) -> Unit
 ) {
     Log.d("AdMob", "Loading native ad with Ad Unit ID: $adUnitId")
@@ -86,7 +86,7 @@ private fun loadNativeAd(
     val adLoader = AdLoader.Builder(context, adUnitId)
         .forNativeAd { nativeAd ->
             Log.d("AdMob", "Native ad loaded successfully")
-            populateNativeAdView(nativeAd, adView as NativeAdView, isDarkTheme)
+            populateNativeAdView(nativeAd, adView as NativeAdView, contentColor)
             onAdLoaded(nativeAd)
         }
         .withAdListener(object : AdListener() {
@@ -135,32 +135,31 @@ fun rememberNativeAd(
     return ad
 }
 
-private fun populateNativeAdView(nativeAd: NativeAd, adView: NativeAdView, isDarkTheme: Boolean) {
-    // initialize headline
+private fun populateNativeAdView(
+    nativeAd: NativeAd,
+    adView: NativeAdView,
+    contentColor: Color
+) {
     adView.headlineView = adView.findViewById(R.id.ad_headline)
-    (adView.headlineView as? TextView)?.text = nativeAd.headline
-    (adView.headlineView as? TextView)?.setTextColor(
-        if (isDarkTheme) Color.WHITE else Color.BLACK
-    )
+    (adView.headlineView as? TextView)?.apply {
+        text = nativeAd.headline
+        setTextColor(contentColor.toArgb())
+    }
 
-    // initialize text
     adView.bodyView = adView.findViewById(R.id.ad_body)
-    (adView.bodyView as? TextView)?.text = nativeAd.body
-    (adView.bodyView as? TextView)?.setTextColor(
-        if (isDarkTheme) Color.WHITE else Color.BLACK
-    )
+    (adView.bodyView as? TextView)?.apply {
+        text = nativeAd.body
+        setTextColor(contentColor.toArgb())
+    }
 
-    // initialize image
     adView.mediaView = adView.findViewById(R.id.ad_media)
     adView.mediaView?.mediaContent = nativeAd.mediaContent
 
-    // initialize call-to-action
     adView.callToActionView = adView.findViewById(R.id.ad_call_to_action)
-    (adView.callToActionView as? Button)?.text = nativeAd.callToAction
-    (adView.callToActionView as? Button)?.setTextColor(
-        if (isDarkTheme) Color.WHITE else Color.BLACK
-    )
+    (adView.callToActionView as? Button)?.apply {
+        text = nativeAd.callToAction
+        setTextColor(contentColor.toArgb())
+    }
 
-    // set ad in NativeAdView
     adView.setNativeAd(nativeAd)
 }
